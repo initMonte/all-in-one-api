@@ -1,0 +1,50 @@
+{
+  "name": "all-in-one-api",
+  "version": "1.0.0",
+  "description": "Api with multi-purpose dummy data",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/initMonte/all-in-one-api.git"
+  },
+  "keywords": [
+    "api",
+    "fake",
+    "dummy",
+    "data",
+    "allinone",
+    "allin1",
+    "multi"
+  ],
+  "author": "Matias Monteverde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/initMonte/all-in-one-api/issues"
+  },
+  "homepage": "https://github.com/initMonte/all-in-one-api#readme",
+  "devDependencies": {
+    "standard": "17.1.0"
+  },
+  "dependencies": {
+    "cors": "2.8.5",
+    "express": "4.18.2"
+  },
+  "eslintConfig": {
+    "extends": "standard",
+    "rules": {
+      "space-before-function-paren": [
+        "error",
+        {
+          "anonymous": "always",
+          "named": "never",
+          "asyncArrow": "always"
+        }
+      ]
+    }
+  }
+}

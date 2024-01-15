@@ -1,0 +1,49 @@
+### Home
+GET http://localhost:1234
+
+### GET all Movies
+GET http://localhost:1234/movies
+
+### GET Movies with genre
+GET http://localhost:1234/movies?genre=Sci-Fi
+
+### GET Movie by ID
+GET http://localhost:1234/movies/aa391090-b938-42eb-b520-86ea0aa3917b
+
+### GET Movie by ID fail
+GET http://localhost:1234/movies/aa391090-b938-42eb-b520-86ea0aa3917
+
+### POST Movie
+POST http://localhost:1234/movies
+Content-Type: application/json
+
+{
+  "title": "Peli prueba",
+  "year": 1234,
+  "director": "YO",
+  "duration": 1,
+  "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmJR_cyT0wMJLZILBMx9MpHSf8XjDfkckvSQ&usqp=CAU",
+  "genre": [
+    "Action",
+    "Drama"
+  ],
+  "rate": 1.1
+}
+
+### PUT Movie by ID
+PUT http://localhost:1234/movies/aa391090-b938-42eb-b520-86ea0aa3917b
+
+### PUT Movie by ID fail
+PUT http://localhost:1234/movies/aa391090-b938-42eb-b520-86ea0aa3917
+
+### PATCH Movie by ID
+PATCH http://localhost:1234/movies/aa391090-b938-42eb-b520-86ea0aa3917b
+
+### PATCH Movie by ID fail
+PATCH http://localhost:1234/movies/aa391090-b938-42eb-b520-86ea0aa3917
+
+### DELETE Movie by ID
+DELETE http://localhost:1234/movies/aa391090-b938-42eb-b520-86ea0aa3917b
+
+### DELETE Movie by ID fail
+DELETE http://localhost:1234/movies/aa391090-b938-42eb-b520-86ea0aa3917
