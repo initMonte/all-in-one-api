@@ -1,10 +1,14 @@
 import { Router } from 'express'
-import home from '../pages/home.ejs'
-import docs from '../pages/docs.ejs'
-import notFound from '../pages/notFound.ejs'
 
-export const moviesRouter = Router()
+export const pagesRouter = Router()
 
-moviesRouter.get('/', home)
-moviesRouter.get('/docs', docs)
-moviesRouter.post('/*', notFound)
+pagesRouter.get('/', (req, res) => {
+  res.writeHead(200, { 'Content-Type': 'text/html' })
+  res.send('<h1>Mi DOCS</h1>')
+})
+pagesRouter.get('/docs', (req, res) => {
+  res.send('<h1>Mi DOCS</h1>')
+})
+pagesRouter.get('/*', (req, res) => {
+  res.send('<h1>ERROOOOOOOR not found</h1>')
+})
