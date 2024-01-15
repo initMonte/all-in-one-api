@@ -8,17 +8,10 @@ import { pagesRouter } from './api/routes/pages.js'
 
 const app = express()
 app.use(cors())
+app.use(express.json())
 app.disable('x-powered-by')
 
-// app.use(express.json({ extended: false }))
-
 const PORT = process.env.PORT ?? 1234
-
-/*
-app.get('/', (req, res) => {
-  res.send('<h1>Mi página</h1>')
-})
-*/
 
 app.use('/movies', moviesRouter)
 // app.use('/books', booksRouter)

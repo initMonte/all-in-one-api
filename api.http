@@ -1,11 +1,17 @@
 ### Home
 GET http://localhost:1234
 
+### Docs
+GET http://localhost:1234/docs
+
+### Not Found
+GET http://localhost:1234/kadhwuikdw
+
 ### GET all Movies
 GET http://localhost:1234/movies
 
 ### GET Movies with genre
-GET http://localhost:1234/movies?genre=Sci-Fi
+GET http://localhost:1234/movies?genre=Sci-Fi&year=2010&lang=es
 
 ### GET Movie by ID
 GET http://localhost:1234/movies/aa391090-b938-42eb-b520-86ea0aa3917b
@@ -19,6 +25,7 @@ Content-Type: application/json
 
 {
   "title": "Peli prueba",
+  "description": "asdasd",
   "year": 1234,
   "director": "YO",
   "duration": 1,
