@@ -3,8 +3,8 @@
     "id": "",
     "title": "",
     "year": 0,
-    "director": "",
-    "duration": 0,
+    "seasons": 0,
+    "episodes": 0,
     "poster": "",
     "genre": [
       ""
@@ -25,12 +25,10 @@
     "id": "",
     "title": "",
     "year": 0,
-    "director": "",
-    "duration": 0,
+    "seasons": 0,
+    "episodes": 0,
     "poster": "",
     "genre": [
-      "",
-      "",
       ""
     ],
     "rate": 0,
