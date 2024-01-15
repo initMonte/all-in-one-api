@@ -3,7 +3,7 @@
 const series = require('../data/movies.json') // This data was obtained from https://www.imdb.com/
 
 class MovieModel {
-  static filterSeries(series, { genre, year, lang }) {
+  static async filterSeries(series, { genre, year }) {
     let filteredSeries = series
     if (genre) {
       filteredSeries = series.filter(
@@ -20,7 +20,6 @@ class MovieModel {
         }
       )
     }
-    // filteredSeries = translateTo(filteredSeries, lang)
     return filteredSeries
   }
 

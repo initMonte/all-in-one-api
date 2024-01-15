@@ -11,7 +11,7 @@ GET http://localhost:1234/kadhwuikdw
 GET http://localhost:1234/movies
 
 ### GET Movies with genre
-GET http://localhost:1234/movies?genre=Sci-Fi&year=2010&lang=es
+GET http://localhost:1234/movies?genre=Sci-Fi&year=2010&lang=pt
 
 ### GET Movie by ID
 GET http://localhost:1234/movies/aa391090-b938-42eb-b520-86ea0aa3917b
