@@ -5,6 +5,6 @@ import notFound from '../pages/notFound.html'
 
 export const moviesRouter = Router()
 
-moviesRouter.get('/', toString(home))
-moviesRouter.get('/docs', toString(docs))
-moviesRouter.post('/*', toString(notFound))
+moviesRouter.get('/', home)
+moviesRouter.get('/docs', docs)
+moviesRouter.post('/*', notFound)
