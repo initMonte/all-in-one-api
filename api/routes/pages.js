@@ -1,7 +1,7 @@
 import { Router } from 'express'
-import home from '../pages/home.html'
-import docs from '../pages/docs.html'
-import notFound from '../pages/notFound.html'
+import home from '../pages/home.ejs'
+import docs from '../pages/docs.ejs'
+import notFound from '../pages/notFound.ejs'
 
 export const moviesRouter = Router()
 
