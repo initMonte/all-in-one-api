@@ -1,5 +1,6 @@
 import express from 'express'
 import cors from 'cors'
+import { injectSpeedInsights } from '@vercel/speed-insights'
 
 import { moviesRouter } from './api/routes/movies.js'
 // import { booksRouter } from './api/routes/books.js'
@@ -12,6 +13,7 @@ app.use(express.json())
 app.disable('x-powered-by')
 
 const PORT = process.env.PORT ?? 1234
+injectSpeedInsights()
 
 app.use('/movies', moviesRouter)
 // app.use('/books', booksRouter)

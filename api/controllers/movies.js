@@ -21,7 +21,6 @@ export class MovieController {
     const movie = await MovieModel.getById({ id })
 
     if (movie) return res.json(movie)
-    // res.send('<p>Pelicula X</p>')
     res.status(404).json({ message: 'Movie not found' })
   }
 
