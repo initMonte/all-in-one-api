@@ -35,6 +35,12 @@ export class SerieController {
       genre,
       rate
     } = req.body
+    if (!title || !description || !started || !ended || !seasons || !episodes || !poster || !genre || !rate) {
+      return res.status(400).json({
+        status: 'error',
+        message: 'Required field/s missing.'
+      })
+    }
 
     const newSerie = {
       id: crypto.randomUUID(),

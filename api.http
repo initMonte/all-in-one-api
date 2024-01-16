@@ -141,3 +141,58 @@ Content-Type: application/json
 
 ### DELETE Movie by ID
 DELETE http://localhost:1234/series/be61f804-8f37-4086-8da1-00693b630086
+
+/////////////////////
+/////////////////////
+/////////////////////
+/////////////////////
+/////////////////////
+/////////////////////
+
+### GET all Quotes
+GET http://localhost:1234/quotes
+
+### GET Quotes with genre
+GET http://localhost:1234/quotes?category=motivation&author=Roosevelt&lang=es
+
+### GET Quote by ID
+GET http://localhost:1234/quotes/440bcfeb-2a06-4fd2-a4ef-2107636b6e96?lang=es
+
+### POST Quote
+POST http://localhost:1234/quotes
+Content-Type: application/json
+
+{
+  "text": "Cita prueba",
+  "author": "asdasd",
+  "category": [
+    "asd",
+    "dasdas"
+  ]
+}
+
+### PUT Quote by ID
+PUT http://localhost:1234/quotes/440bcfeb-2a06-4fd2-a4ef-2107636b6e96
+Content-Type: application/json
+
+{
+  "text": "Cita prueba",
+  "author": "asdasd",
+  "category": [
+    "asd",
+    "dasdas"
+  ]
+}
+
+
+### PATCH Quote by ID
+PATCH http://localhost:1234/quotes/440bcfeb-2a06-4fd2-a4ef-2107636b6e96
+Content-Type: application/json
+
+{
+  "text": "Cita prueba",
+  "author": "asdasd"
+}
+
+### DELETE Quote by ID
+DELETE http://localhost:1234/quotes/440bcfeb-2a06-4fd2-a4ef-2107636b6e96

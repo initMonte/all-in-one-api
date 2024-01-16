@@ -34,6 +34,12 @@ export class MovieController {
       genre,
       rate
     } = req.body
+    if (!title || !description || !year || !director || !duration || !poster || !genre || !rate) {
+      return res.status(400).json({
+        status: 'error',
+        message: 'Required field/s missing.'
+      })
+    }
 
     const newMovie = {
       id: crypto.randomUUID(),

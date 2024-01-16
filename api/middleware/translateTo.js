@@ -2,7 +2,7 @@ export const translateTo = (input, language) => {
   let translatableLanguage = false
 
   if (input instanceof Array) {
-    if (language && language in input[0].language) { translatableLanguage = true }
+    if (input[0] && language && language in input[0].language) { translatableLanguage = true }
 
     const translatedArray = input.map(inputJson => {
       const translatedJson = { ...inputJson }
