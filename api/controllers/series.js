@@ -10,7 +10,6 @@ export class SerieController {
 
     let series = await SerieModel.getAll()
     series = await SerieModel.filterSeries(series, { genre, year })
-    console.log(series)
     series = translateTo(series, lang)
 
     res.json(series)
@@ -18,8 +17,8 @@ export class SerieController {
 
   static async getById(req, res) {
     const { id } = req.params
-    const serie = await SerieModel.getById({ id })
-
+    let serie = await SerieModel.getById({ id })
+    serie = translateTo(serie, req.query.lang)
     if (serie) return res.json(serie)
     res.status(404).json({ message: 'Serie not found' })
   }

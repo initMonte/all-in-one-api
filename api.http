@@ -21,7 +21,7 @@ GET http://localhost:1234/movies
 GET http://localhost:1234/movies?genre=Sci-Fi&year=2010&lang=es
 
 ### GET Movie by ID
-GET http://localhost:1234/movies/ebe60bf9-ca29-4d6d-9b2f-5fbe3eafc9ab
+GET http://localhost:1234/movies/ebe60bf9-ca29-4d6d-9b2f-5fbe3eafc9ab?lang=es
 
 ### POST Movie
 POST http://localhost:1234/movies
@@ -87,7 +87,7 @@ GET http://localhost:1234/series
 GET http://localhost:1234/series?genre=comedy&year=2010&lang=es
 
 ### GET Movie by ID
-GET http://localhost:1234/series/be61f804-8f37-4086-8da1-00693b630086
+GET http://localhost:1234/series/be61f804-8f37-4086-8da1-00693b630086?lang=en
 
 ### POST Movie
 POST http://localhost:1234/series
