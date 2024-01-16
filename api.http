@@ -14,10 +14,10 @@ GET http://localhost:1234/movies
 GET http://localhost:1234/movies?genre=Sci-Fi&year=2010&lang=pt
 
 ### GET Movie by ID
-GET http://localhost:1234/movies/aa391090-b938-42eb-b520-86ea0aa3917b
+GET http://localhost:1234/movies/ebe60bf9-ca29-4d6d-9b2f-5fbe3eafc9ab
 
 ### GET Movie by ID fail
-GET http://localhost:1234/movies/aa391090-b938-42eb-b520-86ea0aa3917
+GET http://localhost:1234/movies/ebe60bf9-ca29-4d6d-9b2f-5fbe3eafc9a
 
 ### POST Movie
 POST http://localhost:1234/movies
@@ -38,19 +38,42 @@ Content-Type: application/json
 }
 
 ### PUT Movie by ID
-PUT http://localhost:1234/movies/aa391090-b938-42eb-b520-86ea0aa3917b
+PUT http://localhost:1234/movies/ebe60bf9-ca29-4d6d-9b2f-5fbe3eafc9ab
+Content-Type: application/json
+
+{
+  "title": "Peli prueba",
+  "description": "asdasd",
+  "year": 1234,
+  "director": "YO",
+  "duration": 1,
+  "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmJR_cyT0wMJLZILBMx9MpHSf8XjDfkckvSQ&usqp=CAU",
+  "genre": [
+    "Action",
+    "Drama"
+  ],
+  "rate": 1.1
+}
 
 ### PUT Movie by ID fail
-PUT http://localhost:1234/movies/aa391090-b938-42eb-b520-86ea0aa3917
+PUT http://localhost:1234/movies/ebe60bf9-ca29-4d6d-9b2f-5fbe3eafc9a
 
 ### PATCH Movie by ID
-PATCH http://localhost:1234/movies/aa391090-b938-42eb-b520-86ea0aa3917b
+PATCH http://localhost:1234/movies/ebe60bf9-ca29-4d6d-9b2f-5fbe3eafc9ab
+Content-Type: application/json
+
+{
+  "year": 1234,
+  "director": "YO",
+  "duration": 1,
+  "rate": 1.1
+}
 
 ### PATCH Movie by ID fail
-PATCH http://localhost:1234/movies/aa391090-b938-42eb-b520-86ea0aa3917
+PATCH http://localhost:1234/movies/ebe60bf9-ca29-4d6d-9b2f-5fbe3eafc9a
 
 ### DELETE Movie by ID
-DELETE http://localhost:1234/movies/aa391090-b938-42eb-b520-86ea0aa3917b
+DELETE http://localhost:1234/movies/ebe60bf9-ca29-4d6d-9b2f-5fbe3eafc9ab
 
 ### DELETE Movie by ID fail
-DELETE http://localhost:1234/movies/aa391090-b938-42eb-b520-86ea0aa3917
+DELETE http://localhost:1234/movies/ebe60bf9-ca29-4d6d-9b2f-5fbe3eafc9a

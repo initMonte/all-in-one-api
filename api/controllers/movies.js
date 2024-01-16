@@ -1,7 +1,7 @@
 import crypto from 'node:crypto'
 
-import pkg from '../models/movie.cjs'
 import { translateTo } from '../middleware/translateTo.js'
+import pkg from '../models/movie.cjs'
 const { MovieModel } = pkg
 
 export class MovieController {
@@ -55,29 +55,80 @@ export class MovieController {
     const { id } = req.params
     const movie = await MovieModel.getById({ id })
 
-    if (movie) {
-      return res.send('<h1>Peli editada TOTAL</h1>')
+    if (!movie) {
+      return res.status(404).json({ message: 'Movie not found' })
     }
-    res.status(404).json({ message: 'Movie not found' })
+
+    const {
+      title,
+      description,
+      year,
+      director,
+      duration,
+      poster,
+      genre,
+      rate
+    } = req.body
+    if (!title || !description || !year || !director || !duration || !poster || !genre || !rate) {
+      return res.status(400).json({
+        status: 'error',
+        message: 'Required field/s missing.'
+      })
+    }
+    movie.title = title
+    movie.description = description
+    movie.year = +year
+    movie.director = director
+    movie.duration = +duration
+    movie.poster = poster
+    movie.genre = genre
+    movie.rate = +rate
+    return res.send(movie)
   }
 
   static async patchMovie(req, res) {
     const { id } = req.params
     const movie = await MovieModel.getById({ id })
 
-    if (movie) {
-      return res.send('<h1>Peli editada PARCIAL</h1>')
+    if (!movie) {
+      return res.status(404).json({ message: 'Movie not found' })
     }
-    res.status(404).json({ message: 'Movie not found' })
+
+    const {
+      title,
+      description,
+      year,
+      director,
+      duration,
+      poster,
+      genre,
+      rate
+    } = req.body
+    if (!title && !description && !year && !director && !duration && !poster && !genre && !rate) {
+      return res.status(400).json({
+        status: 'error',
+        message: 'At least 1 valid parameter must be edited.'
+      })
+    }
+
+    if (title) movie.title = title
+    if (description) movie.description = description
+    if (year) movie.year = +year
+    if (director) movie.director = director
+    if (duration) movie.duration = +duration
+    if (poster) movie.poster = poster
+    if (genre) movie.genre = genre
+    if (rate) movie.rate = +rate
+    return res.send(movie)
   }
 
   static async deleteMovie(req, res) {
     const { id } = req.params
     const movie = await MovieModel.getById({ id })
 
-    if (movie) {
-      return res.send('<h1>Peli borrada</h1>')
+    if (!movie) {
+      return res.status(404).json({ message: 'Movie not found.' })
     }
-    res.status(404).json({ message: 'Movie not found' })
+    return res.status(200).json({ message: 'Movie deleted succesfully.' })
   }
 }
