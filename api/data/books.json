@@ -1,0 +1,72 @@
+[
+  {
+    "id": "",
+    "title": "",
+    "description": "",
+    "author": "",
+    "year": 0,
+    "img": "",
+    "genre": [
+      "",
+      "",
+      ""
+    ],
+    "language": {
+      "es": {
+        "title": "",
+        "description": "",
+        "img": "",
+        "genre": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "pt": {
+        "title": "",
+        "description": "",
+        "img": "",
+        "genre": [
+          "",
+          "",
+          ""
+        ]
+      }
+    }
+  },
+  {
+    "id": "",
+    "title": "",
+    "description": "",
+    "author": "",
+    "year": 0,
+    "img": "",
+    "genre": [
+      "",
+      "",
+      ""
+    ],
+    "language": {
+      "es": {
+        "title": "",
+        "description": "",
+        "img": "",
+        "genre": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "pt": {
+        "title": "",
+        "description": "",
+        "img": "",
+        "genre": [
+          "",
+          "",
+          ""
+        ]
+      }
+    }
+  }
+]

@@ -6,7 +6,7 @@
     "year": 1994,
     "director": "Frank Darabont",
     "duration": 144,
-    "poster": "https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg",
+    "img": "https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg",
     "genre": [
       "Drama"
     ],
@@ -15,7 +15,7 @@
       "es": {
         "title": "Sueño de Fuga",
         "description": "El banquero Andy Dufresne es arrestado por matar a su esposa y amante. Tras una dura adaptación, intenta mejorar las condiciones de la prisión y dar esperanza a sus compañeros.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BMzJkNjNiOWUtYzNmOC00MGFjLWE5N2EtMjdkYjEwMzQ4NzBhXkEyXkFqcGdeQXVyMTAyOTE2ODg0._V1_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BMzJkNjNiOWUtYzNmOC00MGFjLWE5N2EtMjdkYjEwMzQ4NzBhXkEyXkFqcGdeQXVyMTAyOTE2ODg0._V1_.jpg",
         "genre": [
           "Drama"
         ]
@@ -23,7 +23,7 @@
       "pt": {
         "title": "Um Sonho de Liberdade",
         "description": "Dois homens presos se reúnem ao longo de vários anos, encontrando consolo e eventual redenção através de atos de decência comum.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BYTcxYTA0MjAtYzdjNC00ZmFmLTgwYWItMmVhYTY5ZGZhOWQzXkEyXkFqcGdeQXVyMTAyOTE2ODg0._V1_FMjpg_UY677_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BYTcxYTA0MjAtYzdjNC00ZmFmLTgwYWItMmVhYTY5ZGZhOWQzXkEyXkFqcGdeQXVyMTAyOTE2ODg0._V1_FMjpg_UY677_.jpg",
         "genre": [
           "Drama"
         ]
@@ -37,7 +37,7 @@
     "year": 1972,
     "director": "Francis Ford Coppola",
     "duration": 175,
-    "poster": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UY454_.jpg",
+    "img": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UY454_.jpg",
     "genre": [
       "Crime",
       "Drama"
@@ -47,7 +47,7 @@
       "es": {
         "title": "El padrino",
         "description": "El patriarca de una organización criminal transfiere el control de su clandestino imperio a su reacio hijo.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BY2ZiNzM3MWMtNmQzMy00MzU4LWFjNTUtOWFhN2M1NThkNjQ2XkEyXkFqcGdeQXVyMTAzMDM4MjM0._V1_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BY2ZiNzM3MWMtNmQzMy00MzU4LWFjNTUtOWFhN2M1NThkNjQ2XkEyXkFqcGdeQXVyMTAzMDM4MjM0._V1_.jpg",
         "genre": [
           "Crimen",
           "Drama"
@@ -56,7 +56,7 @@
       "pt": {
         "title": "O Poderoso Chefão",
         "description": "O patriarca idoso de uma dinastia do crime organizado transfere o controle de seu império clandestino para seu filho relutante.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BZjgwNzE5ODgtYzAyZC00YTZhLThhNDktMDVlOGNhYzk5NTVkXkEyXkFqcGdeQXVyMTAzMDM4MjM0._V1_FMjpg_UY2142_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BZjgwNzE5ODgtYzAyZC00YTZhLThhNDktMDVlOGNhYzk5NTVkXkEyXkFqcGdeQXVyMTAzMDM4MjM0._V1_FMjpg_UY2142_.jpg",
         "genre": [
           "Policial",
           "Drama"
@@ -71,7 +71,7 @@
     "year": 2008,
     "director": "Christopher Nolan",
     "duration": 152,
-    "poster": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_FMjpg_UY2048_.jpg",
+    "img": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_FMjpg_UY2048_.jpg",
     "genre": [
       "Action",
       "Crime",
@@ -82,7 +82,7 @@
       "es": {
         "title": "Batman: El caballero de la noche",
         "description": "Cuando el Joker emerge causando caos y violencia en Gotham, el caballero de la noches deberá aceptar una de las pruebas psicológicas y físicas más difíciles para poder luchar con las injusticias del enemigo.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BNzg3YjExZTktOTk3ZS00ODQ1LTg1M2QtMzk2NzQ3NjQxOWUwXkEyXkFqcGdeQXVyMTAzMDM4MjM0._V1_FMjpg_UX1260_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BNzg3YjExZTktOTk3ZS00ODQ1LTg1M2QtMzk2NzQ3NjQxOWUwXkEyXkFqcGdeQXVyMTAzMDM4MjM0._V1_FMjpg_UX1260_.jpg",
         "genre": [
           "Acción",
           "Crimen",
@@ -92,7 +92,7 @@
       "pt": {
         "title": "Batman - O Cavaleiro das Trevas",
         "description": "Agora com a ajuda do tenente Jim Gordon e do promotor público Harvey Dent, Batman tem tudo para banir o crime de Gotham City de uma vez por todas. Mas em breve, os três serão vítimas do Coringa, que pretende lançar Gotham em uma anarquia.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BM2E1ZjEyYWQtMjgyMy00ZTkwLThkM2QtN2YwM2NmYzAyYjE0XkEyXkFqcGdeQXVyMTAzMDM4MjM0._V1_FMjpg_UX800_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BM2E1ZjEyYWQtMjgyMy00ZTkwLThkM2QtN2YwM2NmYzAyYjE0XkEyXkFqcGdeQXVyMTAzMDM4MjM0._V1_FMjpg_UX800_.jpg",
         "genre": [
           "Ação",
           "Policial",
@@ -108,7 +108,7 @@
     "year": 1974,
     "director": "Francis Ford Coppola",
     "duration": 202,
-    "poster": "https://m.media-amazon.com/images/M/MV5BMWMwMGQzZTItY2JlNC00OWZiLWIyMDctNDk2ZDQ2YjRjMWQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UY2552_.jpg",
+    "img": "https://m.media-amazon.com/images/M/MV5BMWMwMGQzZTItY2JlNC00OWZiLWIyMDctNDk2ZDQ2YjRjMWQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UY2552_.jpg",
     "genre": [
       "Crime",
       "Drama"
@@ -118,7 +118,7 @@
       "es": {
         "title": "El padrino (parte II)",
         "description": "Relato de la vida temprana y la carrera de Vito Corleone en la ciudad de Nueva York en 1920, mientras que su hijo, Michael, se expande y refuerza su control sobre el sindicato de delitos familiares.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BODBkMzlhNDEtYjc2Mi00ZTU0LTk5YjktYmI3MTJiODQ3YmMyXkEyXkFqcGdeQXVyMTAyOTE2ODg0._V1_FMjpg_UY1975_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BODBkMzlhNDEtYjc2Mi00ZTU0LTk5YjktYmI3MTJiODQ3YmMyXkEyXkFqcGdeQXVyMTAyOTE2ODg0._V1_FMjpg_UY1975_.jpg",
         "genre": [
           "Crimen",
           "Drama"
@@ -127,7 +127,7 @@
       "pt": {
         "title": "O Poderoso Chefão II",
         "description": "Em 1950, Michael Corleone, agora à frente da família, tenta expandir o negócio do crime a Las Vegas, Los Angeles e Cuba. Paralelamente, é revelada a história de Vito Corleone, e de como saiu da Sicília e chegou a Nova Iorque.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BOGM2M2Q0ZWQtZjc5NC00NDY4LWIxYTktMDE4ZjIyYTRlNTIyXkEyXkFqcGdeQXVyODc0OTEyNDU@._V1_FMjpg_UX844_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BOGM2M2Q0ZWQtZjc5NC00NDY4LWIxYTktMDE4ZjIyYTRlNTIyXkEyXkFqcGdeQXVyODc0OTEyNDU@._V1_FMjpg_UX844_.jpg",
         "genre": [
           "Policial",
           "Drama"
@@ -142,7 +142,7 @@
     "year": 1957,
     "director": "Sidney Lumet",
     "duration": 96,
-    "poster": "https://m.media-amazon.com/images/M/MV5BMWU4N2FjNzYtNTVkNC00NzQ0LTg0MjAtYTJlMjFhNGUxZDFmXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_FMjpg_UX974_.jpg",
+    "img": "https://m.media-amazon.com/images/M/MV5BMWU4N2FjNzYtNTVkNC00NzQ0LTg0MjAtYTJlMjFhNGUxZDFmXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_FMjpg_UX974_.jpg",
     "genre": [
       "Crime",
       "Drama"
@@ -152,7 +152,7 @@
       "es": {
         "title": "12 hombres en pugna",
         "description": "Un jurado que se retira intenta evitar un error judicial al obligar a sus colegas a reconsiderar la evidencia.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BOTM1OTNkZGQtMjkwMy00MDhhLTk5N2QtNmU5OTU5OWY3YWRhXkEyXkFqcGdeQXVyMTAyOTE2ODg0._V1_FMjpg_UX839_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BOTM1OTNkZGQtMjkwMy00MDhhLTk5N2QtNmU5OTU5OWY3YWRhXkEyXkFqcGdeQXVyMTAyOTE2ODg0._V1_FMjpg_UX839_.jpg",
         "genre": [
           "Crimen",
           "Drama"
@@ -161,7 +161,7 @@
       "pt": {
         "title": "12 Homens e uma Sentença",
         "description": "O julgamento de um assassinato em Nova Iorque é frustrado por um único membro, cujo ceticismo força o júri a considerar cuidadosamente as evidências antes de dar o veredito.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BODRmNWRiYmUtNGM2Yy00NTgwLTgxNzMtMGExYzI5NjllNjBhXkEyXkFqcGdeQXVyMTAzMDM4MjM0._V1_FMjpg_UY2143_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BODRmNWRiYmUtNGM2Yy00NTgwLTgxNzMtMGExYzI5NjllNjBhXkEyXkFqcGdeQXVyMTAzMDM4MjM0._V1_FMjpg_UY2143_.jpg",
         "genre": [
           "Policial",
           "Drama"
@@ -176,7 +176,7 @@
     "year": 1993,
     "director": "Steven Spielberg",
     "duration": 195,
-    "poster": "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UY2400_.jpg",
+    "img": "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UY2400_.jpg",
     "genre": [
       "Biography",
       "Drama",
@@ -187,7 +187,7 @@
       "es": {
         "title": "La lista de Schindler",
         "description": "Después de presenciar la persecución judía por parte de los nazis en la Polonia ocupada por los alemanes, el empresario Oskar Schindler se preocupa por su fuerza laboral judía.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BOWRmZmVmMGItODgwNS00Y2VjLWEyZjktOWRjNDVhMzkyY2UwXkEyXkFqcGdeQXVyMTAyOTE2ODg0._V1_FMjpg_UX960_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BOWRmZmVmMGItODgwNS00Y2VjLWEyZjktOWRjNDVhMzkyY2UwXkEyXkFqcGdeQXVyMTAyOTE2ODg0._V1_FMjpg_UX960_.jpg",
         "genre": [
           "Biografía",
           "Drama",
@@ -197,7 +197,7 @@
       "pt": {
         "title": "A Lista de Schindler",
         "description": "Na Polônia ocupada pelos alemães durante a Segunda Guerra Mundial, o industrial Oskar Schindler começa a ser preocupar com seus trabalhadores judeus depois de testemunhar sua perseguição pelos nazistas.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BYjM5ZjYxNjQtZjdhYi00NzBiLTgyNGItOGU3YTYwYWE0NmEzXkEyXkFqcGdeQXVyMTAzMDM4MjM0._V1_FMjpg_UX675_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BYjM5ZjYxNjQtZjdhYi00NzBiLTgyNGItOGU3YTYwYWE0NmEzXkEyXkFqcGdeQXVyMTAzMDM4MjM0._V1_FMjpg_UX675_.jpg",
         "genre": [
           "Biografia",
           "Drama",
@@ -213,7 +213,7 @@
     "year": 2003,
     "director": "Peter Jackson",
     "duration": 201,
-    "poster": "",
+    "img": "",
     "genre": [
       "Action",
       "Adventure",
@@ -224,7 +224,7 @@
       "es": {
         "title": "El señor de los anillos: El retorno del rey",
         "description": "Gandalf y Aragorn lideran el Mundo de los hombres, e intentarán atraer la atención de Sauron para darle a Frodo la última oportunidad de completar su misión y así tratar de evitar sucumbir a las continuas tentaciones del Anillo.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BMGI3ODM0NTktZDcwMy00OWMzLWI5OGUtOTUzZTM1MzllOWQ1XkEyXkFqcGdeQXVyMTAzMDM4MjM0._V1_FMjpg_UX837_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BMGI3ODM0NTktZDcwMy00OWMzLWI5OGUtOTUzZTM1MzllOWQ1XkEyXkFqcGdeQXVyMTAzMDM4MjM0._V1_FMjpg_UX837_.jpg",
         "genre": [
           "Acción",
           "Aventura",
@@ -234,7 +234,7 @@
       "pt": {
         "title": "O Senhor dos Anéis: O Retorno do Rei",
         "description": "Gandalf e Aragorn lideram o Mundo dos Homens contra o exército de Sauron para desviar o olhar de Frodo e Sam quando eles se aproximam á Montanha da Perdição com o Um Anel.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BNzZiOTI4MWItZGMxZC00NjZkLWJlOWUtMDY5YzE1NzhiNGRhXkEyXkFqcGdeQXVyODc0OTEyNDU@._V1_FMjpg_UX708_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BNzZiOTI4MWItZGMxZC00NjZkLWJlOWUtMDY5YzE1NzhiNGRhXkEyXkFqcGdeQXVyODc0OTEyNDU@._V1_FMjpg_UX708_.jpg",
         "genre": [
           "Ação",
           "Aventura",
@@ -250,7 +250,7 @@
     "year": 1994,
     "director": "Quentin Tarantino",
     "duration": 154,
-    "poster": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1055_.jpg",
+    "img": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1055_.jpg",
     "genre": [
       "Crime",
       "Drama"
@@ -260,7 +260,7 @@
       "es": {
         "title": "Tiempos violentos",
         "description": "Cuenta la vida de dos asesinos de la mafia, un boxeador y un pandillero y su esposa, y un par de bandidos se entrelazan en cuatro historias de violencia y redención.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BMzQ0MjljZDUtOWY3YS00NDY2LThmMjctOTdhNjY2NjQ1OWU3XkEyXkFqcGdeQXVyMTAzMDM4MjM0._V1_FMjpg_UY1845_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BMzQ0MjljZDUtOWY3YS00NDY2LThmMjctOTdhNjY2NjQ1OWU3XkEyXkFqcGdeQXVyMTAzMDM4MjM0._V1_FMjpg_UY1845_.jpg",
         "genre": [
           "Crimen",
           "Drama"
@@ -269,7 +269,7 @@
       "pt": {
         "title": "Pulp Fiction - Tempo de Violência",
         "description": "As vidas de dois assassinos da máfia, um boxeador, um gângster e sua esposa, e um par de bandidos se entrelaçam em quatro histórias de violência e redenção.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BN2RiMTA1ZGQtOTNhYi00MjQyLTk0MzAtMWE1OTM2NWUxNzBkXkEyXkFqcGdeQXVyMTAzMDM4MjM0._V1_FMjpg_UX808_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BN2RiMTA1ZGQtOTNhYi00MjQyLTk0MzAtMWE1OTM2NWUxNzBkXkEyXkFqcGdeQXVyMTAzMDM4MjM0._V1_FMjpg_UX808_.jpg",
         "genre": [
           "Policial",
           "Drama"
@@ -284,7 +284,7 @@
     "year": 2001,
     "director": "Peter Jackson",
     "duration": 178,
-    "poster": "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_FMjpg_UY2936_.jpg",
+    "img": "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_FMjpg_UY2936_.jpg",
     "genre": [
       "Action",
       "Adventure",
@@ -295,7 +295,7 @@
       "es": {
         "title": "El señor de los anillos: La comunidad del anillo",
         "description": "Un Hobbit y ocho compañeros emprendieron un viaje para destruir el poderoso Anillo Único y salvar a la Tierra del Señor Oscuro Sauron.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BMzgyNjdjOWMtMjAyYy00NzQ4LWIwYTQtZDk2ZDQzYWVlN2IwXkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_FMjpg_UX720_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BMzgyNjdjOWMtMjAyYy00NzQ4LWIwYTQtZDk2ZDQzYWVlN2IwXkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_FMjpg_UX720_.jpg",
         "genre": [
           "Acción",
           "Aventura",
@@ -305,7 +305,7 @@
       "pt": {
         "title": "O Senhor dos Anéis: A Sociedade do Anel",
         "description": "Um manso hobbit do Condado e oito companheiros partem em uma jornada para destruir o poderoso Um Anel e salvar a Terra-média das Trevas.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BNDEyMzU0ODUtMTdjOS00Y2E2LWJlZmEtYmJjMmQ2NWZlNGQ1XkEyXkFqcGdeQXVyMTAzMDM4MjM0._V1_FMjpg_UX745_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BNDEyMzU0ODUtMTdjOS00Y2E2LWJlZmEtYmJjMmQ2NWZlNGQ1XkEyXkFqcGdeQXVyMTAzMDM4MjM0._V1_FMjpg_UX745_.jpg",
         "genre": [
           "Ação",
           "Aventura",
@@ -321,7 +321,7 @@
     "year": 1966,
     "director": "Sergio Leone",
     "duration": 178,
-    "poster": "https://m.media-amazon.com/images/M/MV5BNjJlYmNkZGItM2NhYy00MjlmLTk5NmQtNjg1NmM2ODU4OTMwXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_FMjpg_UY3000_.jpg",
+    "img": "https://m.media-amazon.com/images/M/MV5BNjJlYmNkZGItM2NhYy00MjlmLTk5NmQtNjg1NmM2ODU4OTMwXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_FMjpg_UY3000_.jpg",
     "genre": [
       "Adventure",
       "Western"
@@ -331,7 +331,7 @@
       "es": {
         "title": "El bueno, el malo y el feo",
         "description": "Un estafador de caza recompensas se une a dos hombres en una incómoda alianza en una carrera para encontrar una fortuna en oro enterrada en un cementerio remoto.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BMTUxYmY2NTYtNzdiMi00YjdkLThkNjAtNTIwNWMwYjA4MzUyXkEyXkFqcGdeQXVyMTAyOTE2ODg0._V1_FMjpg_UX960_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BMTUxYmY2NTYtNzdiMi00YjdkLThkNjAtNTIwNWMwYjA4MzUyXkEyXkFqcGdeQXVyMTAyOTE2ODg0._V1_FMjpg_UX960_.jpg",
         "genre": [
           "Aventura",
           "Oeste"
@@ -340,7 +340,7 @@
       "pt": {
         "title": "Três Homens em Conflito",
         "description": "Um impostor se junta com dois homens para encontrar fortuna num remoto cemitério.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BNzE2MDJkNTktMzVkYS00ZWFlLWIzOWYtYzRhYjcyYzBmM2MwXkEyXkFqcGdeQXVyMTAyOTE2ODg0._V1_FMjpg_UX845_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BNzE2MDJkNTktMzVkYS00ZWFlLWIzOWYtYzRhYjcyYzBmM2MwXkEyXkFqcGdeQXVyMTAyOTE2ODg0._V1_FMjpg_UX845_.jpg",
         "genre": [
           "Aventura",
           "Faroeste"
@@ -355,7 +355,7 @@
     "year": 1994,
     "director": "Robert Zemeckis",
     "duration": 142,
-    "poster": "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX558_.jpg",
+    "img": "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX558_.jpg",
     "genre": [
       "Drama",
       "Romance"
@@ -365,7 +365,7 @@
       "es": {
         "title": "Forrest Gump",
         "description": "Las presidencias de Kennedy y Johnson, los eventos de Vietnam, Watergate vistas desde la perspectiva de un hombre de Alabama con un coeficiente intelectual de 75.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BMTUxYzVlMTItNTUzNC00ZDdlLTgyNWItNjkzMTMzNDE0ZGZhXkEyXkFqcGdeQXVyNjUwMzI2NzU@._V1_FMjpg_UY3564_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BMTUxYzVlMTItNTUzNC00ZDdlLTgyNWItNjkzMTMzNDE0ZGZhXkEyXkFqcGdeQXVyNjUwMzI2NzU@._V1_FMjpg_UY3564_.jpg",
         "genre": [
           "Drama",
           "Romance"
@@ -374,7 +374,7 @@
       "pt": {
         "title": "Forrest Gump: O Contador de Histórias",
         "description": "Os governos dos presidentes Kennedy e Johnson, os eventos do Vietnã e Watergate e outras histórias são mostradas através da perspectiva de um homem do Alabama com baixo quociente intelectual.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BYWYwNWY0ZjMtYzUxZS00ODI3LTllNzctODNiNjhlNjcyNWM0XkEyXkFqcGdeQXVyMjcwMzM0OTI@._V1_FMjpg_UY3000_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BYWYwNWY0ZjMtYzUxZS00ODI3LTllNzctODNiNjhlNjcyNWM0XkEyXkFqcGdeQXVyMjcwMzM0OTI@._V1_FMjpg_UY3000_.jpg",
         "genre": [
           "Drama",
           "Romance"
@@ -389,7 +389,7 @@
     "year": 1999,
     "director": "David Fincher",
     "duration": 149,
-    "poster": "https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1066_.jpg",
+    "img": "https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1066_.jpg",
     "genre": [
       "Drama"
     ],
@@ -398,7 +398,7 @@
       "es": {
         "title": "El club de la pelea",
         "description": "Un hombre deprimido conoce a un fabricante de jabones, y juntos forman un club de pelea clandestino que evoluciona en algo inesperado.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1066_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1066_.jpg",
         "genre": [
           "Drama"
         ]
@@ -406,7 +406,7 @@
       "pt": {
         "title": "Clube da Luta",
         "description": "Um trabalhador de escritório e um fabricante de sabonetes formam um clube de luta clandestino que evolui para algo muito maior.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BNDVhNjJlZmMtODJhOS00OWE4LTgxMzAtNjVlMzI0ZjI0OTMzXkEyXkFqcGdeQXVyMTAzMDM4MjM0._V1_FMjpg_UX758_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BNDVhNjJlZmMtODJhOS00OWE4LTgxMzAtNjVlMzI0ZjI0OTMzXkEyXkFqcGdeQXVyMTAzMDM4MjM0._V1_FMjpg_UX758_.jpg",
         "genre": [
           "Drama"
         ]
@@ -420,7 +420,7 @@
     "year": 2002,
     "director": "Peter Jackson",
     "duration": 179,
-    "poster": "https://m.media-amazon.com/images/M/MV5BZGMxZTdjZmYtMmE2Ni00ZTdkLWI5NTgtNjlmMjBiNzU2MmI5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX964_.jpg",
+    "img": "https://m.media-amazon.com/images/M/MV5BZGMxZTdjZmYtMmE2Ni00ZTdkLWI5NTgtNjlmMjBiNzU2MmI5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX964_.jpg",
     "genre": [
       "Action",
       "Adventure",
@@ -431,7 +431,7 @@
       "es": {
         "title": "El señor de los anillos: Las dos torres",
         "description": "Mientras Frodo y Sam se acercan más a Mordor con la ayuda del cambiante Gollum, la comunidad dividida se opone al nuevo aliado de Sauron, Saruman, y sus hordas de Isengard.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BMmQzMDhiY2ItMmJlMi00M2QzLWE2MjItZDg2NjE5N2YyZTE5XkEyXkFqcGdeQXVyMTAyOTE2ODg0._V1_FMjpg_UX774_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BMmQzMDhiY2ItMmJlMi00M2QzLWE2MjItZDg2NjE5N2YyZTE5XkEyXkFqcGdeQXVyMTAyOTE2ODg0._V1_FMjpg_UX774_.jpg",
         "genre": [
           "Acción",
           "Aventura",
@@ -441,7 +441,7 @@
       "pt": {
         "title": "O Senhor dos Anéis: As Duas Torres",
         "description": "Enquanto Frodo e Sam estão perto de Mordor com a ajuda de Gollum, a divida comunhão luta contra Saruman e os Isengards.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BZGMxZTdjZmYtMmE2Ni00ZTdkLWI5NTgtNjlmMjBiNzU2MmI5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX964_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BZGMxZTdjZmYtMmE2Ni00ZTdkLWI5NTgtNjlmMjBiNzU2MmI5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX964_.jpg",
         "genre": [
           "Ação",
           "Aventura",
@@ -457,7 +457,7 @@
     "year": 2010,
     "director": "Christopher Nolan",
     "duration": 148,
-    "poster": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_FMjpg_UX700_.jpg",
+    "img": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_FMjpg_UX700_.jpg",
     "genre": [
       "Action",
       "Adventure",
@@ -468,7 +468,7 @@
       "es": {
         "title": "El origen",
         "description": "A un ladrón que roba secretos corporativos a través de la tecnología de entrar en el subconsciente, se le da la tarea de implantar una idea en la mente del jefe de una gran empresa.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BMjRkN2EwM2EtNTFkMS00NjI1LWJlMTEtZjA1YzQ1ZGZmZDg3XkEyXkFqcGdeQXVyMTAzMDM4MjM0._V1_FMjpg_UX1080_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BMjRkN2EwM2EtNTFkMS00NjI1LWJlMTEtZjA1YzQ1ZGZmZDg3XkEyXkFqcGdeQXVyMTAzMDM4MjM0._V1_FMjpg_UX1080_.jpg",
         "genre": [
           "Acción",
           "Aventura",
@@ -478,7 +478,7 @@
       "pt": {
         "title": "A Origem",
         "description": "Um ladrão que rouba segredos corporativos através da tecnologia de entrar no subconsciente recebe a tarefa inversa de plantar uma idéia na mente do diretor de uma grande empresa.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BN2NiZDM5ZjQtNGJjNy00NzhmLWI1NzktZTgzYTkyZDFmYTg2XkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_FMjpg_UX450_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BN2NiZDM5ZjQtNGJjNy00NzhmLWI1NzktZTgzYTkyZDFmYTg2XkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_FMjpg_UX450_.jpg",
         "genre": [
           "Ação",
           "Aventura",
@@ -494,7 +494,7 @@
     "year": 1980,
     "director": "Irvin Kershner",
     "duration": 124,
-    "poster": "https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UY2883_.jpg",
+    "img": "https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UY2883_.jpg",
     "genre": [
       "Action",
       "Adventure",
@@ -505,7 +505,7 @@
       "es": {
         "title": "El imperio contraataca",
         "description": "Los rebeldes han vencido al Imperio en el planeta helado Hoth. Luke Skywalker empieza a entrenar como Jedi con Yoda, mientras sus amigos son perseguidos por Darth Vader.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BY2I2NGEyZWEtYzEzOC00NTJiLTg1NDgtMWQ0Y2FhNjI3OTE2XkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_FMjpg_UY488_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BY2I2NGEyZWEtYzEzOC00NTJiLTg1NDgtMWQ0Y2FhNjI3OTE2XkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_FMjpg_UY488_.jpg",
         "genre": [
           "Acción",
           "Aventura",
@@ -515,7 +515,7 @@
       "pt": {
         "title": "Star Wars: Episódio V - O Império Contra-Ataca",
         "description": "Os rebeldes derrotaram o Império no planeta congelado Hoth. Luke Skywalker começa a treinar como um Jedi com Yoda, enquanto seus amigos são perseguidos por Darth Vader.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BNDQxYTExOWQtMzE4Zi00Yzg2LWEzYjUtMTBjMDdiYmY3ZTdjXkEyXkFqcGdeQXVyODc0OTEyNDU@._V1_FMjpg_UX1080_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BNDQxYTExOWQtMzE4Zi00Yzg2LWEzYjUtMTBjMDdiYmY3ZTdjXkEyXkFqcGdeQXVyODc0OTEyNDU@._V1_FMjpg_UX1080_.jpg",
         "genre": [
           "Ação",
           "Aventura",
@@ -531,7 +531,7 @@
     "year": 1999,
     "director": "Lana Wachowski, Lilly Wachowski",
     "duration": 136,
-    "poster": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UY3156_.jpg",
+    "img": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UY3156_.jpg",
     "genre": [
       "Action",
       "Sci-Fi"
@@ -541,7 +541,7 @@
       "es": {
         "title": "Matrix",
         "description": "Un hacker se da cuenta por medio de otros rebeldes de la naturaleza de su realidad y su rol en la guerra contra los controladores.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BYWQxMzg0OGYtNGE3Yi00OGY4LWJjZDktZWZiODE2N2MyODgzXkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_FMjpg_UY2450_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BYWQxMzg0OGYtNGE3Yi00OGY4LWJjZDktZWZiODE2N2MyODgzXkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_FMjpg_UY2450_.jpg",
         "genre": [
           "Acción",
           "Ciencia ficción"
@@ -550,7 +550,7 @@
       "pt": {
         "title": "Matrix",
         "description": "Um hacker aprende com os misteriosos rebeldes sobre a verdadeira natureza de sua realidade e seu papel na guerra contra seus controladores.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BMzYxZGIyM2MtZDQ0NC00Y2M5LTk0NTAtNDk5ZTg1MjZjMTFiXkEyXkFqcGdeQXVyMTY4MjE1MDA@._V1_FMjpg_UY5990_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BMzYxZGIyM2MtZDQ0NC00Y2M5LTk0NTAtNDk5ZTg1MjZjMTFiXkEyXkFqcGdeQXVyMTY4MjE1MDA@._V1_FMjpg_UY5990_.jpg",
         "genre": [
           "Ação",
           "Ficção científica"

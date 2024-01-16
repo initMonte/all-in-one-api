@@ -7,7 +7,7 @@
     "ended": 2013,
     "seasons": 5,
     "episodes": 62,
-    "poster": "https://m.media-amazon.com/images/M/MV5BYmQ4YWMxYjUtNjZmYi00MDQ1LWFjMjMtNjA5ZDdiYjdiODU5XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_FMjpg_UY3000_.jpg",
+    "img": "https://m.media-amazon.com/images/M/MV5BYmQ4YWMxYjUtNjZmYi00MDQ1LWFjMjMtNjA5ZDdiYjdiODU5XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_FMjpg_UY3000_.jpg",
     "genre": [
       "Crime",
       "Drama",
@@ -18,7 +18,7 @@
       "es": {
         "title": "Breaking Bad",
         "description": "Un profesor de secundaria que ha sido diagnosticado con un inoperable cáncer de pulmón se dedica a producir y vender metanfetaminas con el fin de asegurar el futuro de su familia.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BYmQ4YWMxYjUtNjZmYi00MDQ1LWFjMjMtNjA5ZDdiYjdiODU5XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_FMjpg_UY3000_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BYmQ4YWMxYjUtNjZmYi00MDQ1LWFjMjMtNjA5ZDdiYjdiODU5XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_FMjpg_UY3000_.jpg",
         "genre": [
           "Crimen",
           "Drama",
@@ -28,7 +28,7 @@
       "pt": {
         "title": "Breaking Bad",
         "description": "Um professor de química diagnosticado com câncer de pulmão se transforma em fabricante e vendedor de metanfetamina, a fim de garantir o futuro da sua família.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BYmQ4YWMxYjUtNjZmYi00MDQ1LWFjMjMtNjA5ZDdiYjdiODU5XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_FMjpg_UY3000_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BYmQ4YWMxYjUtNjZmYi00MDQ1LWFjMjMtNjA5ZDdiYjdiODU5XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_FMjpg_UY3000_.jpg",
         "genre": [
           "Policial",
           "Drama",
@@ -45,7 +45,7 @@
     "ended": 2019,
     "seasons": 1,
     "episodes": 5,
-    "poster": "https://m.media-amazon.com/images/M/MV5BNTdkN2QwMDItMDVhNS00ZjFiLWEzNTctMzY5ODQzYWNkMDllXkEyXkFqcGdeQXVyMTMzNDExODE5._V1_FMjpg_UY2250_.jpg",
+    "img": "https://m.media-amazon.com/images/M/MV5BNTdkN2QwMDItMDVhNS00ZjFiLWEzNTctMzY5ODQzYWNkMDllXkEyXkFqcGdeQXVyMTMzNDExODE5._V1_FMjpg_UY2250_.jpg",
     "genre": [
       "Drama",
       "History",
@@ -56,7 +56,7 @@
       "es": {
         "title": "Chernobyl",
         "description": "En abril de 1986, una explosión en la central nuclear de Chernobyl, en la Unión Soviética, se convirtió en una de las mayores catástrofes creadas por la humanidad de la historia.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BNTdkN2QwMDItMDVhNS00ZjFiLWEzNTctMzY5ODQzYWNkMDllXkEyXkFqcGdeQXVyMTMzNDExODE5._V1_FMjpg_UY2250_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BNTdkN2QwMDItMDVhNS00ZjFiLWEzNTctMzY5ODQzYWNkMDllXkEyXkFqcGdeQXVyMTMzNDExODE5._V1_FMjpg_UY2250_.jpg",
         "genre": [
           "Drama",
           "Historia",
@@ -66,7 +66,7 @@
       "pt": {
         "title": "Chernobyl",
         "description": "Minissérie em cinco partes que conta a história do pior acidente causado pelo homem na história, o desastre da Usina Nuclear de Chernobyl.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BOGEyZDU5ZDAtMGQzYy00ZjhkLTkwM2EtODRkZTUwN2RjMzAzXkEyXkFqcGdeQXVyMTMxMDYyNjYx._V1_FMjpg_UY2160_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BOGEyZDU5ZDAtMGQzYy00ZjhkLTkwM2EtODRkZTUwN2RjMzAzXkEyXkFqcGdeQXVyMTMxMDYyNjYx._V1_FMjpg_UY2160_.jpg",
         "genre": [
           "Drama",
           "História",
@@ -83,7 +83,7 @@
     "ended": 2008,
     "seasons": 3,
     "episodes": 62,
-    "poster": "https://m.media-amazon.com/images/M/MV5BODc5YTBhMTItMjhkNi00ZTIxLWI0YjAtNTZmOTY0YjRlZGQ0XkEyXkFqcGdeQXVyODUwNjEzMzg@._V1_FMjpg_UX679_.jpg",
+    "img": "https://m.media-amazon.com/images/M/MV5BODc5YTBhMTItMjhkNi00ZTIxLWI0YjAtNTZmOTY0YjRlZGQ0XkEyXkFqcGdeQXVyODUwNjEzMzg@._V1_FMjpg_UX679_.jpg",
     "genre": [
       "Animation",
       "Action",
@@ -94,7 +94,7 @@
       "es": {
         "title": "Avatar. La leyenda de Aang",
         "description": "En un mundo de magia desgarrado por la guerra, un niño vuelve a despertar para emprender una peligrosa búsqueda mística para cumplir su destino como el Avatar, y traer paz al mundo.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BYmI1OGI2MzYtMTViMS00MWU5LThiZGMtZDYyN2E4ZWJjNTBmXkEyXkFqcGdeQXVyMTAyOTE2ODg0._V1_FMjpg_UX902_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BYmI1OGI2MzYtMTViMS00MWU5LThiZGMtZDYyN2E4ZWJjNTBmXkEyXkFqcGdeQXVyMTAyOTE2ODg0._V1_FMjpg_UX902_.jpg",
         "genre": [
           "Animación",
           "Acción",
@@ -104,7 +104,7 @@
       "pt": {
         "title": "Avatar: A Lenda de Aang",
         "description": "Num mundo em guerra por um elemento, um jovem pega a dificil tarefa de se tornar num Avatar e savar ao mundo.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BODc5YTBhMTItMjhkNi00ZTIxLWI0YjAtNTZmOTY0YjRlZGQ0XkEyXkFqcGdeQXVyODUwNjEzMzg@._V1_FMjpg_UX679_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BODc5YTBhMTItMjhkNi00ZTIxLWI0YjAtNTZmOTY0YjRlZGQ0XkEyXkFqcGdeQXVyODUwNjEzMzg@._V1_FMjpg_UX679_.jpg",
         "genre": [
           "Animação",
           "Ação",
@@ -121,7 +121,7 @@
     "ended": 2014,
     "seasons": 1,
     "episodes": 13,
-    "poster": "https://m.media-amazon.com/images/M/MV5BZTk5OTQyZjYtMDk3Yy00YjhmLWE2MTYtZmY4NTg1YWUzZTQ0XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX600_.jpg",
+    "img": "https://m.media-amazon.com/images/M/MV5BZTk5OTQyZjYtMDk3Yy00YjhmLWE2MTYtZmY4NTg1YWUzZTQ0XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX600_.jpg",
     "genre": [
       "Documentary"
     ],
@@ -130,7 +130,7 @@
       "es": {
         "title": "Cosmos",
         "description": "Una exploración de los descubrimientos de las leyes de la naturaleza en el espacio y el tiempo.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BZTk5OTQyZjYtMDk3Yy00YjhmLWE2MTYtZmY4NTg1YWUzZTQ0XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX600_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BZTk5OTQyZjYtMDk3Yy00YjhmLWE2MTYtZmY4NTg1YWUzZTQ0XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX600_.jpg",
         "genre": [
           "Documental"
         ]
@@ -138,7 +138,7 @@
       "pt": {
         "title": "Cosmos: Uma Odisseia do Espaço-Tempo",
         "description": "Uma exploração das descobertas das leis da natureza no espaço e no tempo.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BZTk5OTQyZjYtMDk3Yy00YjhmLWE2MTYtZmY4NTg1YWUzZTQ0XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX600_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BZTk5OTQyZjYtMDk3Yy00YjhmLWE2MTYtZmY4NTg1YWUzZTQ0XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX600_.jpg",
         "genre": [
           "Documentário"
         ]
@@ -153,7 +153,7 @@
     "ended": 2019,
     "seasons": 8,
     "episodes": 73,
-    "poster": "https://m.media-amazon.com/images/M/MV5BN2IzYzBiOTQtNGZmMi00NDI5LTgxMzMtN2EzZjA1NjhlOGMxXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg",
+    "img": "https://m.media-amazon.com/images/M/MV5BN2IzYzBiOTQtNGZmMi00NDI5LTgxMzMtN2EzZjA1NjhlOGMxXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg",
     "genre": [
       "Action",
       "Adventure",
@@ -164,7 +164,7 @@
       "es": {
         "title": "Game of Thrones",
         "description": "Nueve familias de la nobleza luchan por el control de las místicas tierras de Westeros, mientras tanto un viejo enemigo regresa después de miles de años de estar oculto.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BN2IzYzBiOTQtNGZmMi00NDI5LTgxMzMtN2EzZjA1NjhlOGMxXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BN2IzYzBiOTQtNGZmMi00NDI5LTgxMzMtN2EzZjA1NjhlOGMxXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg",
         "genre": [
           "Acción",
           "Aventura",
@@ -174,7 +174,7 @@
       "pt": {
         "title": "Game of Thrones",
         "description": "Nove famílias nobres lutam pelo controle sobre as terras míticas de Westeros, enquanto um antigo inimigo retorna depois de estar adormecido por milhares de anos.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BN2IzYzBiOTQtNGZmMi00NDI5LTgxMzMtN2EzZjA1NjhlOGMxXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BN2IzYzBiOTQtNGZmMi00NDI5LTgxMzMtN2EzZjA1NjhlOGMxXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg",
         "genre": [
           "Ação",
           "Aventura",
@@ -191,7 +191,7 @@
     "ended": 2010,
     "seasons": 1,
     "episodes": 68,
-    "poster": "https://m.media-amazon.com/images/M/MV5BZmEzN2YzOTItMDI5MS00MGU4LWI1NWQtOTg5ZThhNGQwYTEzXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX1143_.jpg",
+    "img": "https://m.media-amazon.com/images/M/MV5BZmEzN2YzOTItMDI5MS00MGU4LWI1NWQtOTg5ZThhNGQwYTEzXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX1143_.jpg",
     "genre": [
       "Animation",
       "Action",
@@ -202,7 +202,7 @@
       "es": {
         "title": "Fullmetal Alchemist: Brotherhood",
         "description": "Dos hermanos buscan la Piedra Filosofal, después de que un intento de revivir a su madre fallecida sale mal y los deja en formas físicas dañadas.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BZmEzN2YzOTItMDI5MS00MGU4LWI1NWQtOTg5ZThhNGQwYTEzXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX1143_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BZmEzN2YzOTItMDI5MS00MGU4LWI1NWQtOTg5ZThhNGQwYTEzXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX1143_.jpg",
         "genre": [
           "Animación",
           "Acción",
@@ -212,7 +212,7 @@
       "pt": {
         "title": "Fullmetal Alchemist: Brotherhood",
         "description": "Dois irmãos buscam uma pedra filosofal depois que uma tentativa de reviver sua falecida mãe se desfaz e os deixa em formas físicas danificadas.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BZmEzN2YzOTItMDI5MS00MGU4LWI1NWQtOTg5ZThhNGQwYTEzXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX1143_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BZmEzN2YzOTItMDI5MS00MGU4LWI1NWQtOTg5ZThhNGQwYTEzXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX1143_.jpg",
         "genre": [
           "Animação",
           "Ação",
@@ -229,7 +229,7 @@
     "ended": 2023,
     "seasons": 4,
     "episodes": 98,
-    "poster": "https://m.media-amazon.com/images/M/MV5BNDFjYTIxMjctYTQ2ZC00OGQ4LWE3OGYtNDdiMzNiNDZlMDAwXkEyXkFqcGdeQXVyNzI3NjY3NjQ@._V1_FMjpg_UX889_.jpg",
+    "img": "https://m.media-amazon.com/images/M/MV5BNDFjYTIxMjctYTQ2ZC00OGQ4LWE3OGYtNDdiMzNiNDZlMDAwXkEyXkFqcGdeQXVyNzI3NjY3NjQ@._V1_FMjpg_UX889_.jpg",
     "genre": [
       "Animation",
       "Action",
@@ -240,7 +240,7 @@
       "es": {
         "title": "Attack on Titan",
         "description": "Tras la destrucción de su pueblo y la muerte de su madre, el joven Eren Yeagar promete limpiar la tierra de los titanes humanoides que han llevado a la extinción de la humanidad.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BNDFjYTIxMjctYTQ2ZC00OGQ4LWE3OGYtNDdiMzNiNDZlMDAwXkEyXkFqcGdeQXVyNzI3NjY3NjQ@._V1_FMjpg_UX889_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BNDFjYTIxMjctYTQ2ZC00OGQ4LWE3OGYtNDdiMzNiNDZlMDAwXkEyXkFqcGdeQXVyNzI3NjY3NjQ@._V1_FMjpg_UX889_.jpg",
         "genre": [
           "Animación",
           "Acción",
@@ -250,7 +250,7 @@
       "pt": {
         "title": "Ataque dos Titãs",
         "description": "Depois que sua cidade é destruída e sua mãe é morta, um jovem promete limpar a terra dos humanóides que levaram a humanidade à beira da extinção.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BNDFjYTIxMjctYTQ2ZC00OGQ4LWE3OGYtNDdiMzNiNDZlMDAwXkEyXkFqcGdeQXVyNzI3NjY3NjQ@._V1_FMjpg_UX889_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BNDFjYTIxMjctYTQ2ZC00OGQ4LWE3OGYtNDdiMzNiNDZlMDAwXkEyXkFqcGdeQXVyNzI3NjY3NjQ@._V1_FMjpg_UX889_.jpg",
         "genre": [
           "Animação",
           "Ação",
@@ -267,7 +267,7 @@
     "ended": 2013,
     "seasons": 9,
     "episodes": 188,
-    "poster": "https://m.media-amazon.com/images/M/MV5BMDNkOTE4NDQtMTNmYi00MWE0LWE4ZTktYTc0NzhhNWIzNzJiXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_FMjpg_UY1922_.jpg",
+    "img": "https://m.media-amazon.com/images/M/MV5BMDNkOTE4NDQtMTNmYi00MWE0LWE4ZTktYTc0NzhhNWIzNzJiXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_FMjpg_UY1922_.jpg",
     "genre": [
       "Comedy"
     ],
@@ -276,7 +276,7 @@
       "es": {
         "title": "La oficina",
         "description": "Un falso documental sobre un atípico grupo de una oficina donde el trabajo de casa día consiste en confrontaciones de ego, comportamiento inapropiado y el aburrimiento.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BMDNkOTE4NDQtMTNmYi00MWE0LWE4ZTktYTc0NzhhNWIzNzJiXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_FMjpg_UY1922_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BMDNkOTE4NDQtMTNmYi00MWE0LWE4ZTktYTc0NzhhNWIzNzJiXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_FMjpg_UY1922_.jpg",
         "genre": [
           "Comedia"
         ]
@@ -284,7 +284,7 @@
       "pt": {
         "title": "Vida de Escritório",
         "description": "Um mockumentary sobre um grupo de trabalhadores de escritório, onde o dia de trabalho consiste em conflitos de ego e comportamento inadequado.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BMDNkOTE4NDQtMTNmYi00MWE0LWE4ZTktYTc0NzhhNWIzNzJiXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_FMjpg_UY1922_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BMDNkOTE4NDQtMTNmYi00MWE0LWE4ZTktYTc0NzhhNWIzNzJiXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_FMjpg_UY1922_.jpg",
         "genre": [
           "Comédia"
         ]
@@ -299,7 +299,7 @@
     "ended": 2023,
     "seasons": 4,
     "episodes": 39,
-    "poster": "https://m.media-amazon.com/images/M/MV5BODY5YjA3ZDgtM2EwYy00ZGVmLWFhNWItMTMxMWRkMWFiOTlkXkEyXkFqcGdeQXVyMTMzNDExODE5._V1_FMjpg_UX1064_.jpg",
+    "img": "https://m.media-amazon.com/images/M/MV5BODY5YjA3ZDgtM2EwYy00ZGVmLWFhNWItMTMxMWRkMWFiOTlkXkEyXkFqcGdeQXVyMTMzNDExODE5._V1_FMjpg_UX1064_.jpg",
     "genre": [
       "Comedy",
       "Drama"
@@ -309,7 +309,7 @@
       "es": {
         "title": "Succession",
         "description": "Relata la vida de una familia multimillonaria que tienen todo lo que ansían, salvo vida familiar. Su objetivo principal es hacer que el imperio crezca y, para ello, las lealtades se pondrán en juego.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BODY5YjA3ZDgtM2EwYy00ZGVmLWFhNWItMTMxMWRkMWFiOTlkXkEyXkFqcGdeQXVyMTMzNDExODE5._V1_FMjpg_UX1064_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BODY5YjA3ZDgtM2EwYy00ZGVmLWFhNWItMTMxMWRkMWFiOTlkXkEyXkFqcGdeQXVyMTMzNDExODE5._V1_FMjpg_UX1064_.jpg",
         "genre": [
           "Comedia",
           "Drama"
@@ -318,7 +318,7 @@
       "pt": {
         "title": "Succession",
         "description": "Segue a vida duma disfuncional familia americana.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BNWI5ZjA1NmUtNGExNy00NTRlLTg5MjEtOTY5MGU0Y2Q0YmJjXkEyXkFqcGdeQXVyNDU2MjE4NzA@._V1_FMjpg_UX750_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BNWI5ZjA1NmUtNGExNy00NTRlLTg5MjEtOTY5MGU0Y2Q0YmJjXkEyXkFqcGdeQXVyNDU2MjE4NzA@._V1_FMjpg_UX750_.jpg",
         "genre": [
           "Comédia",
           "Drama"
@@ -334,7 +334,7 @@
     "ended": 2004,
     "seasons": 10,
     "episodes": 234,
-    "poster": "https://m.media-amazon.com/images/M/MV5BNDVkYjU0MzctMWRmZi00NTkxLTgwZWEtOWVhYjZlYjllYmU4XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX680_.jpg",
+    "img": "https://m.media-amazon.com/images/M/MV5BNDVkYjU0MzctMWRmZi00NTkxLTgwZWEtOWVhYjZlYjllYmU4XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX680_.jpg",
     "genre": [
       "Comedy",
       "Romance"
@@ -344,7 +344,7 @@
       "es": {
         "title": "Friends",
         "description": "Trata la vida personal y profesional de seis amigos en sus treinta y tantos años viviendo en Manhattan.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BNDVkYjU0MzctMWRmZi00NTkxLTgwZWEtOWVhYjZlYjllYmU4XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX680_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BNDVkYjU0MzctMWRmZi00NTkxLTgwZWEtOWVhYjZlYjllYmU4XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX680_.jpg",
         "genre": [
           "Comedia",
           "Romance"
@@ -353,7 +353,7 @@
       "pt": {
         "title": "Friends",
         "description": "Relata a vida pessoal de seis amigos em seus 30's na cidade de Manhattan",
-        "poster": "https://m.media-amazon.com/images/M/MV5BNDVkYjU0MzctMWRmZi00NTkxLTgwZWEtOWVhYjZlYjllYmU4XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX680_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BNDVkYjU0MzctMWRmZi00NTkxLTgwZWEtOWVhYjZlYjllYmU4XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX680_.jpg",
         "genre": [
           "Comédia",
           "Romance"
@@ -369,7 +369,7 @@
     "ended": 2022,
     "seasons": 6,
     "episodes": 36,
-    "poster": "https://m.media-amazon.com/images/M/MV5BZjYzZDgzMmYtYjY5Zi00YTk1LThhMDYtNjFlNzM4MTZhYzgyXkEyXkFqcGdeQXVyMTE5NDQ1MzQ3._V1_FMjpg_UY1814_.jpg",
+    "img": "https://m.media-amazon.com/images/M/MV5BZjYzZDgzMmYtYjY5Zi00YTk1LThhMDYtNjFlNzM4MTZhYzgyXkEyXkFqcGdeQXVyMTE5NDQ1MzQ3._V1_FMjpg_UY1814_.jpg",
     "genre": [
       "Crime",
       "Drama"
@@ -379,7 +379,7 @@
       "es": {
         "title": "Peaky Blinders",
         "description": "Trata de una familia de la mafia de 1919 en Birmingham, Inglaterra que cosía cuchillas de rasurar y su intenso jefe, Tommy Shelby.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BZjYzZDgzMmYtYjY5Zi00YTk1LThhMDYtNjFlNzM4MTZhYzgyXkEyXkFqcGdeQXVyMTE5NDQ1MzQ3._V1_FMjpg_UY1814_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BZjYzZDgzMmYtYjY5Zi00YTk1LThhMDYtNjFlNzM4MTZhYzgyXkEyXkFqcGdeQXVyMTE5NDQ1MzQ3._V1_FMjpg_UY1814_.jpg",
         "genre": [
           "Crimen",
           "Drama"
@@ -388,7 +388,7 @@
       "pt": {
         "title": "Peaky Blinders: Sangue, Apostas e Navalhas",
         "description": "Depois de servir no Exército, Thomas Shelby e seus irmãos voltam para controlar a cidade, mas, conforme as ambições de Shelby se estendem, ele planeja construir seu próprio negócio e impedir qualquer um que atrapalhe.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BZjYzZDgzMmYtYjY5Zi00YTk1LThhMDYtNjFlNzM4MTZhYzgyXkEyXkFqcGdeQXVyMTE5NDQ1MzQ3._V1_FMjpg_UY1814_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BZjYzZDgzMmYtYjY5Zi00YTk1LThhMDYtNjFlNzM4MTZhYzgyXkEyXkFqcGdeQXVyMTE5NDQ1MzQ3._V1_FMjpg_UY1814_.jpg",
         "genre": [
           "Policial",
           "Drama"
@@ -404,7 +404,7 @@
     "ended": 2020,
     "seasons": 3,
     "episodes": 26,
-    "poster": "https://m.media-amazon.com/images/M/MV5BOTk2NzUyOTctZDdlMS00MDJlLTgzNTEtNzQzYjFhNjA0YjBjXkEyXkFqcGdeQXVyMjg1NDcxNDE@._V1_FMjpg_UY2048_.jpg",
+    "img": "https://m.media-amazon.com/images/M/MV5BOTk2NzUyOTctZDdlMS00MDJlLTgzNTEtNzQzYjFhNjA0YjBjXkEyXkFqcGdeQXVyMjg1NDcxNDE@._V1_FMjpg_UY2048_.jpg",
     "genre": [
       "Crime",
       "Drama",
@@ -415,7 +415,7 @@
       "es": {
         "title": "Dark",
         "description": "La desaparición de dos adolescentes en un pueblo alemán desata una saga familiar entre cuatro familiar con giros sobrenaturales.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BOTk2NzUyOTctZDdlMS00MDJlLTgzNTEtNzQzYjFhNjA0YjBjXkEyXkFqcGdeQXVyMjg1NDcxNDE@._V1_FMjpg_UY2048_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BOTk2NzUyOTctZDdlMS00MDJlLTgzNTEtNzQzYjFhNjA0YjBjXkEyXkFqcGdeQXVyMjg1NDcxNDE@._V1_FMjpg_UY2048_.jpg",
         "genre": [
           "Crimen",
           "Drama",
@@ -425,7 +425,7 @@
       "pt": {
         "title": "Dark",
         "description": "Saga familiar sobrenatural ambientada em uma cidade alemã, onde o desaparecimento de duas crianças expõe as relações entre quatro famílias.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BOTk2NzUyOTctZDdlMS00MDJlLTgzNTEtNzQzYjFhNjA0YjBjXkEyXkFqcGdeQXVyMjg1NDcxNDE@._V1_FMjpg_UY2048_.jpg",
+        "img": "https://m.media-amazon.com/images/M/MV5BOTk2NzUyOTctZDdlMS00MDJlLTgzNTEtNzQzYjFhNjA0YjBjXkEyXkFqcGdeQXVyMjg1NDcxNDE@._V1_FMjpg_UY2048_.jpg",
         "genre": [
           "Policial",
           "Drama",
