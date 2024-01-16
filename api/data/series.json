@@ -1,45 +1,436 @@
 [
   {
-    "id": "",
-    "title": "",
-    "year": 0,
-    "seasons": 0,
-    "episodes": 0,
-    "poster": "",
+    "id": "88f18feb-53f7-4cc0-9da4-2bd8505baf4e",
+    "title": "Breaking Bad",
+    "description": "A chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine with a former student in order to secure his family's future.",
+    "started": 2008,
+    "ended": 2013,
+    "seasons": 5,
+    "episodes": 62,
+    "poster": "https://m.media-amazon.com/images/M/MV5BYmQ4YWMxYjUtNjZmYi00MDQ1LWFjMjMtNjA5ZDdiYjdiODU5XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_FMjpg_UY3000_.jpg",
     "genre": [
-      ""
+      "Crime",
+      "Drama",
+      "Thriller"
     ],
-    "rate": 0,
+    "rate": 9.5,
     "language": {
       "es": {
-        "title": "",
-        "genre": []
+        "title": "Breaking Bad",
+        "description": "Un profesor de secundaria que ha sido diagnosticado con un inoperable cáncer de pulmón se dedica a producir y vender metanfetaminas con el fin de asegurar el futuro de su familia.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYmQ4YWMxYjUtNjZmYi00MDQ1LWFjMjMtNjA5ZDdiYjdiODU5XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_FMjpg_UY3000_.jpg",
+        "genre": [
+          "Crimen",
+          "Drama",
+          "Suspenso"
+        ]
       },
       "pt": {
-        "title": "",
-        "genre": []
+        "title": "Breaking Bad",
+        "description": "Um professor de química diagnosticado com câncer de pulmão se transforma em fabricante e vendedor de metanfetamina, a fim de garantir o futuro da sua família.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYmQ4YWMxYjUtNjZmYi00MDQ1LWFjMjMtNjA5ZDdiYjdiODU5XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_FMjpg_UY3000_.jpg",
+        "genre": [
+          "Policial",
+          "Drama",
+          "Suspense"
+        ]
       }
     }
   },
   {
-    "id": "",
-    "title": "",
-    "year": 0,
-    "seasons": 0,
-    "episodes": 0,
-    "poster": "",
+    "id": "c4279dbf-4069-4246-876d-c5db1ecfbbe8",
+    "title": "Chernobyl",
+    "description": "In April 1986, an explosion at the Chernobyl nuclear power plant in the Union of Soviet Socialist Republics becomes one of the world's worst man-made catastrophes.",
+    "started": 2019,
+    "ended": 2019,
+    "seasons": 1,
+    "episodes": 5,
+    "poster": "https://m.media-amazon.com/images/M/MV5BNTdkN2QwMDItMDVhNS00ZjFiLWEzNTctMzY5ODQzYWNkMDllXkEyXkFqcGdeQXVyMTMzNDExODE5._V1_FMjpg_UY2250_.jpg",
     "genre": [
-      ""
+      "Drama",
+      "History",
+      "Thriller"
     ],
-    "rate": 0,
+    "rate": 9.3,
     "language": {
       "es": {
-        "title": "",
-        "genre": []
+        "title": "Chernobyl",
+        "description": "En abril de 1986, una explosión en la central nuclear de Chernobyl, en la Unión Soviética, se convirtió en una de las mayores catástrofes creadas por la humanidad de la historia.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNTdkN2QwMDItMDVhNS00ZjFiLWEzNTctMzY5ODQzYWNkMDllXkEyXkFqcGdeQXVyMTMzNDExODE5._V1_FMjpg_UY2250_.jpg",
+        "genre": [
+          "Drama",
+          "Historia",
+          "Suspenso"
+        ]
       },
       "pt": {
-        "title": "",
-        "genre": []
+        "title": "Chernobyl",
+        "description": "Minissérie em cinco partes que conta a história do pior acidente causado pelo homem na história, o desastre da Usina Nuclear de Chernobyl.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BOGEyZDU5ZDAtMGQzYy00ZjhkLTkwM2EtODRkZTUwN2RjMzAzXkEyXkFqcGdeQXVyMTMxMDYyNjYx._V1_FMjpg_UY2160_.jpg",
+        "genre": [
+          "Drama",
+          "História",
+          "Suspense"
+        ]
+      }
+    }
+  },
+  {
+    "id": "c86373e1-7265-4d41-9ce8-8870c9e6d73a",
+    "title": "Avatar: The Last Airbender",
+    "description": "In a war-torn world of elemental magic, a young boy reawakens to undertake a dangerous mystic quest to fulfill his destiny as the Avatar, and bring peace to the world.",
+    "started": 2005,
+    "ended": 2008,
+    "seasons": 3,
+    "episodes": 62,
+    "poster": "https://m.media-amazon.com/images/M/MV5BODc5YTBhMTItMjhkNi00ZTIxLWI0YjAtNTZmOTY0YjRlZGQ0XkEyXkFqcGdeQXVyODUwNjEzMzg@._V1_FMjpg_UX679_.jpg",
+    "genre": [
+      "Animation",
+      "Action",
+      "Adventure"
+    ],
+    "rate": 9.3,
+    "language": {
+      "es": {
+        "title": "Avatar. La leyenda de Aang",
+        "description": "En un mundo de magia desgarrado por la guerra, un niño vuelve a despertar para emprender una peligrosa búsqueda mística para cumplir su destino como el Avatar, y traer paz al mundo.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYmI1OGI2MzYtMTViMS00MWU5LThiZGMtZDYyN2E4ZWJjNTBmXkEyXkFqcGdeQXVyMTAyOTE2ODg0._V1_FMjpg_UX902_.jpg",
+        "genre": [
+          "Animación",
+          "Acción",
+          "Aventura"
+        ]
+      },
+      "pt": {
+        "title": "Avatar: A Lenda de Aang",
+        "description": "Num mundo em guerra por um elemento, um jovem pega a dificil tarefa de se tornar num Avatar e savar ao mundo.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BODc5YTBhMTItMjhkNi00ZTIxLWI0YjAtNTZmOTY0YjRlZGQ0XkEyXkFqcGdeQXVyODUwNjEzMzg@._V1_FMjpg_UX679_.jpg",
+        "genre": [
+          "Animação",
+          "Ação",
+          "Aventura"
+        ]
+      }
+    }
+  },
+  {
+    "id": "3d3a4458-ceb1-453c-8c81-03329bdf181e",
+    "title": "Cosmos: A Spacetime Odyssey",
+    "description": "An exploration of our discovery of the laws of nature and coordinates in space and time.",
+    "started": 2014,
+    "ended": 2014,
+    "seasons": 1,
+    "episodes": 13,
+    "poster": "https://m.media-amazon.com/images/M/MV5BZTk5OTQyZjYtMDk3Yy00YjhmLWE2MTYtZmY4NTg1YWUzZTQ0XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX600_.jpg",
+    "genre": [
+      "Documentary"
+    ],
+    "rate": 9.3,
+    "language": {
+      "es": {
+        "title": "Cosmos",
+        "description": "Una exploración de los descubrimientos de las leyes de la naturaleza en el espacio y el tiempo.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZTk5OTQyZjYtMDk3Yy00YjhmLWE2MTYtZmY4NTg1YWUzZTQ0XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX600_.jpg",
+        "genre": [
+          "Documental"
+        ]
+      },
+      "pt": {
+        "title": "Cosmos: Uma Odisseia do Espaço-Tempo",
+        "description": "Uma exploração das descobertas das leis da natureza no espaço e no tempo.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZTk5OTQyZjYtMDk3Yy00YjhmLWE2MTYtZmY4NTg1YWUzZTQ0XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX600_.jpg",
+        "genre": [
+          "Documentário"
+        ]
+      }
+    }
+  },
+  {
+    "id": "be61f804-8f37-4086-8da1-00693b630086",
+    "title": "Game of Thrones",
+    "description": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for a millennia.",
+    "started": 2011,
+    "ended": 2019,
+    "seasons": 8,
+    "episodes": 73,
+    "poster": "https://m.media-amazon.com/images/M/MV5BN2IzYzBiOTQtNGZmMi00NDI5LTgxMzMtN2EzZjA1NjhlOGMxXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "rate": 9.2,
+    "language": {
+      "es": {
+        "title": "Game of Thrones",
+        "description": "Nueve familias de la nobleza luchan por el control de las místicas tierras de Westeros, mientras tanto un viejo enemigo regresa después de miles de años de estar oculto.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BN2IzYzBiOTQtNGZmMi00NDI5LTgxMzMtN2EzZjA1NjhlOGMxXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg",
+        "genre": [
+          "Acción",
+          "Aventura",
+          "Drama"
+        ]
+      },
+      "pt": {
+        "title": "Game of Thrones",
+        "description": "Nove famílias nobres lutam pelo controle sobre as terras míticas de Westeros, enquanto um antigo inimigo retorna depois de estar adormecido por milhares de anos.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BN2IzYzBiOTQtNGZmMi00NDI5LTgxMzMtN2EzZjA1NjhlOGMxXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg",
+        "genre": [
+          "Ação",
+          "Aventura",
+          "Drama"
+        ]
+      }
+    }
+  },
+  {
+    "id": "5f58a983-dc6a-43f2-b159-08fecf470f29",
+    "title": "Fullmetal Alchemist: Brotherhood",
+    "description": "Two brothers search for a Philosopher's Stone after an attempt to revive their deceased mother goes awry and leaves them in damaged physical forms.",
+    "started": 2009,
+    "ended": 2010,
+    "seasons": 1,
+    "episodes": 68,
+    "poster": "https://m.media-amazon.com/images/M/MV5BZmEzN2YzOTItMDI5MS00MGU4LWI1NWQtOTg5ZThhNGQwYTEzXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX1143_.jpg",
+    "genre": [
+      "Animation",
+      "Action",
+      "Adventure"
+    ],
+    "rate": 9.1,
+    "language": {
+      "es": {
+        "title": "Fullmetal Alchemist: Brotherhood",
+        "description": "Dos hermanos buscan la Piedra Filosofal, después de que un intento de revivir a su madre fallecida sale mal y los deja en formas físicas dañadas.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZmEzN2YzOTItMDI5MS00MGU4LWI1NWQtOTg5ZThhNGQwYTEzXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX1143_.jpg",
+        "genre": [
+          "Animación",
+          "Acción",
+          "Aventura"
+        ]
+      },
+      "pt": {
+        "title": "Fullmetal Alchemist: Brotherhood",
+        "description": "Dois irmãos buscam uma pedra filosofal depois que uma tentativa de reviver sua falecida mãe se desfaz e os deixa em formas físicas danificadas.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZmEzN2YzOTItMDI5MS00MGU4LWI1NWQtOTg5ZThhNGQwYTEzXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX1143_.jpg",
+        "genre": [
+          "Animação",
+          "Ação",
+          "Aventura"
+        ]
+      }
+    }
+  },
+  {
+    "id": "61053138-a146-46b7-8181-e2cf140b1700",
+    "title": "Attack on Titan",
+    "description": "After his hometown is destroyed and is traumatized, young Eren Jaeger vows to cleanse the earth of the giant humanoid Titans that have brought humanity to the brink of extinction.",
+    "started": 2013,
+    "ended": 2023,
+    "seasons": 4,
+    "episodes": 98,
+    "poster": "https://m.media-amazon.com/images/M/MV5BNDFjYTIxMjctYTQ2ZC00OGQ4LWE3OGYtNDdiMzNiNDZlMDAwXkEyXkFqcGdeQXVyNzI3NjY3NjQ@._V1_FMjpg_UX889_.jpg",
+    "genre": [
+      "Animation",
+      "Action",
+      "Adventure"
+    ],
+    "rate": 9.1,
+    "language": {
+      "es": {
+        "title": "Attack on Titan",
+        "description": "Tras la destrucción de su pueblo y la muerte de su madre, el joven Eren Yeagar promete limpiar la tierra de los titanes humanoides que han llevado a la extinción de la humanidad.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNDFjYTIxMjctYTQ2ZC00OGQ4LWE3OGYtNDdiMzNiNDZlMDAwXkEyXkFqcGdeQXVyNzI3NjY3NjQ@._V1_FMjpg_UX889_.jpg",
+        "genre": [
+          "Animación",
+          "Acción",
+          "Aventura"
+        ]
+      },
+      "pt": {
+        "title": "Ataque dos Titãs",
+        "description": "Depois que sua cidade é destruída e sua mãe é morta, um jovem promete limpar a terra dos humanóides que levaram a humanidade à beira da extinção.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNDFjYTIxMjctYTQ2ZC00OGQ4LWE3OGYtNDdiMzNiNDZlMDAwXkEyXkFqcGdeQXVyNzI3NjY3NjQ@._V1_FMjpg_UX889_.jpg",
+        "genre": [
+          "Animação",
+          "Ação",
+          "Aventura"
+        ]
+      }
+    }
+  },
+  {
+    "id": "3018f554-6850-4632-9e57-0d5d3342d8fd",
+    "title": "The Office",
+    "description": "A mockumentary on a group of typical office workers, where the workday consists of ego clashes, inappropriate behavior, and tedium.",
+    "started": 2005,
+    "ended": 2013,
+    "seasons": 9,
+    "episodes": 188,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMDNkOTE4NDQtMTNmYi00MWE0LWE4ZTktYTc0NzhhNWIzNzJiXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_FMjpg_UY1922_.jpg",
+    "genre": [
+      "Comedy"
+    ],
+    "rate": 9,
+    "language": {
+      "es": {
+        "title": "La oficina",
+        "description": "Un falso documental sobre un atípico grupo de una oficina donde el trabajo de casa día consiste en confrontaciones de ego, comportamiento inapropiado y el aburrimiento.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMDNkOTE4NDQtMTNmYi00MWE0LWE4ZTktYTc0NzhhNWIzNzJiXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_FMjpg_UY1922_.jpg",
+        "genre": [
+          "Comedia"
+        ]
+      },
+      "pt": {
+        "title": "Vida de Escritório",
+        "description": "Um mockumentary sobre um grupo de trabalhadores de escritório, onde o dia de trabalho consiste em conflitos de ego e comportamento inadequado.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMDNkOTE4NDQtMTNmYi00MWE0LWE4ZTktYTc0NzhhNWIzNzJiXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_FMjpg_UY1922_.jpg",
+        "genre": [
+          "Comédia"
+        ]
+      }
+    }
+  },
+  {
+    "id": "19cba98d-b64c-4ac2-96a3-1c17221f2606",
+    "title": "Succession",
+    "description": "The Roy family is known for controlling the biggest media and entertainment company in the world. However, their world changes when their father steps down from the company.",
+    "started": 2018,
+    "ended": 2023,
+    "seasons": 4,
+    "episodes": 39,
+    "poster": "https://m.media-amazon.com/images/M/MV5BODY5YjA3ZDgtM2EwYy00ZGVmLWFhNWItMTMxMWRkMWFiOTlkXkEyXkFqcGdeQXVyMTMzNDExODE5._V1_FMjpg_UX1064_.jpg",
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "rate": 8.9,
+    "language": {
+      "es": {
+        "title": "Succession",
+        "description": "Relata la vida de una familia multimillonaria que tienen todo lo que ansían, salvo vida familiar. Su objetivo principal es hacer que el imperio crezca y, para ello, las lealtades se pondrán en juego.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BODY5YjA3ZDgtM2EwYy00ZGVmLWFhNWItMTMxMWRkMWFiOTlkXkEyXkFqcGdeQXVyMTMzNDExODE5._V1_FMjpg_UX1064_.jpg",
+        "genre": [
+          "Comedia",
+          "Drama"
+        ]
+      },
+      "pt": {
+        "title": "Succession",
+        "description": "Segue a vida duma disfuncional familia americana.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNWI5ZjA1NmUtNGExNy00NTRlLTg5MjEtOTY5MGU0Y2Q0YmJjXkEyXkFqcGdeQXVyNDU2MjE4NzA@._V1_FMjpg_UX750_.jpg",
+        "genre": [
+          "Comédia",
+          "Drama"
+        ]
+      }
+    }
+  },
+  {
+    "id": "1ec5090f-6ebc-4aad-bbeb-033a323f897f",
+    "title": "Friends",
+    "description": "Follows the personal and professional lives of six twenty to thirty year-old friends living in the Manhattan borough of New York City.",
+    "started": 1994,
+    "ended": 2004,
+    "seasons": 10,
+    "episodes": 234,
+    "poster": "https://m.media-amazon.com/images/M/MV5BNDVkYjU0MzctMWRmZi00NTkxLTgwZWEtOWVhYjZlYjllYmU4XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX680_.jpg",
+    "genre": [
+      "Comedy",
+      "Romance"
+    ],
+    "rate": 8.9,
+    "language": {
+      "es": {
+        "title": "Friends",
+        "description": "Trata la vida personal y profesional de seis amigos en sus treinta y tantos años viviendo en Manhattan.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNDVkYjU0MzctMWRmZi00NTkxLTgwZWEtOWVhYjZlYjllYmU4XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX680_.jpg",
+        "genre": [
+          "Comedia",
+          "Romance"
+        ]
+      },
+      "pt": {
+        "title": "Friends",
+        "description": "Relata a vida pessoal de seis amigos em seus 30's na cidade de Manhattan",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNDVkYjU0MzctMWRmZi00NTkxLTgwZWEtOWVhYjZlYjllYmU4XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX680_.jpg",
+        "genre": [
+          "Comédia",
+          "Romance"
+        ]
+      }
+    }
+  },
+  {
+    "id": "627ed70b-5bdd-4595-b929-7d7ed30d0abd",
+    "title": "Peaky Blinders",
+    "description": "A gangster family epic set in 1900s England, centering on a gang who sew razor blades in the peaks of their caps, and their fierce boss Tommy Shelby.",
+    "started": 2013,
+    "ended": 2022,
+    "seasons": 6,
+    "episodes": 36,
+    "poster": "https://m.media-amazon.com/images/M/MV5BZjYzZDgzMmYtYjY5Zi00YTk1LThhMDYtNjFlNzM4MTZhYzgyXkEyXkFqcGdeQXVyMTE5NDQ1MzQ3._V1_FMjpg_UY1814_.jpg",
+    "genre": [
+      "Crime",
+      "Drama"
+    ],
+    "rate": 8.8,
+    "language": {
+      "es": {
+        "title": "Peaky Blinders",
+        "description": "Trata de una familia de la mafia de 1919 en Birmingham, Inglaterra que cosía cuchillas de rasurar y su intenso jefe, Tommy Shelby.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZjYzZDgzMmYtYjY5Zi00YTk1LThhMDYtNjFlNzM4MTZhYzgyXkEyXkFqcGdeQXVyMTE5NDQ1MzQ3._V1_FMjpg_UY1814_.jpg",
+        "genre": [
+          "Crimen",
+          "Drama"
+        ]
+      },
+      "pt": {
+        "title": "Peaky Blinders: Sangue, Apostas e Navalhas",
+        "description": "Depois de servir no Exército, Thomas Shelby e seus irmãos voltam para controlar a cidade, mas, conforme as ambições de Shelby se estendem, ele planeja construir seu próprio negócio e impedir qualquer um que atrapalhe.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZjYzZDgzMmYtYjY5Zi00YTk1LThhMDYtNjFlNzM4MTZhYzgyXkEyXkFqcGdeQXVyMTE5NDQ1MzQ3._V1_FMjpg_UY1814_.jpg",
+        "genre": [
+          "Policial",
+          "Drama"
+        ]
+      }
+    }
+  },
+  {
+    "id": "3ae3b3dd-aa67-4d89-bdbe-a40083452ca1",
+    "title": "Dark",
+    "description": "A family saga with a supernatural twist, set in a German town where the disappearance of two young children exposes the relationships among four families.",
+    "started": 2017,
+    "ended": 2020,
+    "seasons": 3,
+    "episodes": 26,
+    "poster": "https://m.media-amazon.com/images/M/MV5BOTk2NzUyOTctZDdlMS00MDJlLTgzNTEtNzQzYjFhNjA0YjBjXkEyXkFqcGdeQXVyMjg1NDcxNDE@._V1_FMjpg_UY2048_.jpg",
+    "genre": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "rate": 8.7,
+    "language": {
+      "es": {
+        "title": "Dark",
+        "description": "La desaparición de dos adolescentes en un pueblo alemán desata una saga familiar entre cuatro familiar con giros sobrenaturales.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BOTk2NzUyOTctZDdlMS00MDJlLTgzNTEtNzQzYjFhNjA0YjBjXkEyXkFqcGdeQXVyMjg1NDcxNDE@._V1_FMjpg_UY2048_.jpg",
+        "genre": [
+          "Crimen",
+          "Drama",
+          "Misterio"
+        ]
+      },
+      "pt": {
+        "title": "Dark",
+        "description": "Saga familiar sobrenatural ambientada em uma cidade alemã, onde o desaparecimento de duas crianças expõe as relações entre quatro famílias.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BOTk2NzUyOTctZDdlMS00MDJlLTgzNTEtNzQzYjFhNjA0YjBjXkEyXkFqcGdeQXVyMjg1NDcxNDE@._V1_FMjpg_UY2048_.jpg",
+        "genre": [
+          "Policial",
+          "Drama",
+          "Mistério"
+        ]
       }
     }
   }

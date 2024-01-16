@@ -9,8 +9,7 @@ export class MovieController {
     const { genre, year, lang } = req.query
 
     let movies = await MovieModel.getAll()
-    movies = await MovieModel.filterSeries(movies, { genre, year, lang })
-    console.log(movies)
+    movies = await MovieModel.filterMovies(movies, { genre, year })
     movies = translateTo(movies, lang)
 
     res.json(movies)

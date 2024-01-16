@@ -1,0 +1,134 @@
+import crypto from 'node:crypto'
+
+import { translateTo } from '../middleware/translateTo.js'
+import pkg from '../models/serie.cjs'
+const { SerieModel } = pkg
+
+export class SerieController {
+  static async getAll(req, res) {
+    const { genre, year, lang } = req.query
+
+    let series = await SerieModel.getAll()
+    series = await SerieModel.filterSeries(series, { genre, year })
+    console.log(series)
+    series = translateTo(series, lang)
+
+    res.json(series)
+  }
+
+  static async getById(req, res) {
+    const { id } = req.params
+    const serie = await SerieModel.getById({ id })
+
+    if (serie) return res.json(serie)
+    res.status(404).json({ message: 'Serie not found' })
+  }
+
+  static async postSerie(req, res) {
+    const {
+      title,
+      description,
+      year,
+      director,
+      duration,
+      poster,
+      genre,
+      rate
+    } = req.body
+
+    const newSerie = {
+      id: crypto.randomUUID(),
+      title,
+      description,
+      year,
+      director,
+      duration,
+      poster,
+      genre,
+      rate
+    }
+    res.status(201)
+    return res.send(newSerie)
+  }
+
+  static async putSerie(req, res) {
+    const { id } = req.params
+    const serie = await SerieModel.getById({ id })
+
+    if (!serie) {
+      return res.status(404).json({ message: 'Serie not found' })
+    }
+
+    const {
+      title,
+      description,
+      year,
+      director,
+      duration,
+      poster,
+      genre,
+      rate
+    } = req.body
+    if (!title || !description || !year || !director || !duration || !poster || !genre || !rate) {
+      return res.status(400).json({
+        status: 'error',
+        message: 'Required field/s missing.'
+      })
+    }
+    serie.title = title
+    serie.description = description
+    serie.year = +year
+    serie.director = director
+    serie.duration = +duration
+    serie.poster = poster
+    serie.genre = genre
+    serie.rate = +rate
+    return res.send(serie)
+  }
+
+  static async patchSerie(req, res) {
+    const { id } = req.params
+    const serie = await SerieModel.getById({ id })
+
+    if (!serie) {
+      return res.status(404).json({ message: 'Serie not found' })
+    }
+
+    const {
+      title,
+      description,
+      year,
+      director,
+      duration,
+      poster,
+      genre,
+      rate
+    } = req.body
+    if (!title && !description && !year && !director && !duration && !poster && !genre && !rate) {
+      return res.status(400).json({
+        status: 'error',
+        message: 'At least 1 valid parameter must be edited.'
+      })
+    }
+
+    if (title) serie.title = title
+    if (description) serie.description = description
+    if (year) serie.year = +year
+    if (director) serie.director = director
+    if (duration) serie.duration = +duration
+    if (poster) serie.poster = poster
+    if (genre) serie.genre = genre
+    if (rate) serie.rate = +rate
+    return res.send(serie)
+  }
+
+  static async deleteSerie(req, res) {
+    const { id } = req.params
+    const serie = await SerieModel.getById({ id })
+
+    if (!serie) {
+      return res.status(404).json({ message: 'Serie not found.' })
+    }
+    return res.status(200).json({ message: 'Serie deleted succesfully.' })
+  }
+}
