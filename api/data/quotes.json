@@ -1,19 +1,389 @@
 [
   {
     "id": "",
-    "text": "",
-    "author": "",
-    "category": [],
+    "text": "The only people who never fail are those who never try.",
+    "author": "Ilka Chase",
+    "category": [
+      "Motivation",
+      "Fail"
+    ],
     "language": {
       "es": {
-        "text": "",
-        "author": "",
-        "category": []
+        "text": "Las únicas personas que nunca fracasan son las que nunca lo intentan.",
+        "category": [
+          "Motivación",
+          "Fallar"
+        ]
       },
       "pt": {
-        "text": "",
-        "author": "",
-        "category": []
+        "text": "As únicas pessoas que nunca falham são aquelas que nunca tentam.",
+        "category": [
+          "Motivação",
+          "Falhar"
+        ]
+      }
+    }
+  },
+  {
+    "id": "",
+    "text": "Failure is just another way to learn how to do something right.",
+    "author": "Marian Wright Edelman",
+    "category": [
+      "Motivation",
+      "Fail"
+    ],
+    "language": {
+      "es": {
+        "text": "El fracaso es sólo otra forma de aprender a hacer algo bien.",
+        "category": [
+          "Motivación",
+          "Fallar"
+        ]
+      },
+      "pt": {
+        "text": "O fracasso é apenas outra maneira de aprender como fazer algo certo.",
+        "category": [
+          "Motivação",
+          "Falhar"
+        ]
+      }
+    }
+  },
+  {
+    "id": "",
+    "text": "Only those who dare to fail greatly can ever achieve greatly.",
+    "author": "Robert F. Kennedy",
+    "category": [
+      "Motivation",
+      "Fail"
+    ],
+    "language": {
+      "es": {
+        "text": "Sólo aquellos que se atreven a fracasar a lo grande podrán obtener grandes logros.",
+        "category": [
+          "Motivación",
+          "Fallar"
+        ]
+      },
+      "pt": {
+        "text": "Somente aqueles que ousam falhar muito podem alcançar grandes resultados.",
+        "category": [
+          "Motivação",
+          "Falhar"
+        ]
+      }
+    }
+  },
+  {
+    "id": "",
+    "text": "It is hard to fail, but it is worse never to have tried to succeed.",
+    "author": "Theodore Roosevelt",
+    "category": [
+      "Motivation",
+      "Fail"
+    ],
+    "language": {
+      "es": {
+        "text": "Es difícil fracasar, pero es peor no haber intentado nunca tener éxito.",
+        "category": [
+          "Motivación",
+          "Fallar"
+        ]
+      },
+      "pt": {
+        "text": "É difícil falhar, mas é pior nunca ter tentado ter sucesso.",
+        "category": [
+          "Motivação",
+          "Falhar"
+        ]
+      }
+    }
+  },
+  {
+    "id": "",
+    "text": "Imagination is more important than knowledge.",
+    "author": "Albert Einstein",
+    "category": [
+      "Wisdom",
+      "Creativity"
+    ],
+    "language": {
+      "es": {
+        "text": "La imaginación es más importante que el conocimiento.",
+        "category": [
+          "Sabiduría",
+          "Creatividad"
+        ]
+      },
+      "pt": {
+        "text": "Imaginação é mais importante que conhecimento.",
+        "category": [
+          "Sabedoria",
+          "Criatividade"
+        ]
+      }
+    }
+  },
+  {
+    "id": "",
+    "text": "The future belongs to those who believe in the beauty of their dreams.",
+    "author": "Eleanor Roosevelt",
+    "category": [
+      "Motivation",
+      "Dreams"
+    ],
+    "language": {
+      "es": {
+        "text": "El futuro pertenece a quienes creen en la belleza de sus sueños.",
+        "category": [
+          "Motivación",
+          "Sueños"
+        ]
+      },
+      "pt": {
+        "text": "O futuro pertence àqueles que acreditam na beleza dos seus sonhos.",
+        "category": [
+          "Motivação",
+          "Sonhos"
+        ]
+      }
+    }
+  },
+  {
+    "id": "",
+    "text": "Go confidently in the direction of your dreams. Live the life you have imagined.",
+    "author": "Henry David Thoreau",
+    "category": [
+      "Motivation",
+      "Dreams"
+    ],
+    "language": {
+      "es": {
+        "text": "Ve con confianza en dirección de tus sueños. Vive la vida que has imaginado.",
+        "category": [
+          "Motivación",
+          "Sueños"
+        ]
+      },
+      "pt": {
+        "text": "Vá com confiança na direção dos seus sonhos. Viva a Vida que você imaginou.",
+        "category": [
+          "Motivação",
+          "Sonhos"
+        ]
+      }
+    }
+  },
+  {
+    "id": "",
+    "text": "You cannot depend on your eyes when your imagination is out of focus.",
+    "author": "Mark Twain",
+    "category": [
+      "Wisdom",
+      "Creativity"
+    ],
+    "language": {
+      "es": {
+        "text": "No puedes depender de tus ojos cuando tu imaginación está fuera de foco.",
+        "category": [
+          "Sabiduría",
+          "Creatividad"
+        ]
+      },
+      "pt": {
+        "text": "Você não pode depender de seus olhos quando sua imaginação está fora de foco.",
+        "category": [
+          "Sabedoria",
+          "Criatividade"
+        ]
+      }
+    }
+  },
+  {
+    "id": "",
+    "text": "Commitment leads to action. Action brings your dream closer.",
+    "author": "Marcia Wieder",
+    "category": [
+      "Motivation",
+      "Dreams"
+    ],
+    "language": {
+      "es": {
+        "text": "El compromiso lleva a la acción. La acción acerca tu sueño.",
+        "category": [
+          "Motivación",
+          "Sueños"
+        ]
+      },
+      "pt": {
+        "text": "O compromisso leva à ação. A ação aproxima seu sonho.",
+        "category": [
+          "Motivação",
+          "Sonhos"
+        ]
+      }
+    }
+  },
+  {
+    "id": "",
+    "text": "Don't waste your life in doubts and fears: Spend yourself on the work before you, well assured that the right performance of this hour's duties will be the best preparation for the hours or ages that follow it.",
+    "author": "Ralph Waldo Emerson",
+    "category": [
+      "Motivation",
+      "Fear"
+    ],
+    "language": {
+      "es": {
+        "text": "No desperdicies tu vida en dudas y miedos: dedícate al trabajo que tienes por delante, con la seguridad de que el correcto desempeño de los deberes de esta hora será la mejor preparación para las horas o edades siguientes.",
+        "category": [
+          "Motivación",
+          "Miedo"
+        ]
+      },
+      "pt": {
+        "text": "Não desperdice a sua vida em dúvidas e medos: dedique-se ao trabalho que tem pela frente, com a certeza de que o bom desempenho dos deveres desta hora será a melhor preparação para as horas ou idades que se seguem.",
+        "category": [
+          "Motivação",
+          "Medo"
+        ]
+      }
+    }
+  },
+  {
+    "id": "",
+    "text": "Do not anticipate trouble or worry about what may never happen. Keep in the sunlight.",
+    "author": "Benjamin Franklin",
+    "category": [
+      "Motivation",
+      "Fear"
+    ],
+    "language": {
+      "es": {
+        "text": "No anticipe problemas ni se preocupe por lo que tal vez nunca suceda. Mantenente a la luz del sol.",
+        "category": [
+          "Motivación",
+          "Miedo"
+        ]
+      },
+      "pt": {
+        "text": "Não antecipe problemas nem se preocupe com o que pode nunca acontecer. Mantenha-se ao sol.",
+        "category": [
+          "Motivação",
+          "Medo"
+        ]
+      }
+    }
+  },
+  {
+    "id": "",
+    "text": "The art of leadership is saying no, not yes. It is very easy to say yes.",
+    "author": "Tony Blair",
+    "category": [
+      "Lidership"
+    ],
+    "language": {
+      "es": {
+        "text": "El arte del liderazgo es decir no, no sí. Es muy fácil decir que sí.",
+        "category": [
+          "Liderazgo"
+        ]
+      },
+      "pt": {
+        "text": "A arte da liderança é dizer não, não sim. É muito fácil dizer sim.",
+        "category": [
+          "Liderança"
+        ]
+      }
+    }
+  },
+  {
+    "id": "",
+    "text": "While a good leader sustains momentum, a great leader increases it.",
+    "author": "John C. Maxwell",
+    "category": [
+      "Lidership"
+    ],
+    "language": {
+      "es": {
+        "text": "Mientras un buen líder mantiene el impulso, un gran líder lo aumenta.",
+        "category": [
+          "Liderazgo"
+        ]
+      },
+      "pt": {
+        "text": "Enquanto um bom líder mantém o impulso, um grande líder o aumenta.",
+        "category": [
+          "Liderança"
+        ]
+      }
+    }
+  },
+  {
+    "id": "",
+    "text": "Every artist was first an amateur.",
+    "author": "Ralph Waldo Emerson",
+    "category": [
+      "Motivation",
+      "Artist"
+    ],
+    "language": {
+      "es": {
+        "text": "Todo artista fue primero un aficionado.",
+        "category": [
+          "Motivación",
+          "Artista"
+        ]
+      },
+      "pt": {
+        "text": "Todo artista foi primeiro um amador.",
+        "category": [
+          "Motivação",
+          "Artista"
+        ]
+      }
+    }
+  },
+  {
+    "id": "",
+    "text": "I was always looking outside myself for strength and confidence, but it comes from within. It is there all of the time.",
+    "author": "Anna Freud",
+    "category": [
+      "Motivation"
+    ],
+    "language": {
+      "es": {
+        "text": "Siempre busqué fuerza y confianza fuera de mí, pero viene de dentro. Está ahí todo el tiempo.",
+        "category": [
+          "Motivación"
+        ]
+      },
+      "pt": {
+        "text": "Sempre procurei força e confiança fora de mim, mas isso vem de dentro. Está lá o tempo todo.",
+        "category": [
+          "Motivação"
+        ]
+      }
+    }
+  },
+  {
+    "id": "",
+    "text": "We can do anything we want to do if we stick to it long enough.",
+    "author": "Helen Keller",
+    "category": [
+      "Motivation"
+    ],
+    "language": {
+      "es": {
+        "text": "Podemos hacer cualquier cosa que queramos si nos atenemos a ello el tiempo suficiente.",
+        "category": [
+          "Motivación"
+        ]
+      },
+      "pt": {
+        "text": "Podemos fazer qualquer coisa que quisermos se persistirmos por tempo suficiente.",
+        "category": [
+          "Motivação"
+        ]
       }
     }
   }
