@@ -1,10 +1,10 @@
-export const translateTo = (inputJsonArray, language) => {
+export const translateTo = (input, language) => {
   let translatableLanguage = false
 
-  if (inputJsonArray instanceof Array) {
-    if (language && language in inputJsonArray[0].language) { translatableLanguage = true }
+  if (input instanceof Array) {
+    if (language && language in input[0].language) { translatableLanguage = true }
 
-    const translatedArray = inputJsonArray.map(inputJson => {
+    const translatedArray = input.map(inputJson => {
       const translatedJson = { ...inputJson }
 
       if (translatableLanguage === true) {
@@ -22,12 +22,12 @@ export const translateTo = (inputJsonArray, language) => {
 
     return translatedArray
   }
-  if (language && language in inputJsonArray.language) { translatableLanguage = true }
+  if (language && language in input.language) { translatableLanguage = true }
 
-  const translatedJson = { ...inputJsonArray }
+  const translatedJson = { ...input }
 
   if (translatableLanguage === true) {
-    const translatedValues = inputJsonArray.language[language]
+    const translatedValues = input.language[language]
 
     for (const key in translatedValues) {
       if (translatedValues.hasOwnProperty(key) && translatedJson.hasOwnProperty(key)) {

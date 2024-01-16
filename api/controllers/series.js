@@ -27,9 +27,10 @@ export class SerieController {
     const {
       title,
       description,
-      year,
-      director,
-      duration,
+      started,
+      ended,
+      seasons,
+      episodes,
       poster,
       genre,
       rate
@@ -39,9 +40,10 @@ export class SerieController {
       id: crypto.randomUUID(),
       title,
       description,
-      year,
-      director,
-      duration,
+      started,
+      ended,
+      seasons,
+      episodes,
       poster,
       genre,
       rate
@@ -61,14 +63,15 @@ export class SerieController {
     const {
       title,
       description,
-      year,
-      director,
-      duration,
+      started,
+      ended,
+      seasons,
+      episodes,
       poster,
       genre,
       rate
     } = req.body
-    if (!title || !description || !year || !director || !duration || !poster || !genre || !rate) {
+    if (!title || !description || !started || !ended || !seasons || !episodes || !poster || !genre || !rate) {
       return res.status(400).json({
         status: 'error',
         message: 'Required field/s missing.'
@@ -76,9 +79,10 @@ export class SerieController {
     }
     serie.title = title
     serie.description = description
-    serie.year = +year
-    serie.director = director
-    serie.duration = +duration
+    serie.started = +started
+    serie.ended = ended
+    serie.seasons = +seasons
+    serie.episodes = +episodes
     serie.poster = poster
     serie.genre = genre
     serie.rate = +rate
@@ -96,14 +100,15 @@ export class SerieController {
     const {
       title,
       description,
-      year,
-      director,
-      duration,
+      started,
+      ended,
+      seasons,
+      episodes,
       poster,
       genre,
       rate
     } = req.body
-    if (!title && !description && !year && !director && !duration && !poster && !genre && !rate) {
+    if (!title && !description && !started && !ended && !seasons && !episodes && !poster && !genre && !rate) {
       return res.status(400).json({
         status: 'error',
         message: 'At least 1 valid parameter must be edited.'
@@ -112,9 +117,10 @@ export class SerieController {
 
     if (title) serie.title = title
     if (description) serie.description = description
-    if (year) serie.year = +year
-    if (director) serie.director = director
-    if (duration) serie.duration = +duration
+    if (started) serie.started = +started
+    if (ended) serie.ended = ended
+    if (seasons) serie.seasons = +seasons
+    if (episodes) serie.episodes = +episodes
     if (poster) serie.poster = poster
     if (genre) serie.genre = genre
     if (rate) serie.rate = +rate

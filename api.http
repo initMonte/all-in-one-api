@@ -94,11 +94,12 @@ POST http://localhost:1234/series
 Content-Type: application/json
 
 {
-  "title": "Peli prueba",
+  "title": "Serie prueba",
   "description": "asdasd",
-  "year": 1234,
-  "director": "YO",
-  "duration": 1,
+  "started": 1234,
+  "ended": 4444,
+  "seasons": 1,
+  "episodes": 44,
   "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmJR_cyT0wMJLZILBMx9MpHSf8XjDfkckvSQ&usqp=CAU",
   "genre": [
     "Action",
@@ -112,11 +113,12 @@ PUT http://localhost:1234/series/be61f804-8f37-4086-8da1-00693b630086
 Content-Type: application/json
 
 {
-  "title": "Peli prueba",
+  "title": "Serie prueba",
   "description": "asdasd",
-  "year": 1234,
-  "director": "YO",
-  "duration": 1,
+  "started": 1234,
+  "ended": 4444,
+  "seasons": 1,
+  "episodes": 44,
   "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmJR_cyT0wMJLZILBMx9MpHSf8XjDfkckvSQ&usqp=CAU",
   "genre": [
     "Action",
@@ -125,15 +127,16 @@ Content-Type: application/json
   "rate": 1.1
 }
 
+
 ### PATCH Movie by ID
 PATCH http://localhost:1234/series/be61f804-8f37-4086-8da1-00693b630086
 Content-Type: application/json
 
 {
   "year": 1234,
-  "director": "YO",
-  "duration": 1,
-  "rate": 1.1
+  "diasd": "asd",
+  "daasdasd": 123,
+  "genre": ["asd", 132]
 }
 
 ### DELETE Movie by ID
