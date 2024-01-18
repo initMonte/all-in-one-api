@@ -11,12 +11,14 @@ pagesRouter.get('/', (req, res) => {
   res.end(home)
 })
 pagesRouter.get('/docs', (req, res) => {
-  const docs = fs.readFileSync('api/pages/docs.html')
+  const file = path.join(process.cwd(), 'api/pages', 'docs.html')
+  const docs = fs.readFileSync(file)
   res.writeHead(200, { 'Content-Type': 'text/html' })
   res.end(docs)
 })
 pagesRouter.get('/*', (req, res) => {
-  const notFound = fs.readFileSync('api/pages/notFound.html')
+  const file = path.join(process.cwd(), 'api/pages', 'hotFound.html')
+  const notFound = fs.readFileSync(file)
   res.writeHead(200, { 'Content-Type': 'text/html' })
   res.end(notFound)
 })
