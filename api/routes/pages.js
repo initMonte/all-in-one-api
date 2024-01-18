@@ -4,7 +4,7 @@ import fs from 'node:fs'
 export const pagesRouter = Router()
 
 pagesRouter.get('/', (req, res) => {
-  const home = fs.readFileSync('apí/pages/home.html')
+  const home = fs.readFileSync('api/pages/home.html')
   res.end(home)
 })
 pagesRouter.get('/docs', (req, res) => {
