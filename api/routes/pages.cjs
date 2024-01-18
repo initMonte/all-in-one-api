@@ -17,7 +17,7 @@ pagesRouter.get('/docs', (req, res) => {
   res.end(docs)
 })
 pagesRouter.get('/*', (req, res) => {
-  const file = path.join(process.cwd(), 'api/pages', 'hotFound.html')
+  const file = path.join(process.cwd(), 'api/pages', 'notFound.html')
   const notFound = fs.readFileSync(file)
   res.writeHead(200, { 'Content-Type': 'text/html' })
   res.end(notFound)
