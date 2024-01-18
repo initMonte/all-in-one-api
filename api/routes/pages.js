@@ -1,13 +1,17 @@
 import { Router } from 'express'
+import fs from 'node:fs'
 
 export const pagesRouter = Router()
 
 pagesRouter.get('/', (req, res) => {
-  res.sendFile('api/pages/home.html', { root: '.' })
+  const home = fs.readFileSync('apí/pages/home.html')
+  res.end(home)
 })
 pagesRouter.get('/docs', (req, res) => {
-  res.sendFile('api/pages/docs.html', { root: '.' })
+  const docs = fs.readFileSync('api/pages/docs.html')
+  res.end(docs)
 })
 pagesRouter.get('/*', (req, res) => {
-  res.sendFile('api/pages/notFound.html', { root: '.' })
+  const notFound = fs.readFileSync('api/pages/notFound.html')
+  res.end(notFound)
 })
