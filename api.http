@@ -196,3 +196,63 @@ Content-Type: application/json
 
 ### DELETE Quote by ID
 DELETE http://localhost:1234/quotes/440bcfeb-2a06-4fd2-a4ef-2107636b6e96
+
+/////////////////////
+/////////////////////
+/////////////////////
+/////////////////////
+/////////////////////
+/////////////////////
+
+### GET all Quotes
+GET http://localhost:1234/books
+
+### GET Quotes with genre
+GET http://localhost:1234/books?author=Jane&lang=es
+
+### GET Quote by ID
+GET http://localhost:1234/books/67a6301c-e9ee-432e-8f1a-d48f1d03f89b?lang=es
+
+### POST Quote
+POST http://localhost:1234/books
+Content-Type: application/json
+
+{
+  "title": "Cita prueba",
+  "description": "asdasd",
+  "year": 123,
+  "author": "a",
+  "img": "asd",
+  "genre": [
+    "asd",
+    "dasdas"
+  ]
+}
+
+### PUT Quote by ID
+PUT http://localhost:1234/books/67a6301c-e9ee-432e-8f1a-d48f1d03f89b
+Content-Type: application/json
+
+{
+  "title": "Cita prueba",
+  "description": "asdasd",
+  "year": 123,
+  "author": "a",
+  "img": "asd",
+  "genre": [
+    "asd",
+    "dasdas"
+  ]
+}
+
+
+### PATCH Quote by ID
+PATCH http://localhost:1234/books/67a6301c-e9ee-432e-8f1a-d48f1d03f89b
+Content-Type: application/json
+
+{
+  "author": "asdasd"
+}
+
+### DELETE Quote by ID
+DELETE http://localhost:1234/books/67a6301c-e9ee-432e-8f1a-d48f1d03f89b

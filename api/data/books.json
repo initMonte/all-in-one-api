@@ -1,70 +1,180 @@
 [
   {
-    "id": "",
-    "title": "",
-    "description": "",
-    "author": "",
-    "year": 0,
-    "img": "",
+    "id": "23a33225-f7af-4c38-98bc-51aecf39bf20",
+    "title": "One Hundred Years of Solitude",
+    "description": "This novel is a multi-generational saga that focuses on the Buendía family, who founded the fictional town of Macondo. It explores themes of love, loss, family, and the cyclical nature of history. The story is filled with magical realism, blending the supernatural with the ordinary, as it chronicles the family's experiences, including civil war, marriages, births, and deaths. The book is renowned for its narrative style and its exploration of solitude, fate, and the inevitability of repetition in history.",
+    "author": "Gabriel García Márquez",
+    "year": 1967,
+    "img": "https://thegreatestbooks.club/3jx639wkwk8xq18chslnzx4vd0pi",
     "genre": [
-      "",
-      "",
-      ""
+      "Fiction"
     ],
     "language": {
       "es": {
-        "title": "",
-        "description": "",
-        "img": "",
+        "title": "Cien Años De Soledad",
+        "description": "Muchos años después, frente al pelotón de fusilamiento, el coronel Aureliano Buendía había de recordar aquella tarde remota en que su padre lo llevó a conocer el hielo. Con estas palabras empieza una novela ya legendaria en los anales de la literatura universal, una de las aventuras literarias más fascinantes del siglo XX. Millones de ejemplares de este título leídos en todas las lenguas y el premio Nobel de literatura coronando una obra que se había abierto paso «boca a boca» -como gusta decir el escritor- son la más palpable demostración de que la aventura fabulosa de la familia Buendía-Iguarán, con sus milagros, fantasías, obsesiones, tragedias, incestos, adulterios, rebeldías, descubrimientos y condenas, representaba al mismo tiempo el mito y la historia, la tragedia y el amor del mundo entero.",
+        "img": "https://cdn.agapea.com/Debolsillo/Cien-anos-de-soledad-i6n66640.jpg",
         "genre": [
-          "",
-          "",
-          ""
+          "Ficción"
         ]
       },
       "pt": {
-        "title": "",
-        "description": "",
-        "img": "",
+        "title": "Cem Anos de Solidão",
+        "description": "A narrativa é passada na aldeia fictícia de Macondo e segue várias gerações da família Buendía–Iguarána, explorando temas como a memória e o esquecimento.Considerado o expoente máximo do realismo mágico, o livro combina a árvore genealógica da família com inúmeros acontecimentos fantásticos que aconteciam na região e são relatados com enorme naturalidade.",
+        "img": "https://cdn.culturagenial.com/imagens/cem-anos-de-solidao-cke.jpg",
         "genre": [
-          "",
-          "",
-          ""
+          "Ficção"
         ]
       }
     }
   },
   {
-    "id": "",
-    "title": "",
-    "description": "",
-    "author": "",
-    "year": 0,
-    "img": "",
+    "id": "df26c5ad-0316-47a1-9907-1b13241ce74b",
+    "title": "The Divine Comedy",
+    "description": "In this epic poem, the protagonist embarks on an extraordinary journey through Hell (Inferno), Purgatory (Purgatorio), and Paradise (Paradiso). Guided by the ancient Roman poet Virgil and his beloved Beatrice, he encounters various historical and mythological figures in each realm, witnessing the eternal consequences of earthly sins and virtues. The journey serves as an allegory for the soul's progression towards God, offering profound insights into the nature of good and evil, free will, and divine justice.",
+    "author": "Dante Alighieri",
+    "year": 1301,
+    "img": "https://thegreatestbooks.club/a6mt6a2926cmpd1d501ingjh4b14",
     "genre": [
-      "",
-      "",
-      ""
+      "Fiction",
+      "Poetry"
     ],
     "language": {
       "es": {
-        "title": "",
-        "description": "",
-        "img": "",
+        "title": "La divina comedia",
+        "description": "Este vasto poema en tres partes presenta alegóricamente el itinerario del alma, desde las torturas del Infierno al Purgatorio y a las cumbres del Paraíso.",
+        "img": "https://cdn.agapea.com/Sial-Ediciones/La-divina-comedia-i6n7403773.jpg",
         "genre": [
-          "",
-          "",
-          ""
+          "Ficción",
+          "Poesia"
         ]
       },
       "pt": {
-        "title": "",
-        "description": "",
-        "img": "",
+        "title": "A Divina Comédia",
+        "description": "O poema renascentista, de inspiração épica e temática religiosa, está dividido em três partes, que correspondem aos três espaços do pós-vida: Inferno, Purgatório e Paraíso. O protagonista da narrativa é o próprio Dante, que atravessa os três locais e conversa com várias figuras que faziam parte da sua vida ou do seu imaginário.",
+        "img": "https://cdn.culturagenial.com/imagens/a-divina-comedia-cke.jpg",
         "genre": [
-          "",
-          "",
-          ""
+          "Ficção",
+          "Poesia"
+        ]
+      }
+    }
+  },
+  {
+    "id": "747c30b2-23d6-4892-9b88-51fd7edba8f5",
+    "title": "1984",
+    "description": "The most famous dystopian novel of all time, 1984 is the story of Winston Smith as he struggles to survive in the sinister world of Big Brother.",
+    "author": "George Orwell",
+    "year": 1949,
+    "img": "https://ik.imagekit.io/panmac/tr:f-auto,di-placeholder_portrait_aMjPtD9YZ.jpg,w-171/edition/9781529032666.jpg",
+    "genre": [
+      "Sci-Fi"
+    ],
+    "language": {
+      "es": {
+        "title": "1984",
+        "description": "En el mundo de 1984, los autócratas sin escrúpulos se aferran al poder por el poder mismo, la historia se inventa a diario y las masas perviven en la ignorancia de los hechos más elementales. No solo se falta sistemáticamente a la verdad, sino que el lenguaje público se reduce a su mínima expresión, una avalancha de consignas breves e inanes, orientadas a fabricar consenso o crear enemigos.",
+        "img": "https://cdn.agapea.com/DEBOLSILLO/1984-i6n20075452.jpg",
+        "genre": [
+          "Ciencia ficción"
+        ]
+      },
+      "pt": {
+        "title": "1984",
+        "description": "A história é passada em um mundo em guerra e vigilância constantes, onde um regime autoritário tem controlo sobre a população. Na frente desse Partido que governa de forma tirana está um misterioso líder intitulado 'Grande Irmão'. Pensando a política e a vida em sociedade, a obra é uma crítica ao totalitarismo.",
+        "img": "https://cdn.culturagenial.com/imagens/1984-orwell-cke.jpg",
+        "genre": [
+          "Ficção científica"
+        ]
+      }
+    }
+  },
+  {
+    "id": "67a6301c-e9ee-432e-8f1a-d48f1d03f89b",
+    "title": "Pride and Prejudice",
+    "description": "Named one of BBC's 100 Novels That Shaped Our World, a copy of Pride and Prejudice is a worthy addition to any bookshelf. The story shows how the headstrong Elizabeth Bennet and the aristocratic Mr Darcy must have their pride humbled and their prejudices dissolved before they can acknowledge their love for each other. Jane Austen serves up laughs, romance, sharp observations, life lessons and characters that still feel vividly alive today. A universally acknowledged classic.",
+    "author": "Jane Austen",
+    "year": 1813,
+    "img": "https://ik.imagekit.io/panmac/tr:f-auto,di-placeholder_portrait_aMjPtD9YZ.jpg,w-270/edition/9781035007790.jpg",
+    "genre": [
+      "Romance"
+    ],
+    "language": {
+      "es": {
+        "title": "Orgullo y prejuicio",
+        "description": "Es una novela de desarrollo personal, en la que las dos figuras principales, Elizabeth Bennet y Fitzwilliam Darcy, cada uno a su manera y, no obstante, de forma muy parecida, deben madurar para superar algunas crisis y aprender de sus errores para poder encarar el futuro en común, superando el orgullo de clase de Darcy y los prejuicios de Elizabeth hacia él.",
+        "img": "https://images.cdn1.buscalibre.com/fit-in/360x360/e5/84/e5845a8b56fceb05853fa5fbef4b9603.jpg",
+        "genre": [
+          "Romance"
+        ]
+      },
+      "pt": {
+        "title": "Orgulho e Preconceito ",
+        "description": "Seguindo os destinos de cinco irmãs, pertencentes à família Bennet, o romance segue as suas paixões proibidas, dando voz às vivências das mulheres e, sobretudo, ao modo como elas eram educadas unicamente para o casamento e a maternidade.",
+        "img": "https://cdn.culturagenial.com/imagens/orgulho-e-preconceito-cke.jpg",
+        "genre": [
+          "Romance"
+        ]
+      }
+    }
+  },
+  {
+    "id": "89ec35d8-e7df-4b45-8ae8-ed4869aefa9e",
+    "title": "Don Quixote",
+    "description": "Cervantes's satirical observation of the human condition is classed as Europe's first 'modern' novel and has sold over 500 million copies since it was first published in the early seventeenth-century. It follows Don Quixote and Sancho Panza - one of the original comedy duos - as they journey through sixteenth-century Spain in search of adventure. They face spirits, evil enchanters and giants in a quest to perform acts of valour worthy of Dulcinea, his lady love. Cervantes's words have made an impact across the globe with the book celebrating its 400th anniversary in 2005. ",
+    "author": "Miguel de Cervantes Saavedra",
+    "year": 1605,
+    "img": "https://ik.imagekit.io/panmac/tr:f-auto,di-placeholder_portrait_aMjPtD9YZ.jpg,w-270/edition/9781509844760.jpg",
+    "genre": [
+      "Novel"
+    ],
+    "language": {
+      "es": {
+        "title": "Don Quijote de la Mancha",
+        "description": "Cervantes, un hombre que, como su protagonista, vivió un sinfín de aventuras y sobre todo, desventuras, ya que sufrió la guerra, la prisión, la enfermedad y la penuria económica. Aquí descubriremos al loco más lúcido de la historia de la literatura, tanto que recorriendo un lugar de la mancha, inventó su propia realidad para huir del mundo que le rodeaba.",
+        "img": "https://cdn.agapea.com/Editorial-LIBSA-S-A-/Don-Quijote-de-la-Mancha-i6n15551831.jpg",
+        "genre": [
+          "Novela"
+        ]
+      },
+      "pt": {
+        "title": "Dom Quixote",
+        "description": "O protagonista, Quixote, é um homem tão apaixonado pelos romances de cavalaria que decide se tornar um cavaleiro e começa a confundir a fantasia com a realidade. As aventuras do 'Cavaleiro da Fraca Figura' e os inimigos que vai inventando pelo caminho ilustram o poder da imaginação enquanto lente transformadora do mundo. Por isso, o protagonista acabou virando um símbolo dos sonhadores e idealistas.",
+        "img": "https://cdn.culturagenial.com/imagens/dom-quixote-cke.jpg",
+        "genre": [
+          "Novela"
+        ]
+      }
+    }
+  },
+  {
+    "id": "c8bb2dbc-0486-43e5-87b2-b67b54478f1f",
+    "title": "The Iliad",
+    "description": "This epic poem focuses on the final weeks of the Trojan War, a conflict between the city of Troy and the Greek city-states. The story explores themes of war, honor, wrath, and divine intervention, with a particular focus on the Greek hero Achilles, whose anger and refusal to fight have devastating consequences. The narrative also delves into the lives of the gods, their relationships with humans, and their influence on the course of events.",
+    "author": "Homer",
+    "year": -750,
+    "img": "https://thegreatestbooks.club/z7d0qe3n2ox0ycgg1tg3uuyseuy4",
+    "genre": [
+      "Fiction",
+      "Poetry"
+    ],
+    "language": {
+      "es": {
+        "title": "Ilíada",
+        "description": "La Ilíada de Homero no solo marca el comienzo de la literatura griega, sino también el de la cultura occidental tal y como la conocemos. Literalmente, nuestro mundo sería diferente si Homero no hubiera existido. El genial bardo ciego retrata con maestría la guerra de Troya, las hazañas de los contendientes y las rencillas entre los dioses con una intensidad y una fuerza que todavía conmueven.",
+        "img": "https://cdn.agapea.com/Editorial-Alma/Iliada-i6n20995592.jpg",
+        "genre": [
+          "Ficción",
+          "Poesia"
+        ]
+      },
+      "pt": {
+        "title": "Ilíada",
+        "description": "epois do sequestro da rainha Helena, os gregos uniram os seus exércitos e partiram para Troia, onde lutaram durante uma década. Além de mostrar episódios da batalha, a obra também demonstra a interferência dos deuses, que protegem alguns humanos e desfavorecem outros. Entre outros personagens de destaque daquele riquíssimo imaginário, a Ilíada se foca no herói Aquiles e na sua fúria devastadora que culmina na morte sangrenta de Heitor, o príncipe troiano.",
+        "img": "https://cdn.culturagenial.com/imagens/iliada-homero-cke.jpg",
+        "genre": [
+          "Ficção",
+          "Poesia"
         ]
       }
     }
