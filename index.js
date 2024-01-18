@@ -5,7 +5,7 @@ import { moviesRouter } from './api/routes/movies.js'
 import { seriesRouter } from './api/routes/series.js'
 import { booksRouter } from './api/routes/books.js'
 import { quotesRouter } from './api/routes/quotes.js'
-import { pagesRouter } from './api/routes/pages.js'
+import { pagesRouter } from './api/routes/pages.cjs'
 
 const app = express()
 app.use(cors())
