@@ -220,6 +220,25 @@ main {
   }
 }
 
+.notFound {
+  height: 100dvh;
+  width: 100dvw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0;
+}
+
+.notFound-logo {
+  width: 50%;
+  margin: 2rem auto;
+}
+
+.notFound-h2 {
+  font-size: 20px;
+}
+
 footer {
   width: 100%;
   margin-top: 3rem;
