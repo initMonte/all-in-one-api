@@ -13,7 +13,7 @@
 <body>
   <header>
     <a href="/">
-      <img src="/logo.svg" class="header-logo" />
+      <img src="/allin1logo.svg" class="header-logo" />
     </a>
     <nav>
       <ul class="nav-list">
@@ -24,10 +24,10 @@
     </nav>
   </header>
   <main>
-    <section class="hero">
+    <section class="hero" id="hero">
       <div class="hero-left">
         <h1 class="hero-h1">All in One API</h1>
-        <p class="hero-p">Api with multi-purpose dummy data useful for tests, teaching or prototypes.</p>
+        <p class="hero-p text-black60">Api with multi-purpose dummy data useful for tests, teaching or prototypes.</p>
         <div class="hero-div_btns">
           <a class="btn primary" href="https://github.com/initMonte/all-in-one-api" target="_blank" rel="noopener">
             View on GitHub
@@ -45,9 +45,61 @@
           <Scroll />
         </a>
       </div>
+      <a class="hero-arrow" href="#about">
+        <img src="arrow-down.svg" />
+      </a>
+    </section>
+    <section class="about" id="about">
+      <h3 class="about-h3">Need some data to show your project?</h3>
+      <p class="about-p">Can't find dummy data translated to your language?</p>
+      <p class="about-p">All In One API is a free online REST API that you can use anytime, without a
+        key and with diferent languages for all kind of projects without running any server-side code.</p>
+    </section>
+    <section class="info">
+      <div class="info-div">
+        <h3 class="info-h3">Resources</h3>
+        <p class="text-black60">There are 4 type of resources right now.</p>
+        <ul class="info-list">
+          <li>Quotes <span>16 quotes</span></li>
+          <li>Movies <span>16 movies</span></li>
+          <li>Series <span>12 series</span></li>
+          <li>Books <span>6 books</span></li>
+        </ul>
+      </div>
+      <div class="info-div">
+        <h3 class="info-h3">Languages</h3>
+        <p class="text-black60">3 languages supported at the moment.</p>
+        <ul class="info-list">
+          <li>English <span>Full support</span></li>
+          <li>Spanish <span>Full support</span></li>
+          <li>Portuguese <span>Full support</span></li>
+        </ul>
+      </div>
+      <div class="info-div">
+        <h3 class="info-h3">Routes</h3>
+        <p class="text-black60">All HTTP methods supported</p>
+        <ul class="info-list">
+          <li><span>GET all</span><a href="/movies" target="_blank" rel="noopener">/movies</a></li>
+          <li><span>GET + params</span><a href="/movies?genre=sci-fi&lang=pt" target="_blank"
+              rel="noopener">/movies?params</a></li>
+          <li><span>GET + id</span><a href="/movies/57a0082f-369a-4a48-b7e7-8379656abcdc" target="_blank"
+              rel="noopener">/movies/:id</a></li>
+          <li><span>GET + id + lang</span><a href="/movies/57a0082f-369a-4a48-b7e7-8379656abcdc?lang=es" target="_blank"
+              rel="noopener">/movies/:id?lang=es</a>
+          </li>
+          <li><span>POST</span>/movies</li>
+          <li><span>PUT</span>/movies/:id</li>
+          <li><span>PATCH</span>/movies/:id</li>
+          <li><span>DELETE</span>/movies/:id</li>
+        </ul>
+      </div>
     </section>
   </main>
   <footer>
+    <ul class="footer-list">
+      <li><a href="#hero">Go top</a></li>
+      <li><a href="/docs">See Docs</a></li>
+    </ul>
     <p>Made with <span class="footer-heart">&hearts;</span> by <a target="_blank" rel="noopener"
         href="https://initmonte.github.io">Matias Monteverde</a></p>
   </footer>

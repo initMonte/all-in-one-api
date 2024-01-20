@@ -28,8 +28,8 @@ pagesRouter.get('/global.css', (req, res) => {
   res.writeHead(200, { 'Content-Type': 'text/css' })
   res.end(css)
 })
-pagesRouter.get('/logo.svg', (req, res) => {
-  const file = join(process.cwd(), 'api/pages/assets', 'logo.svg')
+pagesRouter.get('/allin1logo.svg', (req, res) => {
+  const file = join(process.cwd(), 'api/pages/assets', 'allin1logo.svg')
   const logo = readFileSync(file)
   res.writeHead(200, { 'Content-Type': 'image/svg+xml' })
   res.end(logo)
@@ -45,6 +45,12 @@ pagesRouter.get('/hero-img.svg', (req, res) => {
   const heroimg = readFileSync(file)
   res.writeHead(200, { 'Content-Type': 'image/svg+xml' })
   res.end(heroimg)
+})
+pagesRouter.get('/arrow-down.svg', (req, res) => {
+  const file = join(process.cwd(), 'api/pages/assets', 'arrow-down.svg')
+  const arrowdown = readFileSync(file)
+  res.writeHead(200, { 'Content-Type': 'image/svg+xml' })
+  res.end(arrowdown)
 })
 pagesRouter.get('/coffee.svg', (req, res) => {
   const file = join(process.cwd(), 'api/pages/assets', 'coffee.svg')
