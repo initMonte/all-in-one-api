@@ -1,6 +1,6 @@
 # All In One API
 
-[All In One API](https://allinoneapi.vercel.app) is a free online REST API that you can use anytime, without a key and with diferent languages for all kind of projects without running server-side code.
+[All In One API](https://allinoneapi.vercel.app) is a free online REST API that you can use anytime, without a key and with diferent languages for all kind of projects without running any server-side code.
 
 It's a really useful tool for tests, teaching and sample codes.
 
@@ -12,7 +12,7 @@ Have you ever been doing a project and needed some data to test your code?
 Have you ever coded a sample page and needed some credible data of an specific subject to show it?
 Or maybe you find and useful API but... it's only in English and you don't feel like translating it?
 
-I have been in all of those situations, so I decided to create an API to rule them all.
+I have been in all of those situations, so I decided to create this API.
 
 ## Resources
 
