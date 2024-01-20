@@ -11,13 +11,46 @@
 </head>
 
 <body>
-  <nav>
-    <a href="/" class="nav-logo">
-      <img src="/favicon.ico" />
+  <header>
+    <a href="/">
+      <img src="/logo.svg" class="header-logo" />
     </a>
-  </nav>
-  <h1>ESTO ES EL HOME</h1>
-  <h2 class="h2-home">Probando si funciona el CSS en Vercel</h2>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="/">Home</a></li>
+        <li><a href="/docs">Docs</a></li>
+        <li><a href="https://github.com/initMonte/all-in-one-api" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-left">
+        <h1 class="hero-h1">All in One API</h1>
+        <p class="hero-p">Api with multi-purpose dummy data useful for tests, teaching or prototypes.</p>
+        <div class="hero-div_btns">
+          <a class="btn primary" href="https://github.com/initMonte/all-in-one-api" target="_blank" rel="noopener">
+            View on GitHub
+            <img src="/github.svg" />
+          </a>
+          <a class="btn secondary" href="/docs">
+            Read Docs
+            <img src="/github.svg" />
+          </a>
+        </div>
+      </div>
+      <img class="hero-img" src="/hero-img.svg" />
+      <div className='hero-scroll'>
+        <a href='#skills' className='hero_scroll-button button--flex'>
+          <Scroll />
+        </a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>Made with <span class="footer-heart">&hearts;</span> by <a target="_blank" rel="noopener"
+        href="https://initmonte.github.io">Matias Monteverde</a></p>
+  </footer>
 </body>
 
 </html>
