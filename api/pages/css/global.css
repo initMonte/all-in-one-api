@@ -220,9 +220,13 @@ main {
   }
 }
 
+.docs-main {}
+
 aside {
   position: fixed;
   height: calc(100dvh - 80px);
+  min-width: 135px;
+  max-width: 250px;
   width: 20%;
   background-color: white;
   top: 80px;
@@ -285,123 +289,36 @@ details[open] summary {
   display: none;
 }
 
-#intro:target #intro2 {
-  display: flex;
-}
-
-#lang:target #lang2 {
-  display: flex;
-}
-
-#movieGETall:target #movieGETall2 {
-  display: flex;
-}
-
-#movieGETfil:target #movieGETfil2 {
-  display: flex;
-}
-
-#movieGETid:target #movieGETid2 {
-  display: flex;
-}
-
-#moviePOST:target #moviePOST2 {
-  display: flex;
-}
-
-#moviePUT:target #moviePUT2 {
-  display: flex;
-}
-
-#moviePATCH:target #moviePATCH2 {
-  display: flex;
-}
-
-#movieDELETE:target #movieDELETE2 {
-  display: flex;
-}
-
-#serieGETall:target #serieGETall2 {
-  display: flex;
-}
-
-#serieGETfil:target #serieGETfil2 {
-  display: flex;
-}
-
-#serieGETid:target #serieGETid2 {
-  display: flex;
-}
-
-#seriePOST:target #seriePOST2 {
-  display: flex;
-}
-
-#seriePUT:target #seriePUT2 {
-  display: flex;
-}
-
-#seriePATCH:target #seriePATCH2 {
-  display: flex;
-}
-
-#serieDELETE:target #serieDELETE2 {
-  display: flex;
-}
-
-#quoteGETall:target #quoteGETall2 {
-  display: flex;
-}
-
-#quoteGETfil:target #quoteGETfil2 {
-  display: flex;
-}
-
-#quoteGETid:target #quoteGETid2 {
-  display: flex;
-}
-
-#quotePOST:target #quotePOST2 {
-  display: flex;
-}
-
-#quotePUT:target #quotePUT2 {
-  display: flex;
-}
-
-#quotePATCH:target #quotePATCH2 {
-  display: flex;
-}
-
-#quoteDELETE:target #quoteDELETE2 {
-  display: flex;
-}
-
-#bookGETall:target #bookGETall2 {
-  display: flex;
-}
-
-#bookGETfil:target #bookGETfil2 {
-  display: flex;
-}
-
-#bookGETid:target #bookGETid2 {
-  display: flex;
-}
-
-#bookPOST:target #bookPOST2 {
-  display: flex;
-}
-
-#bookPUT:target #bookPUT2 {
-  display: flex;
-}
-
-#bookPATCH:target #bookPATCH2 {
-  display: flex;
-}
-
-#bookDELETE:target #bookDELETE2 {
+:target #intro2,
+:target #lang2,
+:target #movieGETall2,
+:target #movieGETfil2,
+:target #movieGETid2,
+:target #moviePOST2,
+:target #moviePUT2,
+:target #moviePATCH2,
+:target #movieDELETE2,
+:target #serieGETall2,
+:target #serieGETfil2,
+:target #serieGETid2,
+:target #seriePOST2,
+:target #seriePUT2,
+:target #seriePATCH2,
+:target #serieDELETE2,
+:target #quoteGETall2,
+:target #quoteGETfil2,
+:target #quoteGETid2,
+:target #quotePOST2,
+:target #quotePUT2,
+:target #quotePATCH2,
+:target #quoteDELETE2,
+:target #bookGETall2,
+:target #bookGETfil2,
+:target #bookGETid2,
+:target #bookPOST2,
+:target #bookPUT2,
+:target #bookPATCH2,
+:target #bookDELETE2 {
   display: flex;
 }
 
