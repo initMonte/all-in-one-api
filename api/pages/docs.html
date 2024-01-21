@@ -27,12 +27,13 @@
     <article id="intro">
       <h2 id="intro2">Introduction</h2>
       <p id="intro2">All in One API can be used for diferent kind of projects where you need some credible data to
-        showcase your
-        prototype/product without needing to run eny server-side code. It can also be useful for teaching, learning and
-        testing.</p>
-      <p id="intro2">This API includes:</p>
+        showcase your prototype/product without needing to run any server-side code. It can also be an useful tool for
+        teaching,
+        learning and testing.</p>
+      <p id="intro2">More about this API:</p>
       <ul id="intro2" class="docs-ul">
-        <li>Free forever! And without a key</li>
+        <li>Free forever!</li>
+        <li>No key needed</li>
         <li>All CRUD operations</li>
         <li>REST API</li>
         <li>Multiple languages</li>
@@ -44,6 +45,8 @@
       <p id="lang2">One of the main objectives of this API is to be able to recover data in diferent languages. If you
         are interested in adding translations for a language that's not currently supported, please hit me up and we can
         make it posible.</p>
+      <p id="lang2">If you want to GET a response with a particular language don't forget to add the param "lang" to the
+        endpoint. If "lang" param is invalid or unespecified the response will be in English by default.</p>
       <p id="lang2">Currently supported languages are:</p>
       <ul id="lang2">
         <li>English</li>
@@ -52,13 +55,69 @@
       </ul>
     </article>
     <article id="movieGETall">
-      <h2 id="movieGETall2">GET ALL movie</h2>
+      <h2 id="movieGETall2">Movies</h2>
+      <hr id="movieGETall2">
+      <h3 id="movieGETall2">GET all</h3>
+      <p id="movieGETall2">Access the list of 20 movies using the /movies endpoint.</p>
+      <p id="movieGETall2">If you want the list in any particular language don't forget to use de "lang" param.</p>
+      <p id="movieGETall2">Request:</p>
+      <pre id="movieGETall2">[GET] https://allinoneapi.vercel.app/movies</pre>
+      <p id="movieGETall2">Response:</p>
+      <pre id="movieGETall2"><code>[
+  {
+    "id": "57a0082f-369a-4a48-b7e7-8379656abcdc",
+    "title": "The Godfather",
+    "description": "Don Vito Corleone, head of a mafia fam...",
+    "year": 1972,
+    "director": "Francis Ford Coppola",
+    "duration": 175,
+    "img": "https://m.media-amazon.com/images/M/MV5B...",
+    "genre": ["Crime","Drama"],
+    "rate": 9.2
+  }
+  // ...
+]</code></pre>
     </article>
     <article id="movieGETfil">
       <h2 id="movieGETfil2">GET filtered movie</h2>
     </article>
     <article id="movieGETid">
-      <h2 id="movieGETid2">GET movie with ID</h2>
+      <h2 id="movieGETid2">Movies</h2>
+      <hr id="movieGETid2">
+      <h3 id="movieGETid2">GET with ID</h3>
+      <p id="movieGETid2">Access to an specific movie using the id with the /movies/:id endpoint.</p>
+      <p id="movieGETid2">Example Request:</p>
+      <pre id="movieGETid2">[GET] https://allinoneapi.vercel.app/movies/a2614984-175b-4a22-9fe1-ec7795280109</pre>
+      <p id="movieGETid2">Response:</p>
+      <pre id="movieGETid2"><code>{
+  "id": "a2614984-175b-4a22-9fe1-ec7795280109",
+  "title": "Star Wars: Episode V - The Empire Strikes Back",
+  "description": "After the Rebels are overpowered by the Empire, Luke Skywaler be...",
+  "year": 1980,
+  "director": "Irvin Kershner",
+  "duration": 124,
+  "img": "https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00Nj...",
+  "genre": ["Action","Adventure","Fantasy"],
+  "rate": 8.7
+}</code></pre>
+      <h4 id="movieGETid2">Languages</h4>
+      <p id="movieGETid2">The only param available when getting with an id is the "lang" which allows you to choose
+        between any supported translation.</p>
+      <p id="movieGETid2">Example Request:</p>
+      <pre
+        id="movieGETid2">[GET] https://allinoneapi.vercel.app/movies/a2614984-175b-4a22-9fe1-ec7795280109?lang=es</pre>
+      <p id="movieGETid2">Response:</p>
+      <pre id="movieGETid2"><code>{
+  "id": "a2614984-175b-4a22-9fe1-ec7795280109",
+  "title": "El imperio contraataca",
+  "description": "Los rebeldes han vencido al Imperio en el planeta helado Hoth. Luke Skywal...",
+  "year": 1980,
+  "director": "Irvin Kershner",
+  "duration": 124,
+  "img": "https://m.media-amazon.com/images/M/MV5BY2I2NGEyZWEtYzEzOC00NTJiLTg1N...",
+  "genre": ["Acción","Aventura","Fantasía"],
+  "rate": 8.7
+}</code></pre>
     </article>
     <article id="moviePOST">
       <h2 id="moviePOST2">POST movie</h2>
@@ -197,10 +256,9 @@
       </details>
     </aside>
   </main>
-  <footer>
+  <footer class="docs-footer">
     <ul class="footer-list">
-      <li><a href="#hero">Go top</a></li>
-      <li><a href="/docs">See Docs</a></li>
+      <li><a href="/">Go home</a></li>
     </ul>
     <p>Made with <span class="footer-heart">&hearts;</span> by <a target="_blank" rel="noopener"
         href="https://initmonte.github.io">Matias Monteverde</a></p>
