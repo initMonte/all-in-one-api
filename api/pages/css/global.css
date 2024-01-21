@@ -115,7 +115,7 @@ header {
 }
 
 main {
-  padding: 80px 2rem 0;
+  padding: 80px 2rem 3rem;
   max-width: 992px;
 }
 
@@ -220,7 +220,15 @@ main {
   }
 }
 
-.docs-main {}
+.docs-header {
+  margin-left: min(0px, 20%);
+  max-width: calc(993px + 240px);
+}
+
+.docs-main {
+  margin-left: clamp(135px, 20%, 240px);
+
+}
 
 aside {
   position: fixed;
@@ -343,7 +351,6 @@ details[open] summary {
 
 footer {
   width: 100%;
-  margin-top: 3rem;
   padding: 2rem 1rem 1rem;
   text-align: center;
   background-color: var(--color-footer);

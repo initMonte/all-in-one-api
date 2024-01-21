@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <header>
+  <header class="docs-header">
     <a href="/">
       <img src="/allin1logo.svg" class="header-logo" />
     </a>
@@ -31,7 +31,7 @@
         prototype/product without needing to run eny server-side code. It can also be useful for teaching, learning and
         testing.</p>
       <p id="intro2">This API includes:</p>
-      <ul id="intro2">
+      <ul id="intro2" class="docs-ul">
         <li>Free forever! And without a key</li>
         <li>All CRUD operations</li>
         <li>REST API</li>
@@ -40,7 +40,16 @@
       </ul>
     </article>
     <article id="lang">
-      <h2 id="lang2">LANGUAGEEEE</h2>
+      <h2 id="lang2">Languages</h2>
+      <p id="lang2">One of the main objectives of this API is to be able to recover data in diferent languages. If you
+        are interested in adding translations for a language that's not currently supported, please hit me up and we can
+        make it posible.</p>
+      <p id="lang2">Currently supported languages are:</p>
+      <ul id="lang2">
+        <li>English</li>
+        <li>Spanish</li>
+        <li>Portuguese</li>
+      </ul>
     </article>
     <article id="movieGETall">
       <h2 id="movieGETall2">GET ALL movie</h2>
@@ -197,5 +206,11 @@
         href="https://initmonte.github.io">Matias Monteverde</a></p>
   </footer>
 </body>
+<script>
+  history.replaceState({}, document.title, window.location.href.replace(/#.*$/, ''));
+
+  var nuevaURL = window.location.href + '#intro';
+  history.replaceState({}, document.title, nuevaURL);
+</script>
 
 </html>
