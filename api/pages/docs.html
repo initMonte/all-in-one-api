@@ -40,6 +40,7 @@
         <li>Filtering with diferent params</li>
       </ul>
     </article>
+
     <article id="lang">
       <h2 id="lang2">Languages</h2>
       <p id="lang2">One of the main objectives of this API is to be able to recover data in diferent languages. If you
@@ -54,10 +55,11 @@
         <li>Portuguese</li>
       </ul>
     </article>
+
     <article id="movieGETall">
       <h2 id="movieGETall2">Movies</h2>
       <hr id="movieGETall2">
-      <h3 id="movieGETall2">GET all</h3>
+      <h3 id="movieGETall2">GET all movies</h3>
       <p id="movieGETall2">Access the list of 20 movies using the /movies endpoint.</p>
       <p id="movieGETall2">If you want the list in any particular language don't forget to use de "lang" param.</p>
       <p id="movieGETall2">Request:</p>
@@ -74,17 +76,69 @@
     "img": "https://m.media-amazon.com/images/M/MV5B...",
     "genre": ["Crime","Drama"],
     "rate": 9.2
-  }
+  },
+  // ...
+]</code></pre>
+      <h4 id="movieGETall2">Language</h4>
+      <p id="movieGETall2">The param "lang" will allow you to get the list of all the movies but translated into any
+        language available. It can be combined with any other param that you will find at the "GET filtered movies"
+        section.
+      </p>
+      <p id="movieGETall2">Request:</p>
+      <pre id="movieGETall2">[GET] https://allinoneapi.vercel.app/movies?lang=pt</pre>
+      <p id="movieGETall2">Response:</p>
+      <pre id="movieGETall2"><code>[
+  {
+    "id": "57a0082f-369a-4a48-b7e7-8379656abcdc",
+    "title": "O Poderoso Chefão",
+    "description": "O patriarca idoso de uma dinastia do crime...",
+    "year": 1972,
+    "director": "Francis Ford Coppola",
+    "duration": 175,
+    "img": "https://m.media-amazon.com/images/M/MV5BZjgw...",
+    "genre": ["Policial","Drama"],
+    "rate": 9.2
+  },
   // ...
 ]</code></pre>
     </article>
+
     <article id="movieGETfil">
-      <h2 id="movieGETfil2">GET filtered movie</h2>
+      <h2 id="movieGETfil2">Movies</h2>
+      <hr id="movieGETfil2">
+      <h3 id="movieGETfil2">GET filtered movies</h3>
+      <p id="movieGETfil2">Use different params to get a list of movies.</p>
+      <p id="movieGETfil2">All params and values must be written in English even if you are going to request a
+        translation with "lang".</p>
+      <h4 id="movieGETfil2">Genre</h4>
+      <p id="movieGETfil2">To filter by genre you need to use the param "genre". You can only filter by 1 genre per
+        request, and it can be combined with any other param.</p>
+      <p id="movieGETfil2">The categories available to use as a value are:</p>
+      <ul id="movieGETfil2">
+        <li>Action</li>
+        <li>Adventure</li>
+        <li>Biography</li>
+        <li>Crime</li>
+        <li>Drama</li>
+        <li>Fantasy</li>
+        <li>History</li>
+        <li>Romance</li>
+        <li>Sci-Fi</li>
+        <li>Western</li>
+      </ul>
+      <p id="movieGETfil2">Example Request:</p>
+      <pre id="movieGETfil2">[GET] https://allinoneapi.vercel.app/movies?genre=Sci-Fi</pre>
+      <h4 id="movieGETfil2">Year</h4>
+      <p id="movieGETfil2">To filter by year you need to use the param "year". You can only filter by 1 year per
+        request, and it can be combined with any other param.</p>
+      <p id="movieGETfil2">Example Request:</p>
+      <pre id="movieGETfil2">[GET] https://allinoneapi.vercel.app/movies?year=1980</pre>
     </article>
+
     <article id="movieGETid">
       <h2 id="movieGETid2">Movies</h2>
       <hr id="movieGETid2">
-      <h3 id="movieGETid2">GET with ID</h3>
+      <h3 id="movieGETid2">GET movie with ID</h3>
       <p id="movieGETid2">Access to an specific movie using the id with the /movies/:id endpoint.</p>
       <p id="movieGETid2">Example Request:</p>
       <pre id="movieGETid2">[GET] https://allinoneapi.vercel.app/movies/a2614984-175b-4a22-9fe1-ec7795280109</pre>
@@ -100,8 +154,8 @@
   "genre": ["Action","Adventure","Fantasy"],
   "rate": 8.7
 }</code></pre>
-      <h4 id="movieGETid2">Languages</h4>
-      <p id="movieGETid2">The only param available when getting with an id is the "lang" which allows you to choose
+      <h4 id="movieGETid2">Language</h4>
+      <p id="movieGETid2">The only param available when getting with an id is "lang" which allows you to choose
         between any supported translation.</p>
       <p id="movieGETid2">Example Request:</p>
       <pre
@@ -119,15 +173,19 @@
   "rate": 8.7
 }</code></pre>
     </article>
+
     <article id="moviePOST">
       <h2 id="moviePOST2">POST movie</h2>
     </article>
+
     <article id="moviePUT">
       <h2 id="moviePUT2">PUT movie</h2>
     </article>
+
     <article id="moviePATCH">
       <h2 id="moviePATCH2">PATCH movie</h2>
     </article>
+
     <article id="movieDELETE">
       <h2 id="movieDELETE2">DELETE movie</h2>
     </article>
@@ -135,21 +193,27 @@
     <article id="serieGETall">
       <h2 id="serieGETall2">GET ALL serie</h2>
     </article>
+
     <article id="serieGETfil">
       <h2 id="serieGETfil2">GET filtered serie</h2>
     </article>
+
     <article id="serieGETid">
       <h2 id="serieGETid2">GET serie with ID</h2>
     </article>
+
     <article id="seriePOST">
       <h2 id="seriePOST2">POST serie</h2>
     </article>
+
     <article id="seriePUT">
       <h2 id="seriePUT2">PUT serie</h2>
     </article>
+
     <article id="seriePATCH">
       <h2 id="seriePATCH2">PATCH serie</h2>
     </article>
+
     <article id="serieDELETE">
       <h2 id="serieDELETE2">DELETE serie</h2>
     </article>
@@ -157,21 +221,27 @@
     <article id="quoteGETall">
       <h2 id="quoteGETall2">GET ALL quote</h2>
     </article>
+
     <article id="quoteGETfil">
       <h2 id="quoteGETfil2">GET filtered quote</h2>
     </article>
+
     <article id="quoteGETid">
       <h2 id="quoteGETid2">GET quote with ID</h2>
     </article>
+
     <article id="quotePOST">
       <h2 id="quotePOST2">POST quote</h2>
     </article>
+
     <article id="quotePUT">
       <h2 id="quotePUT2">PUT quote</h2>
     </article>
+
     <article id="quotePATCH">
       <h2 id="quotePATCH2">PATCH quote</h2>
     </article>
+
     <article id="quoteDELETE">
       <h2 id="quoteDELETE2">DELETE quote</h2>
     </article>
@@ -179,21 +249,27 @@
     <article id="bookGETall">
       <h2 id="bookGETall2">GET ALL book</h2>
     </article>
+
     <article id="bookGETfil">
       <h2 id="bookGETfil2">GET filtered book</h2>
     </article>
+
     <article id="bookGETid">
       <h2 id="bookGETid2">GET book with ID</h2>
     </article>
+
     <article id="bookPOST">
       <h2 id="bookPOST2">POST book</h2>
     </article>
+
     <article id="bookPUT">
       <h2 id="bookPUT2">PUT book</h2>
     </article>
+
     <article id="bookPATCH">
       <h2 id="bookPATCH2">PATCH book</h2>
     </article>
+
     <article id="bookDELETE">
       <h2 id="bookDELETE2">DELETE book</h2>
     </article>
