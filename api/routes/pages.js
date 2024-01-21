@@ -52,12 +52,6 @@ pagesRouter.get('/arrow-down.svg', (req, res) => {
   res.writeHead(200, { 'Content-Type': 'image/svg+xml' })
   res.end(arrowdown)
 })
-pagesRouter.get('/coffee.svg', (req, res) => {
-  const file = join(process.cwd(), 'api/pages/assets', 'coffee.svg')
-  const coffee = readFileSync(file)
-  res.writeHead(200, { 'Content-Type': 'image/svg+xml' })
-  res.end(coffee)
-})
 pagesRouter.get('/*', (req, res) => {
   const file = join(process.cwd(), 'api/pages', 'notFound.html')
   const notFound = readFileSync(file)

@@ -220,6 +220,191 @@ main {
   }
 }
 
+aside {
+  position: fixed;
+  height: calc(100dvh - 80px);
+  width: 20%;
+  background-color: white;
+  top: 80px;
+  left: 0px;
+  padding: 1rem;
+}
+
+details {
+  ul {
+    padding-left: 0.7rem;
+  }
+}
+
+summary {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--color-primary);
+}
+
+details summary {
+  margin-top: 10px;
+  transition: margin 250ms ease-out;
+}
+
+details[open] summary {
+  margin-bottom: 10px;
+}
+
+#intro2,
+#lang2,
+#movieGETall2,
+#movieGETfil2,
+#movieGETid2,
+#moviePOST2,
+#moviePUT2,
+#moviePATCH2,
+#movieDELETE2,
+#serieGETall2,
+#serieGETfil2,
+#serieGETid2,
+#seriePOST2,
+#seriePUT2,
+#seriePATCH2,
+#serieDELETE2,
+#quoteGETall2,
+#quoteGETfil2,
+#quoteGETid2,
+#quotePOST2,
+#quotePUT2,
+#quotePATCH2,
+#quoteDELETE2,
+#bookGETall2,
+#bookGETfil2,
+#bookGETid2,
+#bookPOST2,
+#bookPUT2,
+#bookPATCH2,
+#bookDELETE2 {
+  display: none;
+}
+
+#intro:target #intro2 {
+  display: flex;
+}
+
+#lang:target #lang2 {
+  display: flex;
+}
+
+#movieGETall:target #movieGETall2 {
+  display: flex;
+}
+
+#movieGETfil:target #movieGETfil2 {
+  display: flex;
+}
+
+#movieGETid:target #movieGETid2 {
+  display: flex;
+}
+
+#moviePOST:target #moviePOST2 {
+  display: flex;
+}
+
+#moviePUT:target #moviePUT2 {
+  display: flex;
+}
+
+#moviePATCH:target #moviePATCH2 {
+  display: flex;
+}
+
+#movieDELETE:target #movieDELETE2 {
+  display: flex;
+}
+
+#serieGETall:target #serieGETall2 {
+  display: flex;
+}
+
+#serieGETfil:target #serieGETfil2 {
+  display: flex;
+}
+
+#serieGETid:target #serieGETid2 {
+  display: flex;
+}
+
+#seriePOST:target #seriePOST2 {
+  display: flex;
+}
+
+#seriePUT:target #seriePUT2 {
+  display: flex;
+}
+
+#seriePATCH:target #seriePATCH2 {
+  display: flex;
+}
+
+#serieDELETE:target #serieDELETE2 {
+  display: flex;
+}
+
+#quoteGETall:target #quoteGETall2 {
+  display: flex;
+}
+
+#quoteGETfil:target #quoteGETfil2 {
+  display: flex;
+}
+
+#quoteGETid:target #quoteGETid2 {
+  display: flex;
+}
+
+#quotePOST:target #quotePOST2 {
+  display: flex;
+}
+
+#quotePUT:target #quotePUT2 {
+  display: flex;
+}
+
+#quotePATCH:target #quotePATCH2 {
+  display: flex;
+}
+
+#quoteDELETE:target #quoteDELETE2 {
+  display: flex;
+}
+
+#bookGETall:target #bookGETall2 {
+  display: flex;
+}
+
+#bookGETfil:target #bookGETfil2 {
+  display: flex;
+}
+
+#bookGETid:target #bookGETid2 {
+  display: flex;
+}
+
+#bookPOST:target #bookPOST2 {
+  display: flex;
+}
+
+#bookPUT:target #bookPUT2 {
+  display: flex;
+}
+
+#bookPATCH:target #bookPATCH2 {
+  display: flex;
+}
+
+#bookDELETE:target #bookDELETE2 {
+  display: flex;
+}
+
 .notFound {
   height: 100dvh;
   width: 100dvw;
