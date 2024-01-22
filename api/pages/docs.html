@@ -551,59 +551,414 @@
     </article>
 
     <article id="quoteGETall">
-      <h2 id="quoteGETall2">GET ALL quote</h2>
+      <h2 id="quoteGETall2">Quotes</h2>
+      <hr id="quoteGETall2">
+      <h3 id="quoteGETall2">GET all quotes</h3>
+      <p id="quoteGETall2">Access the list of 16 quotes using the /qutoes endpoint.</p>
+      <p id="quoteGETall2">If you want the list in any particular language don't forget to use de "lang" param.</p>
+      <p id="quoteGETall2">Request:</p>
+      <pre id="quoteGETall2">[GET] https://allinoneapi.vercel.app/quotes</pre>
+      <p id="quoteGETall2">Response:</p>
+      <pre id="quoteGETall2"><code>[
+  {
+    "id": "1fb91502-9e53-449b-ba30-6e7d9f0d74b2",
+    "text": "It is hard to fail, but it is worse never to have tried to succeed.",
+    "author": "Theodore Roosevelt",
+    "category": ["Motivation", "Fail"]
+  },
+  // ...
+]</code></pre>
+      <h4 id="quoteGETall2">Language</h4>
+      <p id="quoteGETall2">The param "lang" will allow you to get the list of all the quotes but translated into any
+        language available. It can be combined with any other param that you will find at the "GET filtered quotes"
+        section.
+      </p>
+      <p id="quoteGETall2">Request:</p>
+      <pre id="quoteGETall2">[GET] https://allinoneapi.vercel.app/quotes?lang=es</pre>
+      <p id="quoteGETall2">Response:</p>
+      <pre id="quoteGETall2"><code>[
+  {
+    "id": "1fb91502-9e53-449b-ba30-6e7d9f0d74b2",
+    "text": "Es difícil fracasar, pero es peor no haber intentado nunca tener éxito.",
+    "author": "Theodore Roosevelt",
+    "category": ["Motivación", "Fallar"]
+  },
+  // ...
+]</code></pre>
     </article>
 
     <article id="quoteGETfil">
-      <h2 id="quoteGETfil2">GET filtered quote</h2>
+      <h2 id="quoteGETfil2">Quotes</h2>
+      <hr id="quoteGETfil2">
+      <h3 id="quoteGETfil2">GET filtered quotes</h3>
+      <p id="quoteGETfil2">Use different params to get a list of quotes from /quotes endpoint.</p>
+      <p id="quoteGETfil2">All params and values must be written in English even if you are going to request a
+        translation with "lang".</p>
+      <h4 id="quoteGETfil2">Category</h4>
+      <p id="quoteGETfil2">To filter by category you need to use the param "category". You can only filter by 1 category
+        per
+        request, and it can be combined with any other param.</p>
+      <p id="quoteGETfil2">The categories available to use as a value are:</p>
+      <ul id="quoteGETfil2">
+        <li>Artist</li>
+        <li>Creativity</li>
+        <li>Dreams</li>
+        <li>Fail</li>
+        <li>Fear</li>
+        <li>Lidership</li>
+        <li>Motivation</li>
+        <li>Wisdom</li>
+      </ul>
+      <p id="quoteGETfil2">Example Request:</p>
+      <pre id="quoteGETfil2">[GET] https://allinoneapi.vercel.app/quotes?category=Dreams</pre>
+      <h4 id="quoteGETfil2">Author</h4>
+      <p id="quoteGETfil2">To filter by author you need to use the param "author". If the value of the param is included
+        as a substring in the author of the object, it will be returned. It can be combined with any other param.</p>
+      <p id="quoteGETfil2">Example Request:</p>
+      <pre id="quoteGETfil2">[GET] https://allinoneapi.vercel.app/quotes?author=Maxwell</pre>
     </article>
 
     <article id="quoteGETid">
-      <h2 id="quoteGETid2">GET quote with ID</h2>
+      <h2 id="quoteGETid2">Quotes</h2>
+      <hr id="quoteGETid2">
+      <h3 id="quoteGETid2">GET quote with ID</h3>
+      <p id="quoteGETid2">Access to an specific quote using the id with the /quotes/:id endpoint.</p>
+      <p id="quoteGETid2">Example Request:</p>
+      <pre id="quoteGETid2">[GET] https://allinoneapi.vercel.app/quotes/440bcfeb-2a06-4fd2-a4ef-2107636b6e96</pre>
+      <p id="quoteGETid2">Response:</p>
+      <pre id="quoteGETid2"><code>{
+  "id": "440bcfeb-2a06-4fd2-a4ef-2107636b6e96",
+  "text": "The future belongs to those who believe in the beauty of their dreams.",
+  "author": "Eleanor Roosevelt",
+  "category": ["Motivation", "Dreams"]
+}</code></pre>
+      <h4 id="quoteGETid2">Language</h4>
+      <p id="quoteGETid2">The only param available when getting with an id is "lang" which allows you to choose
+        between any supported translation.</p>
+      <p id="quoteGETid2">Example Request:</p>
+      <pre
+        id="quoteGETid2">[GET] https://allinoneapi.vercel.app/quotes/440bcfeb-2a06-4fd2-a4ef-2107636b6e96?lang=es</pre>
+      <p id="quoteGETid2">Response:</p>
+      <pre id="quoteGETid2"><code>{
+  "id": "440bcfeb-2a06-4fd2-a4ef-2107636b6e96",
+  "text": "El futuro pertenece a quienes creen en la belleza de sus sueños.",
+  "author": "Eleanor Roosevelt",
+  "category": ["Motivación", "Sueños"]
+}</code></pre>
     </article>
 
     <article id="quotePOST">
-      <h2 id="quotePOST2">POST quote</h2>
+      <h2 id="quotePOST2">Quotes</h2>
+      <hr id="quotePOST2">
+      <h3 id="quotePOST2">POST quote</h3>
+      <p id="quotePOST2">Create a quote using the /quotes endpoint.</p>
+      <p id="quotePOST2"><strong>Remember that nothing in real will be inserted into the database, </strong>it will just
+        return you the new object. If you then try to access the objet with the id you will not be able to retreave it.
+      </p>
+      <p id="quotePOST2">Example Request:</p>
+      <pre id="quotePOST2"><code>[POST] https://allinoneapi.vercel.app/quotes
+# Body
+{
+  "text": "Quote text",
+  "author": "Quote author",
+  "category": ["example", "categories"]
+}</code></pre>
+      <p id="quotePOST2">Response:</p>
+      <pre id="quotePOST2"><code>{
+  "id": "UUID-autogenerated",
+  "text": "Quote text",
+  "author": "Quote author",
+  "category": ["example", "categories"]
+}</code></pre>
     </article>
 
     <article id="quotePUT">
-      <h2 id="quotePUT2">PUT quote</h2>
+      <h2 id="quotePUT2">Quotes</h2>
+      <hr id="quotePUT2">
+      <h3 id="quotePUT2">PUT quote</h3>
+      <p id="quotePUT2">Modify a quote using the /quotes/:id endpoint. It needs you to send all the values in the body,
+        except the id.</p>
+      <p id="quotePUT2"><strong>Remember that nothing in real will be inserted into the database, </strong>it will just
+        return you the modified object. If you then try to access the objet with the id you will get the original
+        object.
+      </p>
+      <p id="quotePUT2">Example Request:</p>
+      <pre id="quotePUT2"><code>[PUT] https://allinoneapi.vercel.app/quotes/440bcfeb-2a06-4fd2-a4ef-2107636b6e96
+# Body
+{
+  "text": "Modified text",
+  "author": "Modified author",
+  "category": ["other", "categories"]
+}</code></pre>
+      <p id="quotePUT2">Response:</p>
+      <pre id="quotePUT2"><code>{
+  "id": "440bcfeb-2a06-4fd2-a4ef-2107636b6e96",
+  "text": "Modified text",
+  "author": "Modified author",
+  "category": ["other", "categories"]
+}</code></pre>
     </article>
 
     <article id="quotePATCH">
-      <h2 id="quotePATCH2">PATCH quote</h2>
+      <h2 id="quotePATCH2">Quotes</h2>
+      <hr id="quotePATCH2">
+      <h3 id="quotePATCH2">PATCH quote</h3>
+      <p id="quotePATCH2">Modify a quote using the /quote/:id endpoint. You need to modify only 1 value in the body,
+        but you can modify all the values you want.</p>
+      <p id="quotePATCH2"><strong>Remember that nothing in real will be inserted into the database, </strong>it will
+        just
+        return you the modified object. If you then try to access the objet with the id you will get the original
+        object.
+      </p>
+      <p id="quotePATCH2">Example Request:</p>
+      <pre id="quotePATCH2"><code>[PATCH] https://allinoneapi.vercel.app/quotes/355d448e-1aa7-4569-95f0-7b3886c7cc05
+# Body
+{
+  "author": "Modified author"
+}</code></pre>
+      <p id="quotePATCH2">Response:</p>
+      <pre id="quotePATCH2"><code>{
+  "id": "355d448e-1aa7-4569-95f0-7b3886c7cc05",
+  "text": "We can do anything we want to do if we stick to it long enough.",
+  "author": "Modified author",
+  "category": ["Motivation"]
+}</code></pre>
     </article>
 
     <article id="quoteDELETE">
-      <h2 id="quoteDELETE2">DELETE quote</h2>
+      <h2 id="quoteDELETE2">Quotes</h2>
+      <hr id="quoteDELETE2">
+      <h3 id="quoteDELETE2">DELETE quote</h3>
+      <p id="quoteDELETE2">Delete a quote using the /quotes/:id endpoint.</p>
+      <p id="quoteDELETE2"><strong>Remember that nothing in real will be deleted from the database, </strong>it will
+        just
+        return you a message as if it had been deleted. If you then try to access the objet with the id you will get the
+        original object.
+      </p>
+      <p id="quoteDELETE2">Example Request:</p>
+      <pre
+        id="quoteDELETE2"><code>[DELETE] https://allinoneapi.vercel.app/quotes/355d448e-1aa7-4569-95f0-7b3886c7cc05</code></pre>
+      <p id="quoteDELETE2">Response:</p>
+      <pre id="quoteDELETE2"><code>{
+  "message": "quote deleted succesfully."
+}</code></pre>
     </article>
 
     <article id="bookGETall">
-      <h2 id="bookGETall2">GET ALL book</h2>
+      <h2 id="bookGETall2">Books</h2>
+      <hr id="bookGETall2">
+      <h3 id="bookGETall2">GET all books</h3>
+      <p id="bookGETall2">Access the list of 6 books using the /books endpoint.</p>
+      <p id="bookGETall2">If you want the list in any particular language don't forget to use de "lang" param.</p>
+      <p id="bookGETall2">Request:</p>
+      <pre id="bookGETall2">[GET] https://allinoneapi.vercel.app/books</pre>
+      <p id="bookGETall2">Response:</p>
+      <pre id="bookGETall2"><code>[
+  {
+    "id": "23a33225-f7af-4c38-98bc-51aecf39bf20",
+    "title": "One Hundred Years of Solitude",
+    "description": "This novel is a multi-generational saga that focuses on...",
+    "author": "Gabriel García Márquez",
+    "year": 1967,
+    "img": "https://thegreatestbooks.club/3jx639wkwk8xq18chslnzx4vd0pi",
+    "genre": ["Fiction"]
+  },
+  // ...
+]</code></pre>
+      <h4 id="bookGETall2">Language</h4>
+      <p id="bookGETall2">The param "lang" will allow you to get the list of all the books but translated into any
+        language available. It can be combined with any other param that you will find at the "GET filtered books"
+        section.
+      </p>
+      <p id="bookGETall2">Request:</p>
+      <pre id="bookGETall2">[GET] https://allinoneapi.vercel.app/books?lang=es</pre>
+      <p id="bookGETall2">Response:</p>
+      <pre id="bookGETall2"><code>[
+  {
+    "id": "23a33225-f7af-4c38-98bc-51aecf39bf20",
+    "title": "Cien Años De Soledad",
+    "description": "Muchos años después, frente al pelotón de fusilamien...",
+    "author": "Gabriel García Márquez",
+    "year": 1967,
+    "img": "https://cdn.agapea.com/Debolsillo/Cien-anos-de-soledad-i6...",
+    "genre": ["Ficción"]
+  },
+  // ...
+]</code></pre>
     </article>
 
     <article id="bookGETfil">
-      <h2 id="bookGETfil2">GET filtered book</h2>
+      <h2 id="bookGETfil2">Books</h2>
+      <hr id="bookGETfil2">
+      <h3 id="bookGETfil2">GET filtered books</h3>
+      <p id="bookGETfil2">Use different params to get a list of books from /books endpoint.</p>
+      <p id="bookGETfil2">All params and values must be written in English even if you are going to request a
+        translation with "lang".</p>
+      <h4 id="bookGETfil2">Genre</h4>
+      <p id="bookGETfil2">To filter by genre you need to use the param "genre". You can only filter by 1 genre per
+        request, and it can be combined with any other param.</p>
+      <p id="bookGETfil2">The categories available to use as a value are:</p>
+      <ul id="bookGETfil2">
+        <li>Fiction</li>
+        <li>Novel</li>
+        <li>Poetry</li>
+        <li>Romance</li>
+        <li>Sci-Fi</li>
+      </ul>
+      <p id="bookGETfil2">Example Request:</p>
+      <pre id="bookGETfil2">[GET] https://allinoneapi.vercel.app/books?genre=Novel</pre>
+      <h4 id="bookGETfil2">Year</h4>
+      <p id="bookGETfil2">To filter by year you need to use the param "year". You can only filter by 1 year per
+        request, and it can be combined with any other param.</p>
+      <p id="bookGETfil2">Example Request:</p>
+      <pre id="bookGETfil2">[GET] https://allinoneapi.vercel.app/books?year=1949</pre>
     </article>
 
     <article id="bookGETid">
-      <h2 id="bookGETid2">GET book with ID</h2>
+      <h2 id="bookGETid2">Books</h2>
+      <hr id="bookGETid2">
+      <h3 id="bookGETid2">GET book with ID</h3>
+      <p id="bookGETid2">Access to an specific book using the id with the /books/:id endpoint.</p>
+      <p id="bookGETid2">Example Request:</p>
+      <pre id="bookGETid2">[GET] https://allinoneapi.vercel.app/books/df26c5ad-0316-47a1-9907-1b13241ce74b</pre>
+      <p id="bookGETid2">Response:</p>
+      <pre id="bookGETid2"><code>{
+  "id": "df26c5ad-0316-47a1-9907-1b13241ce74b",
+  "title": "The Divine Comedy",
+  "description": "In this epic poem, the protagonist embarks on an extraordinary journey...",
+  "author": "Dante Alighieri",
+  "year": 1301,
+  "img": "https://thegreatestbooks.club/a6mt6a2926cmpd1d501ingjh4b14",
+  "genre": ["Fiction", "Poetry"]
+}</code></pre>
+      <h4 id="bookGETid2">Language</h4>
+      <p id="bookGETid2">The only param available when getting with an id is "lang" which allows you to choose
+        between any supported translation.</p>
+      <p id="bookGETid2">Example Request:</p>
+      <pre id="bookGETid2">[GET] https://allinoneapi.vercel.app/books/df26c5ad-0316-47a1-9907-1b13241ce74b?lang=es</pre>
+      <p id="bookGETid2">Response:</p>
+      <pre id="bookGETid2"><code>{
+  "id": "df26c5ad-0316-47a1-9907-1b13241ce74b",
+  "title": "La divina comedia",
+  "description": "Este vasto poema en tres partes presenta alegóricamente el itinerario del alma...",
+  "author": "Dante Alighieri",
+  "year": 1301,
+  "img": "https://cdn.agapea.com/Sial-Ediciones/La-divina-comedia-i6n7403773.jpg",
+  "genre": ["Ficción", "Poesia"]
+}</code></pre>
     </article>
 
     <article id="bookPOST">
-      <h2 id="bookPOST2">POST book</h2>
+      <h2 id="bookPOST2">Books</h2>
+      <hr id="bookPOST2">
+      <h3 id="bookPOST2">POST book</h3>
+      <p id="bookPOST2">Create a book using the /books endpoint.</p>
+      <p id="bookPOST2"><strong>Remember that nothing in real will be inserted into the database, </strong>it will just
+        return you the new object. If you then try to access the objet with the id you will not be able to retreave it.
+      </p>
+      <p id="bookPOST2">Example Request:</p>
+      <pre id="bookPOST2"><code>[POST] https://allinoneapi.vercel.app/books
+# Body
+{
+  "title": "Book title",
+  "description": "Book description...",
+  "author": "Book author",
+  "year": 1111,
+  "img": "https//examplepage.com/linkOfBookImg.jpg",
+  "genre": ["example", "genres"]
+}</code></pre>
+      <p id="bookPOST2">Response:</p>
+      <pre id="bookPOST2"><code>{
+  "id": "UUID-autogenerated",
+  "title": "Book title",
+  "description": "Book description...",
+  "author": "Book author",
+  "year": 1111,
+  "img": "https//examplepage.com/linkOfBookImg.jpg",
+  "genre": ["example", "genres"]
+}</code></pre>
     </article>
 
     <article id="bookPUT">
-      <h2 id="bookPUT2">PUT book</h2>
+      <h2 id="bookPUT2">Books</h2>
+      <hr id="bookPUT2">
+      <h3 id="bookPUT2">PUT book</h3>
+      <p id="bookPUT2">Modify a book using the /books/:id endpoint. It needs you to send all the values in the body,
+        except the id.</p>
+      <p id="bookPUT2"><strong>Remember that nothing in real will be inserted into the database, </strong>it will just
+        return you the modified object. If you then try to access the objet with the id you will get the original
+        object.
+      </p>
+      <p id="bookPUT2">Example Request:</p>
+      <pre id="bookPUT2"><code>[PUT] https://allinoneapi.vercel.app/books/df26c5ad-0316-47a1-9907-1b13241ce74b
+# Body
+{
+  "title": "Modified title",
+  "description": "Modified description...",
+  "author": "Modified author",
+  "year": 9999,
+  "img": "https//examplepage.com/ModifiedLinkOfBookImg.jpg",
+  "genre": ["modified", "genres"]
+}</code></pre>
+      <p id="bookPUT2">Response:</p>
+      <pre id="bookPUT2"><code>{
+  "id": "df26c5ad-0316-47a1-9907-1b13241ce74b",
+  "title": "Modified title",
+  "description": "Modified description...",
+  "author": "Modified author",
+  "year": 9999,
+  "img": "https//examplepage.com/ModifiedLinkOfBookImg.jpg",
+  "genre": ["modified", "genres"]
+}</code></pre>
     </article>
 
     <article id="bookPATCH">
-      <h2 id="bookPATCH2">PATCH book</h2>
+      <h2 id="bookPATCH2">Books</h2>
+      <hr id="bookPATCH2">
+      <h3 id="bookPATCH2">PATCH book</h3>
+      <p id="bookPATCH2">Modify a book using the /books/:id endpoint. You need to modify only 1 value in the body,
+        but you can modify all the values you want.</p>
+      <p id="bookPATCH2"><strong>Remember that nothing in real will be inserted into the database, </strong>it will
+        just
+        return you the modified object. If you then try to access the objet with the id you will get the original
+        object.
+      </p>
+      <p id="bookPATCH2">Example Request:</p>
+      <pre id="bookPATCH2"><code>[PATCH] https://allinoneapi.vercel.app/books/df26c5ad-0316-47a1-9907-1b13241ce74b
+# Body
+{
+  "description": "Modified description...",
+  "year": 2222
+}</code></pre>
+      <p id="bookPATCH2">Response:</p>
+      <pre id="bookPATCH2"><code>{
+  "id": "df26c5ad-0316-47a1-9907-1b13241ce74b",
+  "title": "The Divine Comedy",
+  "description": "Modified description...",
+  "author": "Dante Alighieri",
+  "year": 2222,
+  "img": "https://thegreatestbooks.club/a6mt6a2926cmpd1d501ingjh4b14",
+  "genre": ["Fiction", "Poetry"]
+}</code></pre>
     </article>
 
     <article id="bookDELETE">
-      <h2 id="bookDELETE2">DELETE book</h2>
+      <h2 id="bookDELETE2">Books</h2>
+      <hr id="bookDELETE2">
+      <h3 id="bookDELETE2">DELETE book</h3>
+      <p id="bookDELETE2">Delete a book using the /books/:id endpoint.</p>
+      <p id="bookDELETE2"><strong>Remember that nothing in real will be deleted from the database, </strong>it will
+        just
+        return you a message as if it had been deleted. If you then try to access the objet with the id you will get the
+        original object.
+      </p>
+      <p id="bookDELETE2">Example Request:</p>
+      <pre
+        id="bookDELETE2"><code>[DELETE] https://allinoneapi.vercel.app/books/df26c5ad-0316-47a1-9907-1b13241ce74b</code></pre>
+      <p id="bookDELETE2">Response:</p>
+      <pre id="bookDELETE2"><code>{
+  "message": "Book deleted succesfully."
+}</code></pre>
     </article>
 
     <aside>
