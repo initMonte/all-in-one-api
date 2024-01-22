@@ -6,10 +6,10 @@ const { MovieModel } = pkg
 
 export class MovieController {
   static async getAll(req, res) {
-    const { genre, year, lang } = req.query
+    const { genre, allgenres, year, lang } = req.query
 
     let movies = await MovieModel.getAll()
-    movies = await MovieModel.filterMovies(movies, { genre, year })
+    movies = await MovieModel.filterMovies(movies, { genre, allgenres, year })
     movies = translateTo(movies, lang)
 
     res.json(movies)

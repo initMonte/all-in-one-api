@@ -6,10 +6,10 @@ const { QuoteModel } = pkg
 
 export class QuoteController {
   static async getAll(req, res) {
-    const { category, author, lang } = req.query
+    const { category, allcats, author, lang } = req.query
 
     let quotes = await QuoteModel.getAll()
-    quotes = await QuoteModel.filterQuotes(quotes, { category, author })
+    quotes = await QuoteModel.filterQuotes(quotes, { category, allcats, author })
     quotes = translateTo(quotes, lang)
 
     res.json(quotes)

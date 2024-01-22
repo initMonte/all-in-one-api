@@ -1,12 +1,23 @@
 const series = require('../data/series.json') // This data was obtained from https://www.imdb.com/
 
 class SerieModel {
-  static async filterSeries(series, { genre, year }) {
+  static async filterSeries(series, { genre, allgenres, year }) {
     let filteredSeries = series
+
     if (genre) {
-      filteredSeries = series.filter(
-        serie => serie.genre.some(g => g.toLowerCase() === genre.toLowerCase())
-      )
+      if (genre instanceof Array && allgenres === 'true') {
+        filteredSeries = series.filter(serie => {
+          return genre.every(g => serie.genre.some(mg => mg.toLowerCase() === g.toLowerCase()))
+        })
+      } else if (genre instanceof Array) {
+        filteredSeries = series.filter(
+          serie => serie.genre.some(g => genre.includes(g.toLowerCase()))
+        )
+      } else {
+        filteredSeries = series.filter(
+          serie => serie.genre.some(g => g.toLowerCase() === genre.toLowerCase())
+        )
+      }
     }
     if (year) {
       const numericYear = parseInt(year)

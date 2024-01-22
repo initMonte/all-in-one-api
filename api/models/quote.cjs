@@ -1,12 +1,22 @@
 const quotes = require('../data/quotes.json') // This data was obtained from https://www.imdb.com/
 
 class QuoteModel {
-  static async filterQuotes(quotes, { category, author }) {
+  static async filterQuotes(quotes, { category, allcats, author }) {
     let filteredQuotes = quotes
     if (category) {
-      filteredQuotes = quotes.filter(
-        quote => quote.category.some(g => g.toLowerCase() === category.toLowerCase())
-      )
+      if (category instanceof Array && allcats === 'true') {
+        filteredQuotes = quotes.filter(quote => {
+          return category.every(g => quote.category.some(mg => mg.toLowerCase() === g.toLowerCase()))
+        })
+      } else if (category instanceof Array) {
+        filteredQuotes = quotes.filter(
+          quote => quote.category.some(g => category.includes(g.toLowerCase()))
+        )
+      } else {
+        filteredQuotes = quotes.filter(
+          quote => quote.category.some(g => g.toLowerCase() === category.toLowerCase())
+        )
+      }
     }
     if (author) {
       filteredQuotes = filteredQuotes.filter(

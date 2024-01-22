@@ -6,10 +6,10 @@ const { SerieModel } = pkg
 
 export class SerieController {
   static async getAll(req, res) {
-    const { genre, year, lang } = req.query
+    const { genre, allgenres, year, lang } = req.query
 
     let series = await SerieModel.getAll()
-    series = await SerieModel.filterSeries(series, { genre, year })
+    series = await SerieModel.filterSeries(series, { genre, allgenres, year })
     series = translateTo(series, lang)
 
     res.json(series)

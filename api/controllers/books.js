@@ -6,10 +6,10 @@ const { BookModel } = pkg
 
 export class BookController {
   static async getAll(req, res) {
-    const { genre, year, lang } = req.query
+    const { genre, allgenres, year, lang } = req.query
 
     let books = await BookModel.getAll()
-    books = await BookModel.filterBooks(books, { genre, year })
+    books = await BookModel.filterBooks(books, { genre, allgenres, year })
     books = translateTo(books, lang)
 
     res.json(books)
