@@ -40,6 +40,12 @@ pagesRouter.get('/github.svg', (req, res) => {
   res.writeHead(200, { 'Content-Type': 'image/svg+xml' })
   res.end(github)
 })
+pagesRouter.get('/book-open.svg', (req, res) => {
+  const file = join(process.cwd(), 'api/pages/assets', 'book-open.svg')
+  const book = readFileSync(file)
+  res.writeHead(200, { 'Content-Type': 'image/svg+xml' })
+  res.end(book)
+})
 pagesRouter.get('/hero-img.svg', (req, res) => {
   const file = join(process.cwd(), 'api/pages/assets', 'hero-img.svg')
   const heroimg = readFileSync(file)
