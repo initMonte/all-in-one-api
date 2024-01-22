@@ -77,6 +77,10 @@ body {
   background-color: var(--color-bg);
 }
 
+strong {
+  font-weight: 600;
+}
+
 /* Turns off animation for people who don't want to see them */
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
@@ -264,6 +268,7 @@ main {
 
     p {
       margin-bottom: 0.5rem;
+      flex-direction: row;
     }
 
     ul {
@@ -375,7 +380,7 @@ details[open] summary {
 :target #bookPUT2,
 :target #bookPATCH2,
 :target #bookDELETE2 {
-  display: flex;
+  display: inherit;
 }
 
 .notFound {

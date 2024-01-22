@@ -60,7 +60,7 @@
       <h2 id="movieGETall2">Movies</h2>
       <hr id="movieGETall2">
       <h3 id="movieGETall2">GET all movies</h3>
-      <p id="movieGETall2">Access the list of 20 movies using the /movies endpoint.</p>
+      <p id="movieGETall2">Access the list of 16 movies using the /movies endpoint.</p>
       <p id="movieGETall2">If you want the list in any particular language don't forget to use de "lang" param.</p>
       <p id="movieGETall2">Request:</p>
       <pre id="movieGETall2">[GET] https://allinoneapi.vercel.app/movies</pre>
@@ -74,7 +74,7 @@
     "director": "Francis Ford Coppola",
     "duration": 175,
     "img": "https://m.media-amazon.com/images/M/MV5B...",
-    "genre": ["Crime","Drama"],
+    "genre": ["Crime", "Drama"],
     "rate": 9.2
   },
   // ...
@@ -96,7 +96,7 @@
     "director": "Francis Ford Coppola",
     "duration": 175,
     "img": "https://m.media-amazon.com/images/M/MV5BZjgw...",
-    "genre": ["Policial","Drama"],
+    "genre": ["Policial", "Drama"],
     "rate": 9.2
   },
   // ...
@@ -151,7 +151,7 @@
   "director": "Irvin Kershner",
   "duration": 124,
   "img": "https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00Nj...",
-  "genre": ["Action","Adventure","Fantasy"],
+  "genre": ["Action", "Adventure", "Fantasy"],
   "rate": 8.7
 }</code></pre>
       <h4 id="movieGETid2">Language</h4>
@@ -169,7 +169,7 @@
   "director": "Irvin Kershner",
   "duration": 124,
   "img": "https://m.media-amazon.com/images/M/MV5BY2I2NGEyZWEtYzEzOC00NTJiLTg1N...",
-  "genre": ["Acción","Aventura","Fantasía"],
+  "genre": ["Acción", "Aventura", "Fantasía"],
   "rate": 8.7
 }</code></pre>
     </article>
@@ -179,6 +179,9 @@
       <hr id="moviePOST2">
       <h3 id="moviePOST2">POST movie</h3>
       <p id="moviePOST2">Create a movie using the /movies endpoint.</p>
+      <p id="moviePOST2"><strong>Remember that nothing in real will be inserted into the database, </strong>it will just
+        return you the new object. If you then try to access the objet with the id you will not be able to retreave it.
+      </p>
       <p id="moviePOST2">Example Request:</p>
       <pre id="moviePOST2"><code>[POST] https://allinoneapi.vercel.app/movies
 # Body
@@ -212,6 +215,10 @@
       <h3 id="moviePUT2">PUT movie</h3>
       <p id="moviePUT2">Modify a movie using the /movies/:id endpoint. It needs you to send all the values in the body,
         except the id.</p>
+      <p id="moviePUT2"><strong>Remember that nothing in real will be inserted into the database, </strong>it will just
+        return you the modified object. If you then try to access the objet with the id you will get the original
+        object.
+      </p>
       <p id="moviePUT2">Example Request:</p>
       <pre id="moviePUT2"><code>[PUT] https://allinoneapi.vercel.app/movies/a2614984-175b-4a22-9fe1-ec7795280109
 # Body
@@ -245,6 +252,11 @@
       <h3 id="moviePATCH2">PATCH movie</h3>
       <p id="moviePATCH2">Modify a movie using the /movies/:id endpoint. You need to modify only 1 value in the body,
         but you can modify all the values you want.</p>
+      <p id="moviePATCH2"><strong>Remember that nothing in real will be inserted into the database, </strong>it will
+        just
+        return you the modified object. If you then try to access the objet with the id you will get the original
+        object.
+      </p>
       <p id="moviePATCH2">Example Request:</p>
       <pre id="moviePATCH2"><code>[PATCH] https://allinoneapi.vercel.app/movies/a2614984-175b-4a22-9fe1-ec7795280109
 # Body
@@ -262,7 +274,7 @@
   "director": "Irvin Kershner",
   "duration": 124,
   "img": "https//examplepage.com/modifiedLinkOfMoviePoster.jpg",
-  "genre": ["Action","Adventure","Fantasy"],
+  "genre": ["Action", "Adventure", "Fantasy"],
   "rate": 8.7
 }</code></pre>
     </article>
@@ -272,6 +284,11 @@
       <hr id="movieDELETE2">
       <h3 id="movieDELETE2">DELETE movie</h3>
       <p id="movieDELETE2">Delete a movie using the /movies/:id endpoint.</p>
+      <p id="movieDELETE2"><strong>Remember that nothing in real will be deleted from the database, </strong>it will
+        just
+        return you a message as if it had been deleted. If you then try to access the objet with the id you will get the
+        original object.
+      </p>
       <p id="movieDELETE2">Example Request:</p>
       <pre
         id="movieDELETE2"><code>[DELETE] https://allinoneapi.vercel.app/movies/a2614984-175b-4a22-9fe1-ec7795280109</code></pre>
@@ -282,31 +299,255 @@
     </article>
 
     <article id="serieGETall">
-      <h2 id="serieGETall2">GET ALL serie</h2>
+      <h2 id="serieGETall2">Series</h2>
+      <hr id="serieGETall2">
+      <h3 id="serieGETall2">GET all series</h3>
+      <p id="serieGETall2">Access the list of 12 series using the /series endpoint.</p>
+      <p id="serieGETall2">If you want the list in any particular language don't forget to use de "lang" param.</p>
+      <p id="serieGETall2">Request:</p>
+      <pre id="serieGETall2">[GET] https://allinoneapi.vercel.app/series</pre>
+      <p id="serieGETall2">Response:</p>
+      <pre id="serieGETall2"><code>[
+  {
+    "id": "88f18feb-53f7-4cc0-9da4-2bd8505baf4e",
+    "title": "Breaking Bad",
+    "description": "A chemistry teacher diagnosed with inoperable lung...",
+    "started": 2008,
+    "ended": 2013,
+    "seasons": 5,
+    "episodes": 62,
+    "img": "https://m.media-amazon.com/images/M/MV5BYmQ4YWMxYj...",
+    "genre": ["Crime", "Drama", "Thriller"],
+    "rate": 9.5
+  },
+  // ...
+]</code></pre>
+      <h4 id="serieGETall2">Language</h4>
+      <p id="serieGETall2">The param "lang" will allow you to get the list of all the series but translated into any
+        language available. It can be combined with any other param that you will find at the "GET filtered series"
+        section.
+      </p>
+      <p id="serieGETall2">Request:</p>
+      <pre id="serieGETall2">[GET] https://allinoneapi.vercel.app/series?lang=es</pre>
+      <p id="serieGETall2">Response:</p>
+      <pre id="serieGETall2"><code>[
+  {
+    "id": "88f18feb-53f7-4cc0-9da4-2bd8505baf4e",
+    "title": "Breaking Bad",
+    "description": "Un profesor de secundaria que ha sido diagnosticado...",
+    "started": 2008,
+    "ended": 2013,
+    "seasons": 5,
+    "episodes": 62,
+    "img": "https://m.media-amazon.com/images/M/MV5BYmQ4YWMxYjUtNjZm...",
+    "genre": ["Crimen", "Drama", "Suspenso"],
+    "rate": 9.5
+  },
+  // ...
+]</code></pre>
     </article>
 
     <article id="serieGETfil">
-      <h2 id="serieGETfil2">GET filtered serie</h2>
+      <h2 id="serieGETfil2">Series</h2>
+      <hr id="serieGETfil2">
+      <h3 id="serieGETfil2">GET filtered series</h3>
+      <p id="serieGETfil2">Use different params to get a list of series from /series endpoint.</p>
+      <p id="serieGETfil2">All params and values must be written in English even if you are going to request a
+        translation with "lang".</p>
+      <h4 id="serieGETfil2">Genre</h4>
+      <p id="serieGETfil2">To filter by genre you need to use the param "genre". You can only filter by 1 genre per
+        request, and it can be combined with any other param.</p>
+      <p id="serieGETfil2">The categories available to use as a value are:</p>
+      <ul id="serieGETfil2">
+        <li>Action</li>
+        <li>Adventure</li>
+        <li>Animation</li>
+        <li>Comedy</li>
+        <li>Crime</li>
+        <li>Documentary</li>
+        <li>Drama</li>
+        <li>History</li>
+        <li>Mystery</li>
+        <li>Romance</li>
+        <li>Thriller</li>
+      </ul>
+      <p id="serieGETfil2">Example Request:</p>
+      <pre id="serieGETfil2">[GET] https://allinoneapi.vercel.app/series?genre=Animation</pre>
+      <h4 id="serieGETfil2">Year</h4>
+      <p id="serieGETfil2">To filter by year you need to use the param "year". If the value is anyone between the
+        "started" or the "ended" year of the object, it will be returned. You can only filter by 1 year per
+        request, and it can be combined with any other param.</p>
+      <p id="serieGETfil2">Example Request:</p>
+      <pre id="serieGETfil2">[GET] https://allinoneapi.vercel.app/series?year=2010</pre>
     </article>
 
     <article id="serieGETid">
-      <h2 id="serieGETid2">GET serie with ID</h2>
+      <h2 id="serieGETid2">Series</h2>
+      <hr id="serieGETid2">
+      <h3 id="serieGETid2">GET serie with ID</h3>
+      <p id="serieGETid2">Access to an specific serie using the id with the /series/:id endpoint.</p>
+      <p id="serieGETid2">Example Request:</p>
+      <pre id="serieGETid2">[GET] https://allinoneapi.vercel.app/series/c86373e1-7265-4d41-9ce8-8870c9e6d73a</pre>
+      <p id="serieGETid2">Response:</p>
+      <pre id="serieGETid2"><code>{
+  "id": "c86373e1-7265-4d41-9ce8-8870c9e6d73a",
+  "title": "Avatar: The Last Airbender",
+  "description": "description":"In a war-torn world of elemental magic, a young boy rea...",
+  "started": 2005,
+  "ended": 2008,
+  "seasons": 3,
+  "episodes": 62,
+  "img": "https://m.media-amazon.com/images/M/MV5BODc5YTBhMTItMjhkNi00ZTIx...",
+  "genre": ["Animation", "Action", "Adventure"],
+  "rate": 9.3
+}</code></pre>
+      <h4 id="serieGETid2">Language</h4>
+      <p id="serieGETid2">The only param available when getting with an id is "lang" which allows you to choose
+        between any supported translation.</p>
+      <p id="serieGETid2">Example Request:</p>
+      <pre
+        id="serieGETid2">[GET] https://allinoneapi.vercel.app/series/c86373e1-7265-4d41-9ce8-8870c9e6d73a?lang=es</pre>
+      <p id="serieGETid2">Response:</p>
+      <pre id="serieGETid2"><code>{
+  "id": "c86373e1-7265-4d41-9ce8-8870c9e6d73a",
+  "title": "Avatar. La leyenda de Aang",
+  "description": "En un mundo de magia desgarrado por la guerra, un niño vuelve a despertar p...",
+  "started": 2005,
+  "ended": 2008,
+  "seasons": 3,
+  "episodes": 62,
+  "img": "https://m.media-amazon.com/images/M/MV5BYmI1OGI2MzYtMTViMS00MWU5LThiZ...",
+  "genre": ["Animación", "Acción", "Aventura"],
+  "rate": 9.3
+}</code></pre>
     </article>
 
     <article id="seriePOST">
-      <h2 id="seriePOST2">POST serie</h2>
+      <h2 id="seriePOST2">Series</h2>
+      <hr id="seriePOST2">
+      <h3 id="seriePOST2">POST serie</h3>
+      <p id="seriePOST2">Create a serie using the /series endpoint.</p>
+      <p id="seriePOST2"><strong>Remember that nothing in real will be inserted into the database, </strong>it will just
+        return you the new object. If you then try to access the objet with the id you will not be able to retreave it.
+      </p>
+      <p id="seriePOST2">Example Request:</p>
+      <pre id="seriePOST2"><code>[POST] https://allinoneapi.vercel.app/series
+# Body
+{
+  "title": "Serie title",
+  "description": "Serie description...",
+  "started": 1111,
+  "ended": 2222,
+  "seasons": 5,
+  "episodes": 55,
+  "img": "https//examplepage.com/linkOfSeriePoster.jpg",
+  "genre": ["example", "genres"],
+  "rate": 2.3
+}</code></pre>
+      <p id="seriePOST2">Response:</p>
+      <pre id="seriePOST2"><code>{
+  "id": "UUID-autogenerated",
+  "title": "Serie title",
+  "description": "Serie description...",
+  "started": 1111,
+  "ended": 2222,
+  "seasons": 5,
+  "episodes": 55,
+  "img": "https//examplepage.com/linkOfSeriePoster.jpg",
+  "genre": ["example", "genres"],
+  "rate": 2.3
+}</code></pre>
     </article>
 
     <article id="seriePUT">
-      <h2 id="seriePUT2">PUT serie</h2>
+      <h2 id="seriePUT2">Series</h2>
+      <hr id="seriePUT2">
+      <h3 id="seriePUT2">PUT serie</h3>
+      <p id="seriePUT2">Modify a serie using the /series/:id endpoint. It needs you to send all the values in the body,
+        except the id.</p>
+      <p id="seriePUT2"><strong>Remember that nothing in real will be inserted into the database, </strong>it will just
+        return you the modified object. If you then try to access the objet with the id you will get the original
+        object.
+      </p>
+      <p id="seriePUT2">Example Request:</p>
+      <pre id="seriePUT2"><code>[PUT] https://allinoneapi.vercel.app/series/c86373e1-7265-4d41-9ce8-8870c9e6d73a
+# Body
+{
+  "title": "Modified title",
+  "description": "Modified description...",
+  "started": 1111,
+  "ended": 2222,
+  "seasons": 5,
+  "episodes": 55,
+  "img": "https//examplepage.com/modifiedLinkOfSeriePoster.jpg",
+  "genre": ["modified", "genres"],
+  "rate": 9.3
+}</code></pre>
+      <p id="seriePUT2">Response:</p>
+      <pre id="seriePUT2"><code>{
+  "id": "c86373e1-7265-4d41-9ce8-8870c9e6d73a",
+  "title": "Modified title",
+  "description": "Modified description...",
+  "started": 1111,
+  "ended": 2222,
+  "seasons": 5,
+  "episodes": 55,
+  "img": "https//examplepage.com/modifiedLinkOfSeriePoster.jpg",
+  "genre": ["modified", "genres"],
+  "rate": 9.3
+}</code></pre>
     </article>
 
     <article id="seriePATCH">
-      <h2 id="seriePATCH2">PATCH serie</h2>
+      <h2 id="seriePATCH2">Series</h2>
+      <hr id="seriePATCH2">
+      <h3 id="seriePATCH2">PATCH serie</h3>
+      <p id="seriePATCH2">Modify a serie using the /series/:id endpoint. You need to modify only 1 value in the body,
+        but you can modify all the values you want.</p>
+      <p id="seriePATCH2"><strong>Remember that nothing in real will be inserted into the database, </strong>it will
+        just
+        return you the modified object. If you then try to access the objet with the id you will get the original
+        object.
+      </p>
+      <p id="seriePATCH2">Example Request:</p>
+      <pre id="seriePATCH2"><code>[PATCH] https://allinoneapi.vercel.app/series/c86373e1-7265-4d41-9ce8-8870c9e6d73a
+# Body
+{
+  "description": "Modified description...",
+  "rate": 9.9
+}</code></pre>
+      <p id="seriePATCH2">Response:</p>
+      <pre id="seriePATCH2"><code>{
+  "id": "c86373e1-7265-4d41-9ce8-8870c9e6d73a",
+  "title": "Avatar: The Last Airbender",
+  "description": "Modified description...",
+  "started": 1111,
+  "ended": 2222,
+  "seasons": 5,
+  "episodes": 55,
+  "img": "https//examplepage.com/modifiedLinkOfSeriePoster.jpg",
+  "genre": ["Animation", "Action", "Adventure"],
+  "rate": 9.9
+}</code></pre>
     </article>
 
     <article id="serieDELETE">
-      <h2 id="serieDELETE2">DELETE serie</h2>
+      <h2 id="serieDELETE2">Series</h2>
+      <hr id="serieDELETE2">
+      <h3 id="serieDELETE2">DELETE serie</h3>
+      <p id="serieDELETE2">Delete a serie using the /series/:id endpoint.</p>
+      <p id="serieDELETE2"><strong>Remember that nothing in real will be deleted from the database, </strong>it will
+        just
+        return you a message as if it had been deleted. If you then try to access the objet with the id you will get the
+        original object.
+      </p>
+      <p id="serieDELETE2">Example Request:</p>
+      <pre
+        id="serieDELETE2"><code>[DELETE] https://allinoneapi.vercel.app/series/c86373e1-7265-4d41-9ce8-8870c9e6d73a</code></pre>
+      <p id="serieDELETE2">Response:</p>
+      <pre id="serieDELETE2"><code>{
+  "message": "Serie deleted succesfully."
+}</code></pre>
     </article>
 
     <article id="quoteGETall">
