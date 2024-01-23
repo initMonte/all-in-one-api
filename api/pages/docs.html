@@ -46,8 +46,10 @@
       <p id="lang2">One of the main objectives of this API is to be able to recover data in diferent languages. If you
         are interested in adding translations for a language that's not currently supported, please hit me up and we can
         make it posible.</p>
-      <p id="lang2">If you want to GET a response with a particular language don't forget to add the param "lang" to the
-        endpoint. If "lang" param is invalid or unespecified the response will be in English by default.</p>
+      <p id="lang2">If you want to GET a response with a particular language don't forget to add the param
+        <strong>"lang"</strong> to the
+        endpoint. If "lang" param is invalid or unespecified the response will be in English by default.
+      </p>
       <p id="lang2">Currently supported languages are:</p>
       <ul id="lang2">
         <li>English</li>
@@ -80,7 +82,8 @@
   // ...
 ]</code></pre>
       <h4 id="movieGETall2">Language</h4>
-      <p id="movieGETall2">The param "lang" will allow you to get the list of all the movies but translated into any
+      <p id="movieGETall2">The param <strong>"lang"</strong> will allow you to get the list of all the movies but
+        translated into any
         language available. It can be combined with any other param that you will find at the "GET filtered movies"
         section.
       </p>
@@ -111,8 +114,13 @@
       <p id="movieGETfil2">All params and values must be written in English even if you are going to request a
         translation with "lang".</p>
       <h4 id="movieGETfil2">Genre</h4>
-      <p id="movieGETfil2">To filter by genre you need to use the param "genre". You can only filter by 1 genre per
-        request, and it can be combined with any other param.</p>
+      <p id="movieGETfil2">To filter by genre you need to use the param <strong>"genre"</strong>. You can only filter by
+        multiple genres adding multiple "genre" params. </p>
+      <p id="movieGETfil2">By default if you filter with multiple genres it will respond with any movie that has any of
+        the genres. If you want it just to retrieve the movies that have all the genres you should add the
+        <strong>"allgenres"</strong> param with value "true".
+      </p>
+      <p id="movieGETfil2">This param can be combined with any other param.</p>
       <p id="movieGETfil2">The categories available to use as a value are:</p>
       <ul id="movieGETfil2">
         <li>Action</li>
@@ -127,10 +135,11 @@
         <li>Western</li>
       </ul>
       <p id="movieGETfil2">Example Request:</p>
-      <pre id="movieGETfil2">[GET] https://allinoneapi.vercel.app/movies?genre=Sci-Fi</pre>
+      <pre
+        id="movieGETfil2">[GET] https://allinoneapi.vercel.app/movies?genre=Sci-Fi&genre=Adventure&allgenres=true</pre>
       <h4 id="movieGETfil2">Year</h4>
-      <p id="movieGETfil2">To filter by year you need to use the param "year". You can only filter by 1 year per
-        request, and it can be combined with any other param.</p>
+      <p id="movieGETfil2">To filter by year you need to use the param <strong>"year"</strong>. You can only filter by 1
+        year per request, and it can be combined with any other param.</p>
       <p id="movieGETfil2">Example Request:</p>
       <pre id="movieGETfil2">[GET] https://allinoneapi.vercel.app/movies?year=1980</pre>
     </article>
@@ -155,7 +164,8 @@
   "rate": 8.7
 }</code></pre>
       <h4 id="movieGETid2">Language</h4>
-      <p id="movieGETid2">The only param available when getting with an id is "lang" which allows you to choose
+      <p id="movieGETid2">The only param available when getting with an id is <strong>"lang"</strong> which allows you
+        to choose
         between any supported translation.</p>
       <p id="movieGETid2">Example Request:</p>
       <pre
@@ -323,7 +333,8 @@
   // ...
 ]</code></pre>
       <h4 id="serieGETall2">Language</h4>
-      <p id="serieGETall2">The param "lang" will allow you to get the list of all the series but translated into any
+      <p id="serieGETall2">The param <strong>"lang"</strong> will allow you to get the list of all the series but
+        translated into any
         language available. It can be combined with any other param that you will find at the "GET filtered series"
         section.
       </p>
@@ -355,8 +366,13 @@
       <p id="serieGETfil2">All params and values must be written in English even if you are going to request a
         translation with "lang".</p>
       <h4 id="serieGETfil2">Genre</h4>
-      <p id="serieGETfil2">To filter by genre you need to use the param "genre". You can only filter by 1 genre per
-        request, and it can be combined with any other param.</p>
+      <p id="serieGETfil2">To filter by genre you need to use the param <strong>"genre"</strong>. You can only filter by
+        multiple genres adding multiple "genre" params. </p>
+      <p id="serieGETfil2">By default if you filter with multiple genres it will respond with any serie that has any of
+        the genres. If you want it just to retrieve the series that have all the genres you should add the
+        <strong>"allgenres"</strong> param with value "true".
+      </p>
+      <p id="serieGETfil2">This param can be combined with any other param.</p>
       <p id="serieGETfil2">The categories available to use as a value are:</p>
       <ul id="serieGETfil2">
         <li>Action</li>
@@ -374,7 +390,8 @@
       <p id="serieGETfil2">Example Request:</p>
       <pre id="serieGETfil2">[GET] https://allinoneapi.vercel.app/series?genre=Animation</pre>
       <h4 id="serieGETfil2">Year</h4>
-      <p id="serieGETfil2">To filter by year you need to use the param "year". If the value is anyone between the
+      <p id="serieGETfil2">To filter by year you need to use the param <strong>"year"</strong>. If the value is anyone
+        between the
         "started" or the "ended" year of the object, it will be returned. You can only filter by 1 year per
         request, and it can be combined with any other param.</p>
       <p id="serieGETfil2">Example Request:</p>
@@ -402,8 +419,8 @@
   "rate": 9.3
 }</code></pre>
       <h4 id="serieGETid2">Language</h4>
-      <p id="serieGETid2">The only param available when getting with an id is "lang" which allows you to choose
-        between any supported translation.</p>
+      <p id="serieGETid2">The only param available when getting with an id is <strong>"lang"</strong> which allows you
+        to choose between any supported translation.</p>
       <p id="serieGETid2">Example Request:</p>
       <pre
         id="serieGETid2">[GET] https://allinoneapi.vercel.app/series/c86373e1-7265-4d41-9ce8-8870c9e6d73a?lang=es</pre>
@@ -569,7 +586,8 @@
   // ...
 ]</code></pre>
       <h4 id="quoteGETall2">Language</h4>
-      <p id="quoteGETall2">The param "lang" will allow you to get the list of all the quotes but translated into any
+      <p id="quoteGETall2">The param <strong>"lang"</strong> will allow you to get the list of all the quotes but
+        translated into any
         language available. It can be combined with any other param that you will find at the "GET filtered quotes"
         section.
       </p>
@@ -595,9 +613,14 @@
       <p id="quoteGETfil2">All params and values must be written in English even if you are going to request a
         translation with "lang".</p>
       <h4 id="quoteGETfil2">Category</h4>
-      <p id="quoteGETfil2">To filter by category you need to use the param "category". You can only filter by 1 category
-        per
-        request, and it can be combined with any other param.</p>
+      <p id="quoteGETfil2">To filter by category you need to use the param <strong>"category"</strong>. You can only
+        filter by
+        multiple categories adding multiple "category" params. </p>
+      <p id="quoteGETfil2">By default if you filter with multiple categories it will respond with any quote that has any
+        of the categories. If you want it just to retrieve the quotes that have all the categories you should add the
+        <strong>"allcats"</strong> param with value "true".
+      </p>
+      <p id="quoteGETfil2">This param can be combined with any other param.</p>
       <p id="quoteGETfil2">The categories available to use as a value are:</p>
       <ul id="quoteGETfil2">
         <li>Artist</li>
@@ -633,7 +656,8 @@
   "category": ["Motivation", "Dreams"]
 }</code></pre>
       <h4 id="quoteGETid2">Language</h4>
-      <p id="quoteGETid2">The only param available when getting with an id is "lang" which allows you to choose
+      <p id="quoteGETid2">The only param available when getting with an id is <strong>"lang"</strong> which allows you
+        to choose
         between any supported translation.</p>
       <p id="quoteGETid2">Example Request:</p>
       <pre
@@ -766,7 +790,8 @@
   // ...
 ]</code></pre>
       <h4 id="bookGETall2">Language</h4>
-      <p id="bookGETall2">The param "lang" will allow you to get the list of all the books but translated into any
+      <p id="bookGETall2">The param <strong>"lang"</strong> will allow you to get the list of all the books but
+        translated into any
         language available. It can be combined with any other param that you will find at the "GET filtered books"
         section.
       </p>
@@ -795,8 +820,13 @@
       <p id="bookGETfil2">All params and values must be written in English even if you are going to request a
         translation with "lang".</p>
       <h4 id="bookGETfil2">Genre</h4>
-      <p id="bookGETfil2">To filter by genre you need to use the param "genre". You can only filter by 1 genre per
-        request, and it can be combined with any other param.</p>
+      <p id="bookGETfil2">To filter by genre you need to use the param <strong>"genre"</strong>. You can only filter by
+        multiple genres adding multiple "genre" params. </p>
+      <p id="bookGETfil2">By default if you filter with multiple genres it will respond with any book that has any of
+        the genres. If you want it just to retrieve the books that have all the genres you should add the
+        <strong>"allgenres"</strong> param with value "true".
+      </p>
+      <p id="bookGETfil2">This param can be combined with any other param.</p>
       <p id="bookGETfil2">The categories available to use as a value are:</p>
       <ul id="bookGETfil2">
         <li>Fiction</li>
@@ -808,7 +838,8 @@
       <p id="bookGETfil2">Example Request:</p>
       <pre id="bookGETfil2">[GET] https://allinoneapi.vercel.app/books?genre=Novel</pre>
       <h4 id="bookGETfil2">Year</h4>
-      <p id="bookGETfil2">To filter by year you need to use the param "year". You can only filter by 1 year per
+      <p id="bookGETfil2">To filter by year you need to use the param <strong>"year"</strong>. You can only filter by 1
+        year per
         request, and it can be combined with any other param.</p>
       <p id="bookGETfil2">Example Request:</p>
       <pre id="bookGETfil2">[GET] https://allinoneapi.vercel.app/books?year=1949</pre>
@@ -832,8 +863,8 @@
   "genre": ["Fiction", "Poetry"]
 }</code></pre>
       <h4 id="bookGETid2">Language</h4>
-      <p id="bookGETid2">The only param available when getting with an id is "lang" which allows you to choose
-        between any supported translation.</p>
+      <p id="bookGETid2">The only param available when getting with an id is <strong>"lang"</strong> which allows you to
+        choose between any supported translation.</p>
       <p id="bookGETid2">Example Request:</p>
       <pre id="bookGETid2">[GET] https://allinoneapi.vercel.app/books/df26c5ad-0316-47a1-9907-1b13241ce74b?lang=es</pre>
       <p id="bookGETid2">Response:</p>
