@@ -114,6 +114,10 @@ header {
   width: 3rem;
 }
 
+.nav-btn {
+  display: none;
+}
+
 .nav-list {
   display: flex;
   column-gap: 3rem;
@@ -480,6 +484,63 @@ pre {
 }
 
 @media screen and (max-width: 450px) {
+  .nav-menu {
+
+    .nav-btn {
+      background: transparent;
+      border: none;
+      outline: none;
+      display: block;
+      width: 40px;
+      height: 40px;
+      padding: 10px;
+      z-index: 100;
+    }
+
+    span {
+      display: block;
+      width: 100%;
+      border-bottom: 2px solid #333;
+      margin-bottom: 5px;
+    }
+
+    .nav-list {
+      position: fixed;
+      right: -100%;
+      top: 0;
+      bottom: 0;
+      z-index: 999;
+      height: 100dvh;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      flex-direction: column;
+      row-gap: 2rem;
+      justify-content: center;
+      align-items: center;
+
+      a {
+        color: #fff;
+      }
+    }
+
+    &.open {
+      span {
+        &:first-child {
+          transform: rotate(-45deg) translate(-5px, 5px)
+        }
+
+        &:last-child {
+          transform: rotate(45deg)
+        }
+      }
+
+      .nav-list {
+        transform: translateX(-100dvw);
+        transition: transform 200ms;
+      }
+    }
+  }
+
   .hero-div_btns {
     flex-direction: column;
     margin-top: 2rem;

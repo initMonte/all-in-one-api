@@ -8,6 +8,17 @@
   <title>All in One API - Docs</title>
   <link rel="icon" type="image/png" href="/favicon.ico">
   <link rel="stylesheet" href="/global.css">
+  <script>
+    function setOpen() {
+      var navButton = document.querySelector(".nav-menu");
+      navButton.classList.toggle("open");
+    }
+
+    function setClose() {
+      var navButton = document.querySelector(".nav-menu");
+      navButton.classList.remove("open");
+    }
+  </script>
 </head>
 
 <body>
@@ -15,8 +26,9 @@
     <a href="/">
       <img src="/allin1logo.svg" class="header-logo" alt="All in One API logo" />
     </a>
-    <nav>
-      <ul class="nav-list">
+    <nav class="nav-menu">
+      <button class="nav-btn" onclick="setOpen()"><span></span><span></span></button>
+      <ul class="nav-list" onclick="setClose()">
         <li><a href="/">Home</a></li>
         <li><a href="/docs">Docs</a></li>
         <li><a href="https://github.com/initMonte/all-in-one-api" target="_blank" rel="noopener">GitHub</a></li>
