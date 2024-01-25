@@ -484,6 +484,7 @@ pre {
 }
 
 @media screen and (max-width: 450px) {
+
   .nav-menu {
 
     .nav-btn {
@@ -510,8 +511,7 @@ pre {
       top: 0;
       bottom: 0;
       z-index: 999;
-      height: 100dvh;
-      width: 100%;
+      width: 100dvw;
       background-color: rgba(0, 0, 0, 0.8);
       flex-direction: column;
       row-gap: 2rem;
@@ -539,6 +539,11 @@ pre {
         transition: transform 200ms;
       }
     }
+  }
+
+  .docs-header {
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 
   .hero-div_btns {
