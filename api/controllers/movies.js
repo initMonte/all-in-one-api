@@ -1,15 +1,17 @@
 import crypto from 'node:crypto'
 
 import { translateTo } from '../middleware/translateTo.js'
+import { pagination } from '../middleware/pagination.js'
 import pkg from '../models/movie.cjs'
 const { MovieModel } = pkg
 
 export class MovieController {
   static async getAll(req, res) {
-    const { genre, allgenres, year, lang } = req.query
+    const { genre, allgenres, year, lang, limit, offset } = req.query
 
     let movies = await MovieModel.getAll()
     movies = await MovieModel.filterMovies(movies, { genre, allgenres, year })
+    movies = pagination(movies, limit, offset)
     movies = translateTo(movies, lang)
 
     res.json(movies)

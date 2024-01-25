@@ -18,7 +18,7 @@ GET http://localhost:1234/kadhwuikdw
 GET http://localhost:1234/movies
 
 ### GET Movies with genre
-GET http://localhost:1234/movies?genre=Sci-Fi&year=2010&lang=es
+GET http://localhost:1234/movies?lang=es&offset=11&limit=12
 
 ### GET Movie by ID
 GET http://localhost:1234/movies/ebe60bf9-ca29-4d6d-9b2f-5fbe3eafc9ab?lang=es
@@ -84,7 +84,7 @@ DELETE http://localhost:1234/movies/ebe60bf9-ca29-4d6d-9b2f-5fbe3eafc9ab
 GET http://localhost:1234/series
 
 ### GET Movies with genre
-GET http://localhost:1234/series?genre=comedy&year=2010&lang=es
+GET http://localhost:1234/series?lang=es&offset=3&limit=2
 
 ### GET Movie by ID
 GET http://localhost:1234/series/be61f804-8f37-4086-8da1-00693b630086?lang=en
@@ -153,7 +153,7 @@ DELETE http://localhost:1234/series/be61f804-8f37-4086-8da1-00693b630086
 GET http://localhost:1234/quotes
 
 ### GET Quotes with genre
-GET http://localhost:1234/quotes?category=motivation&author=Roosevelt&lang=es
+GET http://localhost:1234/quotes?category=motivation&lang=es&offset=3&limit=2
 
 ### GET Quote by ID
 GET http://localhost:1234/quotes/440bcfeb-2a06-4fd2-a4ef-2107636b6e96?lang=es
@@ -208,7 +208,7 @@ DELETE http://localhost:1234/quotes/440bcfeb-2a06-4fd2-a4ef-2107636b6e96
 GET http://localhost:1234/books
 
 ### GET Quotes with genre
-GET http://localhost:1234/books?author=Jane&lang=es
+GET http://localhost:1234/books?author=Jane&lang=es&offset=3&limit=2
 
 ### GET Quote by ID
 GET http://localhost:1234/books/67a6301c-e9ee-432e-8f1a-d48f1d03f89b?lang=es

@@ -2,14 +2,16 @@ import crypto from 'node:crypto'
 
 import { translateTo } from '../middleware/translateTo.js'
 import pkg from '../models/quote.cjs'
+import { pagination } from '../middleware/pagination.js'
 const { QuoteModel } = pkg
 
 export class QuoteController {
   static async getAll(req, res) {
-    const { category, allcats, author, lang } = req.query
+    const { category, allcats, author, lang, limit, offset } = req.query
 
     let quotes = await QuoteModel.getAll()
     quotes = await QuoteModel.filterQuotes(quotes, { category, allcats, author })
+    quotes = pagination(quotes, limit, offset)
     quotes = translateTo(quotes, lang)
 
     res.json(quotes)

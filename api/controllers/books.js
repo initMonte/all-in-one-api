@@ -1,15 +1,17 @@
 import crypto from 'node:crypto'
 
 import { translateTo } from '../middleware/translateTo.js'
+import { pagination } from '../middleware/pagination.js'
 import pkg from '../models/book.cjs'
 const { BookModel } = pkg
 
 export class BookController {
   static async getAll(req, res) {
-    const { genre, allgenres, year, lang } = req.query
+    const { genre, allgenres, year, lang, limit, offset } = req.query
 
     let books = await BookModel.getAll()
     books = await BookModel.filterBooks(books, { genre, allgenres, year })
+    books = pagination(books, limit, offset)
     books = translateTo(books, lang)
 
     res.json(books)

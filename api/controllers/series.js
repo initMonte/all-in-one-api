@@ -2,14 +2,16 @@ import crypto from 'node:crypto'
 
 import { translateTo } from '../middleware/translateTo.js'
 import pkg from '../models/serie.cjs'
+import { pagination } from '../middleware/pagination.js'
 const { SerieModel } = pkg
 
 export class SerieController {
   static async getAll(req, res) {
-    const { genre, allgenres, year, lang } = req.query
+    const { genre, allgenres, year, lang, limit, offset } = req.query
 
     let series = await SerieModel.getAll()
     series = await SerieModel.filterSeries(series, { genre, allgenres, year })
+    series = pagination(series, limit, offset)
     series = translateTo(series, lang)
 
     res.json(series)
