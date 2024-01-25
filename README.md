@@ -32,7 +32,7 @@ There are 4 categories by now:
 
 All of the resources can fetch data with GET, POST, PUT, PATCH and DELETE methods. Here are example endpoints with movies. To use other resources just replace "movies" with your desired resource.
 
-For more detailed information please visit the [documentation of the API](allinoneapi.vercel.app/docs)
+For more detailed information please visit the [documentation of the API](https://allinoneapi.vercel.app/docs)
 
 - GET all -------> allinoneapi.vercel.app/movies
 - GET filtered --> allinoneapi.vercel.app/movies?param=value
